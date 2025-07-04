@@ -1,0 +1,244 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>关于我 | About Me | 自分について | mskk 的个人博客</title><meta name="author" content="Dora Honor"><meta name="copyright" content="Dora Honor"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="自我介绍 | Self-introduction | 自己紹介中文｜Chinese｜中国語 大家好！我是 Dora Honor，别名 mskk。 2002 年 4 月 23 日出生，江西人。 成分 BanG Dreamer 邦邦人、米游玩家、米粉。 母语是中文，会说英语和日语。 目前在日留学，读动漫专业。 兴趣是绘画、唱歌、听歌、弹琴、看番、玩游戏、数码、摄影、HiFi、观光。 会修电脑、拆机、重">
+<meta property="og:type" content="website">
+<meta property="og:title" content="关于我 | About Me | 自分について">
+<meta property="og:url" content="https://dora-honor.github.io/about/index.html">
+<meta property="og:site_name" content="mskk 的个人博客">
+<meta property="og:description" content="自我介绍 | Self-introduction | 自己紹介中文｜Chinese｜中国語 大家好！我是 Dora Honor，别名 mskk。 2002 年 4 月 23 日出生，江西人。 成分 BanG Dreamer 邦邦人、米游玩家、米粉。 母语是中文，会说英语和日语。 目前在日留学，读动漫专业。 兴趣是绘画、唱歌、听歌、弹琴、看番、玩游戏、数码、摄影、HiFi、观光。 会修电脑、拆机、重">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/user.jpg">
+<meta property="article:published_time" content="2025-07-04T17:36:02.585Z">
+<meta property="article:modified_time" content="2025-07-04T17:36:02.585Z">
+<meta property="article:author" content="Dora Honor">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/user.jpg"><script type="application/ld+json"></script><link rel="shortcut icon" href="https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/logo.png"><link rel="canonical" href="https://dora-honor.github.io/about/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><link rel="stylesheet" href="https://font.sec.miui.com/font/css?family=MiSans:400,450:Chinese_Simplify,Latin&amp;display=swap" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.json","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":240,"highlightFullpage":false,"highlightMacStyle":true},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"已切换为繁体中文","cht_to_chs":"已切换为简体中文","day_to_night":"已切换为深色模式","night_to_day":"已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-left"},
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: true,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '关于我 | About Me | 自分について',
+  isHighlightShrink: true,
+  isToc: false,
+  pageType: 'about'
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="web_bg" style="background-image: url(https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/87603075_p0.webp);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/user.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页 Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档 Archive</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签 Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类 Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链 Links</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于 About</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header" style="background-image: url(https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/122755029_p0.webp);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><img class="site-icon" src="https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/logo.png" alt="Logo"><span class="site-name">mskk 的个人博客</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页 Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档 Archive</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签 Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类 Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链 Links</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于 About</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="page-site-info"><h1 id="site-title">关于我 | About Me | 自分について</h1></div></header><main class="layout" id="content-inner"><div id="page"><div class="container" id="article-container"><h2 id="自我介绍-Self-introduction-自己紹介"><a href="#自我介绍-Self-introduction-自己紹介" class="headerlink" title="自我介绍 | Self-introduction | 自己紹介"></a>自我介绍 | Self-introduction | 自己紹介</h2><p>中文｜Chinese｜中国語</p>
+<p>大家好！我是 Dora Honor，别名 mskk。</p>
+<p>2002 年 4 月 23 日出生，江西人。</p>
+<p>成分 BanG Dreamer 邦邦人、米游玩家、米粉。</p>
+<p>母语是中文，会说英语和日语。</p>
+<p>目前在日留学，读动漫专业。</p>
+<p>兴趣是绘画、唱歌、听歌、弹琴、看番、玩游戏、数码、摄影、HiFi、观光。</p>
+<p>会修电脑、拆机、重装系统、刷机、定制母盘、封装系统。</p>
+<p>喜欢的 ACG 作品：《BanG Dream!》《原神》《绝区零》《崩坏：星穹铁道》。</p>
+<p>喜欢的角色：《BanG Dream!》户山香澄，《原神》可莉、胡桃、甘雨、申鹤、钟离、宵宫、神里绫华、珊瑚宫心海、枫原万叶、荒泷一斗、纳西妲、妮露、芙宁娜、娜维娅、希格雯、玛拉妮、茜特菈莉、玛薇卡、瓦雷莎、达达利亚，《星铁》三月七、卡芙卡、银狼、希儿、符玄、云璃、流萤、知更鸟、大黑塔、遐蝶、缇宝，《绝区零》艾莲、朱鸢、青衣、柏妮斯、月城柳、星见雅、浅羽悠真、耀佳音、零号·安比。</p>
+<p>喜欢的音乐类型：华语 C-Pop&#x2F;Mandopop、日语 J-Pop、Anisong、Vocaloid、OST、古典。</p>
+<p>喜欢的歌手、乐队：HOYO-MiX、三Z-STUDIO、Poppin’Party、初音未来、洛天依、汪苏泷、许嵩、伍佰 &amp; China Blue、王心凌、朴树、周深、毛不易、上海彩虹室内合唱团、银河快递、门尼、YOASOBI、Yorushika、ZUTOMAYO、Mrs. GREEN APPLE、爱缪、米津玄师、星野源、宇多田光、Aimer、Ado、LiSA、Vaundy、中岛美嘉。</p>
+<p>大家我都喜欢哦！</p>
+<hr>
+<p>English｜英语｜英語</p>
+<p>Hello everyone! I’m Dora Honor and another name is mskk.</p>
+<p>Born in April 23, 2002 and from Jiangxi.</p>
+<p>I’m BanG Dreamer, HoYoverse Player and Xiaomi Fans.</p>
+<p>My mother tongue is Chinese and can speak English and Japanese.</p>
+<p>Now I’m study in Japan and the major is Animation.</p>
+<p>I like painting, singing, listen to music, play the piano, watching anime, play games, digital, take a photograph, HiFi and traveling.</p>
+<p>I can repair the computer, disassembly, re-install the OS on PC, flash firmware on smartphone, customize the Windows ISO and Sysprep.</p>
+<p>My favourite ACG works is BanG Dream!, Genshin Impact, Zenless Zone Zero and Honkai: Star Rail.</p>
+<p>My favourite character (ACG) is Kasumi Toyama on BanG Dream!; Klee, Hu Tao, Ganyu, Shenhe, Zhongli, Yoimiya, Ayaka Kamisato, Kokomi Sangonomiya, Kazura Kaedehara, Itto Arataki, Nahida, Nilou, Furina, Navia, Sigewinne, Mualani, Citlali, Mavuika, Varesa, Tartaglia on Genshin Impact; March 7th, Kafka, Silver Wolf, Seele, Fu Xuan, Yunli, Firefly, Robin, The Herta, Castorice, Tribble on HSR (Honkai: Star Rail); Ellen, Zhu Yuan, Qing Yi, Burnice, Yanagi Tsukishiro, Miyabi Hoshimi, Harumasa Asaba, Astra Yao, Soldier 0-Anby on ZZZ (Zenless Zone Zero).</p>
+<p>My favourite music genre is Chinese C-Pop&#x2F;Mandopop, Japanese J-Pop, Anisong, Vocaloid, OST, Classical.</p>
+<p>My favourite singer and band is HOYO-MiX, San-Z Studio, Poppin’Party, Miku Hatsune, Luo Tianyi, Silence Wang, Vae Xu, Wu Bai &amp; China Blue, Cyndi Wang, Pu Shu, Zhou Shen, Mao Buyi, Shanghai Rainbow Chamber Singers (SRCS), Galaxy Express, Money, YOASOBI, Yorushika, ZUTOMAYO, Mrs. GREEN APPLE, Aimyon, Kenshi Yonezu, Gen Hoshino, Hikaru Utada, Aimer, Ado, LiSA, Vaundy, Mika Nakashima.</p>
+<p>Everyone I like!</p>
+<hr>
+<p>日本語｜Japanese｜日语</p>
+<p>みなさん、こんにちは！私は Dora Honor、他の名は mskk である。</p>
+<p>2002 年 4 月 23 日江西に生まれた。</p>
+<p>バンドリーマー、ホヨバのプレーヤー、シャオミのファン。</p>
+<p>母国語は中国語、それに英語と日本語の話すがわかる。</p>
+<p>今日本に留学、専門はアニメである。</p>
+<p>趣味は絵を描く、歌を歌う、音楽を聞く、ピアノを弾く、アニメを見る、ゲームを遊ぶ、デジタル、写真を撮る、HiFi、観光である。</p>
+<p>パソコンの修理、分解、OS の再インストール、スマホファームウェアの書き込む、Windows ISO のカスタマイズ、Sysprep ができる。</p>
+<p>好きな ACG 作品は、『バンドリ！』『原神』『ゼンレスゾーンゼロ』『崩壊：スターレイル』である。</p>
+<p>好きなキャラは、『バンドリ！』の戸山香澄、『原神』のクレー、胡桃、甘雨、申鶴、鍾離、宵宮、神里綾華、珊瑚宮心海、楓原万葉、荒瀧一斗、ナヒーダ、ニィロウ、フリーナ、ナヴィア、シグウィン、ムアラニ、シトラリ、マーヴィカ、ヴァレサ、タルタリヤ、『崩壊：スターレイル』の三月なのか、カフカ、銀狼、ゼーレ、符玄、雲璃、ホタル、ロビン、マダム・ヘルタ、キャストリス、トリビー、『ゼンレスゾーンゼロ』のエレン、朱鳶、青衣、バーニス、月城柳、星見雅、浅羽悠真、アストラ・ヤオ、0 号・アンビーである。</p>
+<p>好きな音楽ジャンルは、中国語 C-Pop／マンドポップ、日本語 J-Pop、アニソン、ボカロ、OST、クラシックである。</p>
+<p>好きな歌手とバンドは、HOYO-MiX、San-Z スタジオ、Poppin’Party、初音ミク、洛天依、汪蘇瀧（サイレンス・ワン）、許嵩（ヴェイ・シュー）、ウーバイ &amp; China Blue、王心凌（シンディー・ワン）、朴樹、周深、毛不易、上海彩虹室内合唱団、銀河快逓（ギャラクシー・エクスプレス）、門尼（モンニー）、YOASOBI、ヨルシカ、ずっと真夜中でいいのに。、Mrs. GREEN APPLE、あいみょん、星野源、宇多田ヒカル、Aimer、Ado、LiSA、Vaundy、中島美嘉である。</p>
+<p>私は皆さんが好きだよ！</p>
+</div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/user.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Dora Honor</div><div class="author-info-description"></div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/Dora-Honor"><i class="fab fa-github"></i><span>GitHub</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/Dora-Honor" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:dorahonor@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a><a class="social-icon" href="https://youtube.com/@dorahonor_mskk" target="_blank" title="YouTube"><i class="fab fa-youtube" style="color: #ff3d00;"></i></a><a class="social-icon" href="https://space.bilibili.com/68026760" target="_blank" title="哔哩哔哩 bilibili"><i class="fab fa-bilibili" style="color: #e76a8d;"></i></a><a class="social-icon" href="https://weibo.com/u/5635501226" target="_blank" title="微博 Weibo"><i class="fab fa-weibo" style="color: #fbe7a1;"></i></a><a class="social-icon" href="https://x.com/dora_honor" target="_blank" title="X (Twitter)"><i class="fab fa-x-twitter" style="color: 000000;"></i></a><a class="social-icon" href="https://bsky.app/profile/dora-honor.bsky.social" target="_blank" title="Bluesky"><i class="fab fa-bluesky" style="color: #0886fe;"></i></a><a class="social-icon" href="https://threads.net/@dora_honor" target="_blank" title="Threads"><i class="fab fa-threads" style="color: #000000;"></i></a><a class="social-icon" href="https://instagram.com/dora_honor" target="_blank" title="Instagram"><i class="fab fa-instagram" style="color: #ffc700;"></i></a><a class="social-icon" href="https://www.facebook.com/dora.honor.944" target="_blank" title="Facebook"><i class="fab fa-facebook" style="color: #0866ff;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">这是我的个人博客。 This is my personal blog.</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/06/17/20250617%20%E4%B8%80%E4%BA%9B%E7%9C%8B%E6%B3%95/" title="一些看法">一些看法</a><time datetime="2025-06-16T15:00:00.000Z" title="发表于 2025-06-17 00:00:00">2025-06-17</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/06/09/%E6%88%91%E7%9A%84%E3%80%8C%E9%80%90%E7%81%AB%E4%B9%8B%E6%97%85%E3%80%8D/" title="我的「逐火之旅」"><img src="https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/107270526_p0.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="我的「逐火之旅」"/></a><div class="content"><a class="title" href="/2025/06/09/%E6%88%91%E7%9A%84%E3%80%8C%E9%80%90%E7%81%AB%E4%B9%8B%E6%97%85%E3%80%8D/" title="我的「逐火之旅」">我的「逐火之旅」</a><time datetime="2025-06-08T15:00:00.000Z" title="发表于 2025-06-09 00:00:00">2025-06-09</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/05/24/%E7%BB%99%E8%87%AA%E5%B7%B1%E7%95%99%E5%AD%A6%E6%AF%95%E4%B8%9A%E5%90%8E%E5%AE%9A%E7%9A%84%20flag/" title="给自己留学毕业后定的 flag">给自己留学毕业后定的 flag</a><time datetime="2025-05-23T15:00:00.000Z" title="发表于 2025-05-24 00:00:00">2025-05-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/05/13/%E6%98%A8%E5%A4%A9%E6%88%91%E5%8E%9F%E7%A5%9E%2060%20%E7%BA%A7%E6%BB%A1%E7%BA%A7%E4%BA%86%EF%BC%8C%E8%AF%B4%E7%82%B9%E6%83%B3%E8%AF%B4%E7%9A%84/" title="昨天我原神 60 级满级了，说点想说的"><img src="https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/250513/image_2025-05-12_01-01-47.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="昨天我原神 60 级满级了，说点想说的"/></a><div class="content"><a class="title" href="/2025/05/13/%E6%98%A8%E5%A4%A9%E6%88%91%E5%8E%9F%E7%A5%9E%2060%20%E7%BA%A7%E6%BB%A1%E7%BA%A7%E4%BA%86%EF%BC%8C%E8%AF%B4%E7%82%B9%E6%83%B3%E8%AF%B4%E7%9A%84/" title="昨天我原神 60 级满级了，说点想说的">昨天我原神 60 级满级了，说点想说的</a><time datetime="2025-05-12T15:00:00.000Z" title="发表于 2025-05-13 00:00:00">2025-05-13</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/05/09/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E8%8B%B1%E7%89%B9%E5%B0%94%E5%B9%B3%E5%8F%B0%E6%9C%AC%E5%AD%90%E7%9A%84%E5%B1%8F%E5%B9%95%E4%BA%AE%E5%BA%A6%E3%80%81%E5%AF%B9%E6%AF%94%E5%BA%A6%E5%BF%BD%E9%AB%98%E5%BF%BD%E4%BD%8E%E9%97%AE%E9%A2%98/" title="如何解决英特尔平台本子的屏幕亮度、对比度忽高忽低问题">如何解决英特尔平台本子的屏幕亮度、对比度忽高忽低问题</a><time datetime="2025-05-08T15:00:00.000Z" title="发表于 2025-05-09 00:00:00">2025-05-09</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+          </div>
+          <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%BB%8F%E9%AA%8C/"><span class="card-category-list-name">经验</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/"><span class="card-category-list-name">踩坑记录</span><span class="card-category-list-count">3</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E9%9A%8F%E7%AC%94/"><span class="card-category-list-name">随笔</span><span class="card-category-list-count">6</span></a></li>
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/" style="font-size: 1.3em; color: #99a1ac">踩坑记录</a> <a href="/tags/%E7%BB%8F%E9%AA%8C/" style="font-size: 1.1em; color: #999">经验</a> <a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 1.5em; color: #99a9bf">随笔</a></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>归档</span>
+      
+    </div>
+  
+    <ul class="card-archive-list">
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/06/">
+            <span class="card-archive-list-date">
+              六月 2025
+            </span>
+            <span class="card-archive-list-count">2</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/05/">
+            <span class="card-archive-list-date">
+              五月 2025
+            </span>
+            <span class="card-archive-list-count">4</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/04/">
+            <span class="card-archive-list-date">
+              四月 2025
+            </span>
+            <span class="card-archive-list-count">3</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2024/05/">
+            <span class="card-archive-list-date">
+              五月 2024
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+    </ul>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">10</div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">3.3k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-07-04T20:21:17.558Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer" style="background: transparent;"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;2025 By Dora Honor</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.4.1</a></span></div><div class="footer_custom_text">欢迎来到 mskk 的个人博客！ Welcome to mskk’s personal blog!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"></div><canvas class="fireworks" mobile="true"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章 Search articles" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
