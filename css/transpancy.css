@@ -1,13 +1,13 @@
 .layout_post>#post {
-    background: rgba(255,255,255,.5);
+    background: rgba(255,255,255,.6);
 }
 
 #aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
-    background: rgba(255,255,255,.5);
+    background: rgba(255,255,255,.6);
 }
 
 :root {
-  --card-bg: rgba(255, 255, 255, .5);
+  --card-bg: rgba(255, 255, 255, .6);
 }
 
 #footer {
