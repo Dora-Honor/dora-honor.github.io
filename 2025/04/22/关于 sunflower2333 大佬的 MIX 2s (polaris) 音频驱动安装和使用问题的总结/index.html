@@ -191,7 +191,7 @@
 
     const giscusConfig = {
       src: 'https://giscus.app/client.js',
-      'data-repo': 'Dora-Honor/dora-honor.github.io',
+      'data-repo': 'dora-honor.github.io',
       'data-repo-id': 'R_kgDOPFqS2A',
       'data-category-id': 'Announcements',
       'data-theme': getGiscusTheme(document.documentElement.getAttribute('data-theme')),
@@ -239,8 +239,8 @@
     return
   }
 
-  if ('Giscus' === 'Giscus' || !false) {
-    if (false) btf.loadComment(document.getElementById('giscus-wrap'), loadGiscus)
+  if ('Giscus' === 'Giscus' || !true) {
+    if (true) btf.loadComment(document.getElementById('giscus-wrap'), loadGiscus)
     else loadGiscus()
   } else {
     window.loadOtherComment = loadGiscus
