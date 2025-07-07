@@ -1691,7 +1691,7 @@ figure.highlight pre .javascript .function {
 .container pre,
 .container code {
   font-size: 12px;
-  font-family: Consolas, MiSans, "Microsoft YaHei", Menlo, "PingFang SC", "Microsoft JhengHei", sans-serif !important;
+  font-family: Consolas, "Roboto Mono", Monaco, "GNU Unifont", Courier, "Courier New", MiSans, "Microsoft YaHei", Menlo, "PingFang SC", "Microsoft JhengHei", sans-serif !important;
   border-radius: 6px;
 }
 .container code {
