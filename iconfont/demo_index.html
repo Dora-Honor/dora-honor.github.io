@@ -1,0 +1,1013 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>mskk 的个人博客 | mskk 的个人博客</title><meta name="author" content="Dora Honor"><meta name="copyright" content="Dora Honor"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="iconfont Demo                                      .main .logo {       margin-top: 0;       height: auto;     }      .main .logo a {       display: flex;       align-items: center;     }">
+<meta property="og:type" content="website">
+<meta property="og:title" content="mskk 的个人博客">
+<meta property="og:url" content="https://dora-honor.github.io/iconfont/demo_index.html">
+<meta property="og:site_name" content="mskk 的个人博客">
+<meta property="og:description" content="iconfont Demo                                      .main .logo {       margin-top: 0;       height: auto;     }      .main .logo a {       display: flex;       align-items: center;     }">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/user.jpg">
+<meta property="article:published_time" content="2025-07-12T23:12:45.486Z">
+<meta property="article:modified_time" content="2025-07-12T23:09:52.000Z">
+<meta property="article:author" content="Dora Honor">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/user.jpg"><script type="application/ld+json"></script><link rel="shortcut icon" href="https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/logo.png"><link rel="canonical" href="https://dora-honor.github.io/iconfont/demo_index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="googleee2249751ec6188b.html"/><meta name="bing-site-verification" content="2FCD3C6000E75D57EDD2C2CED90140DC"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><link rel="stylesheet" href="https://font.sec.miui.com/font/css?family=MiSans:400,450:Chinese_Simplify,Latin&amp;display=swap" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.json","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":240,"highlightFullpage":false,"highlightMacStyle":true},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"已切换为繁体中文","cht_to_chs":"已切换为简体中文","day_to_night":"已切换为深色模式","night_to_day":"已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-left"},
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: true,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'mskk 的个人博客',
+  isHighlightShrink: true,
+  isToc: false,
+  pageType: 'page'
+}</script><link rel="stylesheet" href="/css/transpancy.css"<link rel="stylesheet" href="/iconfont/iconfont.css"<meta name="generator" content="Hexo 7.3.0"></head><body><div id="web_bg" style="background-image: url(https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/125323026_p0.webp);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/user.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">14</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页 Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档 Archive</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签 Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类 Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链 Links</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于 About</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header" style="background-image: url(https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/131965632_p0.webp);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><img class="site-icon" src="https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/logo.png" alt="Logo"><span class="site-name">mskk 的个人博客</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页 Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档 Archive</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签 Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类 Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链 Links</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于 About</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="page-site-info"><h1 id="site-title"></h1></div></header><main class="layout" id="content-inner"><div id="page"><div class="container" id="article-container"><!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>iconfont Demo</title>
+  <link rel="shortcut icon" href="//img.alicdn.com/imgextra/i4/O1CN01Z5paLz1O0zuCC7osS_!!6000000001644-55-tps-83-82.svg" type="image/x-icon"/>
+  <link rel="icon" type="image/svg+xml" href="//img.alicdn.com/imgextra/i4/O1CN01Z5paLz1O0zuCC7osS_!!6000000001644-55-tps-83-82.svg"/>
+  <link rel="stylesheet" href="https://g.alicdn.com/thx/cube/1.3.2/cube.min.css">
+  <link rel="stylesheet" href="demo.css">
+  <link rel="stylesheet" href="iconfont.css">
+  <script src="iconfont.js"></script>
+  <!-- jQuery -->
+  <script src="https://a1.alicdn.com/oss/uploads/2018/12/26/7bfddb60-08e8-11e9-9b04-53e73bb6408b.js"></script>
+  <!-- 代码高亮 -->
+  <script src="https://a1.alicdn.com/oss/uploads/2018/12/26/a3f714d0-08e6-11e9-8a15-ebf944d7534c.js"></script>
+  <style>
+    .main .logo {
+      margin-top: 0;
+      height: auto;
+    }
+
+    .main .logo a {
+      display: flex;
+      align-items: center;
+    }
+
+    .main .logo .sub-title {
+      margin-left: 0.5em;
+      font-size: 22px;
+      color: #fff;
+      background: linear-gradient(-45deg, #3967FF, #B500FE);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <h1 class="logo"><a href="https://www.iconfont.cn/" title="iconfont 首页" target="_blank">
+      <img width="200" src="https://img.alicdn.com/imgextra/i3/O1CN01Mn65HV1FfSEzR6DKv_!!6000000000514-55-tps-228-59.svg">
+      
+    </a></h1>
+    <div class="nav-tabs">
+      <ul id="tabs" class="dib-box">
+        <li class="dib active"><span>Unicode</span></li>
+        <li class="dib"><span>Font class</span></li>
+        <li class="dib"><span>Symbol</span></li>
+      </ul>
+      
+      <a href="https://www.iconfont.cn/manage/index?manage_type=myprojects&projectId=4964552" target="_blank" class="nav-more">查看项目</a>
+      
+    </div>
+    <div class="tab-container">
+      <div class="content unicode" style="display: block;">
+          <ul class="icon_lists dib-box">
+          
+            <li class="dib">
+              <span class="icon kirafont">&#xebf4;</span>
+                <div class="name">spotify</div>
+                <div class="code-name">&amp;#xebf4;</div>
+              </li>
+          
+            <li class="dib">
+              <span class="icon kirafont">&#xe7bb;</span>
+                <div class="name">itunes</div>
+                <div class="code-name">&amp;#xe7bb;</div>
+              </li>
+          
+            <li class="dib">
+              <span class="icon kirafont">&#xe600;</span>
+                <div class="name">netease-cloud-music</div>
+                <div class="code-name">&amp;#xe600;</div>
+              </li>
+          
+            <li class="dib">
+              <span class="icon kirafont">&#xe607;</span>
+                <div class="name">coolapk</div>
+                <div class="code-name">&amp;#xe607;</div>
+              </li>
+          
+            <li class="dib">
+              <span class="icon kirafont">&#xe657;</span>
+                <div class="name">小红书</div>
+                <div class="code-name">&amp;#xe657;</div>
+              </li>
+          
+            <li class="dib">
+              <span class="icon kirafont">&#xe60f;</span>
+                <div class="name">github</div>
+                <div class="code-name">&amp;#xe60f;</div>
+              </li>
+          
+            <li class="dib">
+              <span class="icon kirafont">&#xe60e;</span>
+                <div class="name">facebook</div>
+                <div class="code-name">&amp;#xe60e;</div>
+              </li>
+          
+            <li class="dib">
+              <span class="icon kirafont">&#xe60d;</span>
+                <div class="name">zhihu</div>
+                <div class="code-name">&amp;#xe60d;</div>
+              </li>
+          
+            <li class="dib">
+              <span class="icon kirafont">&#xe60b;</span>
+                <div class="name">hoyolab</div>
+                <div class="code-name">&amp;#xe60b;</div>
+              </li>
+          
+            <li class="dib">
+              <span class="icon kirafont">&#xe609;</span>
+                <div class="name">instagram</div>
+                <div class="code-name">&amp;#xe609;</div>
+              </li>
+          
+            <li class="dib">
+              <span class="icon kirafont">&#xe608;</span>
+                <div class="name">bilibili</div>
+                <div class="code-name">&amp;#xe608;</div>
+              </li>
+          
+            <li class="dib">
+              <span class="icon kirafont">&#xe601;</span>
+                <div class="name">bluesky</div>
+                <div class="code-name">&amp;#xe601;</div>
+              </li>
+          
+            <li class="dib">
+              <span class="icon kirafont">&#xe602;</span>
+                <div class="name">x</div>
+                <div class="code-name">&amp;#xe602;</div>
+              </li>
+          
+            <li class="dib">
+              <span class="icon kirafont">&#xe603;</span>
+                <div class="name">youtube</div>
+                <div class="code-name">&amp;#xe603;</div>
+              </li>
+          
+            <li class="dib">
+              <span class="icon kirafont">&#xe604;</span>
+                <div class="name">threads</div>
+                <div class="code-name">&amp;#xe604;</div>
+              </li>
+          
+            <li class="dib">
+              <span class="icon kirafont">&#xe606;</span>
+                <div class="name">weibo</div>
+                <div class="code-name">&amp;#xe606;</div>
+              </li>
+          
+          </ul>
+          <div class="article markdown">
+          <h2 id="unicode-">Unicode 引用</h2>
+          <hr>
+
+          <p>Unicode 是字体在网页端最原始的应用方式，特点是：</p>
+          <ul>
+            <li>支持按字体的方式去动态调整图标大小，颜色等等。</li>
+            <li>默认情况下不支持多色，直接添加多色图标会自动去色。</li>
+          </ul>
+          <blockquote>
+            <p>注意：新版 iconfont 支持两种方式引用多色图标：SVG symbol 引用方式和彩色字体图标模式。（使用彩色字体图标需要在「编辑项目」中开启「彩色」选项后并重新生成。）</p>
+          </blockquote>
+          <p>Unicode 使用步骤如下：</p>
+          <h3 id="-font-face">第一步：拷贝项目下面生成的 <code>@font-face</code></h3>
+<pre><code class="language-css"
+>@font-face &#123;
+  font-family: 'kirafont';
+  src: url('iconfont.woff2?t=1752361792796') format('woff2'),
+       url('iconfont.woff?t=1752361792796') format('woff'),
+       url('iconfont.ttf?t=1752361792796') format('truetype');
+&#125;
+</code></pre>
+          <h3 id="-iconfont-">第二步：定义使用 iconfont 的样式</h3>
+<pre><code class="language-css"
+>.kirafont &#123;
+  font-family: "kirafont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+&#125;
+</code></pre>
+          <h3 id="-">第三步：挑选相应图标并获取字体编码，应用于页面</h3>
+<pre>
+<code class="language-html"
+>&lt;span class="kirafont"&gt;&amp;#x33;&lt;/span&gt;
+</code></pre>
+          <blockquote>
+            <p>"kirafont" 是你项目下的 font-family。可以通过编辑项目查看，默认是 "iconfont"。</p>
+          </blockquote>
+          </div>
+      </div>
+      <div class="content font-class">
+        <ul class="icon_lists dib-box">
+          
+          <li class="dib">
+            <span class="icon kirafont icon-spotify"></span>
+            <div class="name">
+              spotify
+            </div>
+            <div class="code-name">.icon-spotify
+            </div>
+          </li>
+          
+          <li class="dib">
+            <span class="icon kirafont icon-itunes"></span>
+            <div class="name">
+              itunes
+            </div>
+            <div class="code-name">.icon-itunes
+            </div>
+          </li>
+          
+          <li class="dib">
+            <span class="icon kirafont icon-netease-cloud-music"></span>
+            <div class="name">
+              netease-cloud-music
+            </div>
+            <div class="code-name">.icon-netease-cloud-music
+            </div>
+          </li>
+          
+          <li class="dib">
+            <span class="icon kirafont icon-coolapk"></span>
+            <div class="name">
+              coolapk
+            </div>
+            <div class="code-name">.icon-coolapk
+            </div>
+          </li>
+          
+          <li class="dib">
+            <span class="icon kirafont icon-xiaohongshu"></span>
+            <div class="name">
+              小红书
+            </div>
+            <div class="code-name">.icon-xiaohongshu
+            </div>
+          </li>
+          
+          <li class="dib">
+            <span class="icon kirafont icon-github"></span>
+            <div class="name">
+              github
+            </div>
+            <div class="code-name">.icon-github
+            </div>
+          </li>
+          
+          <li class="dib">
+            <span class="icon kirafont icon-facebook"></span>
+            <div class="name">
+              facebook
+            </div>
+            <div class="code-name">.icon-facebook
+            </div>
+          </li>
+          
+          <li class="dib">
+            <span class="icon kirafont icon-zhihu"></span>
+            <div class="name">
+              zhihu
+            </div>
+            <div class="code-name">.icon-zhihu
+            </div>
+          </li>
+          
+          <li class="dib">
+            <span class="icon kirafont icon-hoyolab"></span>
+            <div class="name">
+              hoyolab
+            </div>
+            <div class="code-name">.icon-hoyolab
+            </div>
+          </li>
+          
+          <li class="dib">
+            <span class="icon kirafont icon-instagram"></span>
+            <div class="name">
+              instagram
+            </div>
+            <div class="code-name">.icon-instagram
+            </div>
+          </li>
+          
+          <li class="dib">
+            <span class="icon kirafont icon-bilibili"></span>
+            <div class="name">
+              bilibili
+            </div>
+            <div class="code-name">.icon-bilibili
+            </div>
+          </li>
+          
+          <li class="dib">
+            <span class="icon kirafont icon-bluesky"></span>
+            <div class="name">
+              bluesky
+            </div>
+            <div class="code-name">.icon-bluesky
+            </div>
+          </li>
+          
+          <li class="dib">
+            <span class="icon kirafont icon-x"></span>
+            <div class="name">
+              x
+            </div>
+            <div class="code-name">.icon-x
+            </div>
+          </li>
+          
+          <li class="dib">
+            <span class="icon kirafont icon-youtube"></span>
+            <div class="name">
+              youtube
+            </div>
+            <div class="code-name">.icon-youtube
+            </div>
+          </li>
+          
+          <li class="dib">
+            <span class="icon kirafont icon-threads"></span>
+            <div class="name">
+              threads
+            </div>
+            <div class="code-name">.icon-threads
+            </div>
+          </li>
+          
+          <li class="dib">
+            <span class="icon kirafont icon-weibo"></span>
+            <div class="name">
+              weibo
+            </div>
+            <div class="code-name">.icon-weibo
+            </div>
+          </li>
+          
+        </ul>
+        <div class="article markdown">
+        <h2 id="font-class-">font-class 引用</h2>
+        <hr>
+
+        <p>font-class 是 Unicode 使用方式的一种变种，主要是解决 Unicode 书写不直观，语意不明确的问题。</p>
+        <p>与 Unicode 使用方式相比，具有如下特点：</p>
+        <ul>
+          <li>相比于 Unicode 语意明确，书写更直观。可以很容易分辨这个 icon 是什么。</li>
+          <li>因为使用 class 来定义图标，所以当要替换图标时，只需要修改 class 里面的 Unicode 引用。</li>
+        </ul>
+        <p>使用步骤如下：</p>
+        <h3 id="-fontclass-">第一步：引入项目下面生成的 fontclass 代码：</h3>
+<pre><code class="language-html">&lt;link rel="stylesheet" href="./iconfont.css"&gt;
+</code></pre>
+        <h3 id="-">第二步：挑选相应图标并获取类名，应用于页面：</h3>
+<pre><code class="language-html">&lt;span class="kirafont icon-xxx"&gt;&lt;/span&gt;
+</code></pre>
+        <blockquote>
+          <p>"
+            kirafont" 是你项目下的 font-family。可以通过编辑项目查看，默认是 "iconfont"。</p>
+        </blockquote>
+      </div>
+      </div>
+      <div class="content symbol">
+          <ul class="icon_lists dib-box">
+          
+            <li class="dib">
+                <svg class="icon svg-icon" aria-hidden="true">
+                  <use xlink:href="#icon-spotify"></use>
+                </svg>
+                <div class="name">spotify</div>
+                <div class="code-name">#icon-spotify</div>
+            </li>
+          
+            <li class="dib">
+                <svg class="icon svg-icon" aria-hidden="true">
+                  <use xlink:href="#icon-itunes"></use>
+                </svg>
+                <div class="name">itunes</div>
+                <div class="code-name">#icon-itunes</div>
+            </li>
+          
+            <li class="dib">
+                <svg class="icon svg-icon" aria-hidden="true">
+                  <use xlink:href="#icon-netease-cloud-music"></use>
+                </svg>
+                <div class="name">netease-cloud-music</div>
+                <div class="code-name">#icon-netease-cloud-music</div>
+            </li>
+          
+            <li class="dib">
+                <svg class="icon svg-icon" aria-hidden="true">
+                  <use xlink:href="#icon-coolapk"></use>
+                </svg>
+                <div class="name">coolapk</div>
+                <div class="code-name">#icon-coolapk</div>
+            </li>
+          
+            <li class="dib">
+                <svg class="icon svg-icon" aria-hidden="true">
+                  <use xlink:href="#icon-xiaohongshu"></use>
+                </svg>
+                <div class="name">小红书</div>
+                <div class="code-name">#icon-xiaohongshu</div>
+            </li>
+          
+            <li class="dib">
+                <svg class="icon svg-icon" aria-hidden="true">
+                  <use xlink:href="#icon-github"></use>
+                </svg>
+                <div class="name">github</div>
+                <div class="code-name">#icon-github</div>
+            </li>
+          
+            <li class="dib">
+                <svg class="icon svg-icon" aria-hidden="true">
+                  <use xlink:href="#icon-facebook"></use>
+                </svg>
+                <div class="name">facebook</div>
+                <div class="code-name">#icon-facebook</div>
+            </li>
+          
+            <li class="dib">
+                <svg class="icon svg-icon" aria-hidden="true">
+                  <use xlink:href="#icon-zhihu"></use>
+                </svg>
+                <div class="name">zhihu</div>
+                <div class="code-name">#icon-zhihu</div>
+            </li>
+          
+            <li class="dib">
+                <svg class="icon svg-icon" aria-hidden="true">
+                  <use xlink:href="#icon-hoyolab"></use>
+                </svg>
+                <div class="name">hoyolab</div>
+                <div class="code-name">#icon-hoyolab</div>
+            </li>
+          
+            <li class="dib">
+                <svg class="icon svg-icon" aria-hidden="true">
+                  <use xlink:href="#icon-instagram"></use>
+                </svg>
+                <div class="name">instagram</div>
+                <div class="code-name">#icon-instagram</div>
+            </li>
+          
+            <li class="dib">
+                <svg class="icon svg-icon" aria-hidden="true">
+                  <use xlink:href="#icon-bilibili"></use>
+                </svg>
+                <div class="name">bilibili</div>
+                <div class="code-name">#icon-bilibili</div>
+            </li>
+          
+            <li class="dib">
+                <svg class="icon svg-icon" aria-hidden="true">
+                  <use xlink:href="#icon-bluesky"></use>
+                </svg>
+                <div class="name">bluesky</div>
+                <div class="code-name">#icon-bluesky</div>
+            </li>
+          
+            <li class="dib">
+                <svg class="icon svg-icon" aria-hidden="true">
+                  <use xlink:href="#icon-x"></use>
+                </svg>
+                <div class="name">x</div>
+                <div class="code-name">#icon-x</div>
+            </li>
+          
+            <li class="dib">
+                <svg class="icon svg-icon" aria-hidden="true">
+                  <use xlink:href="#icon-youtube"></use>
+                </svg>
+                <div class="name">youtube</div>
+                <div class="code-name">#icon-youtube</div>
+            </li>
+          
+            <li class="dib">
+                <svg class="icon svg-icon" aria-hidden="true">
+                  <use xlink:href="#icon-threads"></use>
+                </svg>
+                <div class="name">threads</div>
+                <div class="code-name">#icon-threads</div>
+            </li>
+          
+            <li class="dib">
+                <svg class="icon svg-icon" aria-hidden="true">
+                  <use xlink:href="#icon-weibo"></use>
+                </svg>
+                <div class="name">weibo</div>
+                <div class="code-name">#icon-weibo</div>
+            </li>
+          
+          </ul>
+          <div class="article markdown">
+          <h2 id="symbol-">Symbol 引用</h2>
+          <hr>
+
+          <p>这是一种全新的使用方式，应该说这才是未来的主流，也是平台目前推荐的用法。相关介绍可以参考这篇<a href="">文章</a>
+            这种用法其实是做了一个 SVG 的集合，与另外两种相比具有如下特点：</p>
+          <ul>
+            <li>支持多色图标了，不再受单色限制。</li>
+            <li>通过一些技巧，支持像字体那样，通过 <code>font-size</code>, <code>color</code> 来调整样式。</li>
+            <li>兼容性较差，支持 IE9+，及现代浏览器。</li>
+            <li>浏览器渲染 SVG 的性能一般，还不如 png。</li>
+          </ul>
+          <p>使用步骤如下：</p>
+          <h3 id="-symbol-">第一步：引入项目下面生成的 symbol 代码：</h3>
+<pre><code class="language-html">&lt;script src="./iconfont.js"&gt;&lt;/script&gt;
+</code></pre>
+          <h3 id="-css-">第二步：加入通用 CSS 代码（引入一次就行）：</h3>
+<pre><code class="language-html">&lt;style&gt;
+.icon &#123;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+&#125;
+&lt;/style&gt;
+</code></pre>
+          <h3 id="-">第三步：挑选相应图标并获取类名，应用于页面：</h3>
+<pre><code class="language-html">&lt;svg class="icon" aria-hidden="true"&gt;
+  &lt;use xlink:href="#icon-xxx"&gt;&lt;/use&gt;
+&lt;/svg&gt;
+</code></pre>
+          </div>
+      </div>
+
+    </div>
+  </div>
+  <script>
+  $(document).ready(function () {
+      $('.tab-container .content:first').show()
+
+      $('#tabs li').click(function (e) {
+        var tabContent = $('.tab-container .content')
+        var index = $(this).index()
+
+        if ($(this).hasClass('active')) {
+          return
+        } else {
+          $('#tabs li').removeClass('active')
+          $(this).addClass('active')
+
+          tabContent.hide().eq(index).fadeIn()
+        }
+      })
+    })
+  </script>
+</body>
+</html>
+</div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div class="comment-switch"><span class="first-comment">Gitalk</span><span id="switch-btn"></span><span class="second-comment">Giscus</span></div></div><div class="comment-wrap"><div><div id="gitalk-container"></div></div><div><div id="giscus-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/user.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Dora Honor</div><div class="author-info-description">大家我都喜欢哦 Everyone I like</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">14</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/Dora-Honor"><i class="fab fa-github"></i><span>GitHub</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/Dora-Honor" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:dorahonor@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a><a class="social-icon" href="https://youtube.com/@dorahonor_mskk" target="_blank" title="YouTube"><i class="fab fa-youtube" style="color: #ff3d00;"></i></a><a class="social-icon" href="https://space.bilibili.com/68026760" target="_blank" title="哔哩哔哩 bilibili"><i class="fab fa-bilibili" style="color: #e76a8d;"></i></a><a class="social-icon" href="https://www.xiaohongshu.com/user/profile/63b56120000000002702a843" target="_blank" title="小红书 Xiaohongshu/Redbook"><i class="kirafont icon-xiaohongshu" style="color: #ff2424;"></i></a><a class="social-icon" href="http://www.coolapk.com/u/1744954" target="_blank" title="酷安 Coolapk"><i class="iconfont icon-coolapk" style="color: #0caa64;"></i></a><a class="social-icon" href="https://weibo.com/u/5635501226" target="_blank" title="微博 Weibo"><i class="fab fa-weibo" style="color: #fbe7a1;"></i></a><a class="social-icon" href="https://x.com/dora_honor" target="_blank" title="X (Twitter)"><i class="fab fa-x-twitter" style="color: 000000;"></i></a><a class="social-icon" href="https://bsky.app/profile/dora-honor.bsky.social" target="_blank" title="Bluesky"><i class="fab fa-bluesky" style="color: #0886fe;"></i></a><a class="social-icon" href="https://threads.net/@dora_honor" target="_blank" title="Threads"><i class="fab fa-threads" style="color: #000000;"></i></a><a class="social-icon" href="https://instagram.com/dora_honor" target="_blank" title="Instagram"><i class="fab fa-instagram" style="color: #ffc700;"></i></a><a class="social-icon" href="https://www.facebook.com/dora.honor.944" target="_blank" title="Facebook"><i class="fab fa-facebook" style="color: #0866ff;"></i></a><a class="social-icon" href="https://open.spotify.com/user/31tnk5f4als6u4r7kcg2mj2dqq4a" target="_blank" title="Spotify"><i class="fab fa-spotify" style="color: #1ed760;"></i></a><a class="social-icon" href="https://music.163.com/#/user/home?id=436313178" target="_blank" title="网易云音乐 NetEase Cloud Music"><i class="kirafont icon-netease-cloud-music" style="color: #fc3b5b;"></i></a><a class="social-icon" href="https://www.miyoushe.com/ys/accountCenter/postList?id=295708491" target="_blank" title="米游社"><i class="fab fa-chrome" style="color: #66e0ff;"></i></a><a class="social-icon" href="https://hoyolab.com/accountCenter/postList?id=300847631" target="_blank" title="HoYoLAB"><i class="kirafont icon-hoyolab" style="color: #6680ff;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">这是我的个人博客。 This is my personal blog.</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2025/07/09/%E6%88%91%E5%AF%B9%E7%B1%B3%E6%B8%B8%E4%B8%89%E5%B7%A8%E5%A4%B4%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9C%8B%E6%B3%95/" title="我对米游三巨头的一些看法"><img src="https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/107270526_p0.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="我对米游三巨头的一些看法"/></a><div class="content"><a class="title" href="/2025/07/09/%E6%88%91%E5%AF%B9%E7%B1%B3%E6%B8%B8%E4%B8%89%E5%B7%A8%E5%A4%B4%E7%9A%84%E4%B8%80%E4%BA%9B%E7%9C%8B%E6%B3%95/" title="我对米游三巨头的一些看法">我对米游三巨头的一些看法</a><time datetime="2025-07-08T19:30:21.000Z" title="发表于 2025-07-09 04:30:21">2025-07-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/07/09/%E4%B8%80%E4%B8%AA%E5%96%9C%E6%AC%A2%E7%B1%B3%E6%B8%B8%E7%9A%84%E7%8E%A9%E5%AE%B6%E5%AD%98%E5%9C%A8%E7%9A%84%E5%9B%B0%E5%A2%83/" title="一个喜欢米游的玩家存在的困境"><img src="https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/107270526_p0.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="一个喜欢米游的玩家存在的困境"/></a><div class="content"><a class="title" href="/2025/07/09/%E4%B8%80%E4%B8%AA%E5%96%9C%E6%AC%A2%E7%B1%B3%E6%B8%B8%E7%9A%84%E7%8E%A9%E5%AE%B6%E5%AD%98%E5%9C%A8%E7%9A%84%E5%9B%B0%E5%A2%83/" title="一个喜欢米游的玩家存在的困境">一个喜欢米游的玩家存在的困境</a><time datetime="2025-07-08T18:10:26.000Z" title="发表于 2025-07-09 03:10:26">2025-07-09</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/07/09/%E5%85%B3%E4%BA%8E%E5%9C%A8-Hexo-Butterfly-%E4%B8%8B%E9%85%8D%E7%BD%AE-Gitalk-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/" title="关于在 Hexo Butterfly 下配置 Gitalk 评论系统的经验总结">关于在 Hexo Butterfly 下配置 Gitalk 评论系统的经验总结</a><time datetime="2025-07-08T18:08:47.000Z" title="发表于 2025-07-09 03:08:47">2025-07-09</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/07/06/Hexo-Butterfly-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE%E6%80%BB%E7%BB%93/" title="Hexo + Butterfly 评论系统配置总结">Hexo + Butterfly 评论系统配置总结</a><time datetime="2025-07-06T06:10:11.000Z" title="发表于 2025-07-06 15:10:11">2025-07-06</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/06/17/20250617%20%E4%B8%80%E4%BA%9B%E7%9C%8B%E6%B3%95/" title="一些看法">一些看法</a><time datetime="2025-06-16T15:00:00.000Z" title="发表于 2025-06-17 00:00:00">2025-06-17</time></div></div></div></div><div class="card-widget" id="card-newest-comments"><div class="item-headline"><i class="fas fa-comment-dots"></i><span>最新评论</span></div><div class="aside-list"><span>加载中...</span></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+          </div>
+          <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%BB%8F%E9%AA%8C/"><span class="card-category-list-name">经验</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/"><span class="card-category-list-name">踩坑记录</span><span class="card-category-list-count">5</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E9%9A%8F%E7%AC%94/"><span class="card-category-list-name">随笔</span><span class="card-category-list-count">8</span></a></li>
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 1.37em; color: #99a4b2">随笔</a> <a href="/tags/%E7%BB%8F%E9%AA%8C/" style="font-size: 1.1em; color: #999">经验</a> <a href="/tags/%E7%B1%B3%E5%93%88%E6%B8%B8%EF%BC%8F%E7%B1%B3%E6%B8%B8/" style="font-size: 1.5em; color: #99a9bf">米哈游／米游</a> <a href="/tags/%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/" style="font-size: 1.37em; color: #99a4b2">踩坑记录</a> <a href="/tags/GitHub-Pages/" style="font-size: 1.23em; color: #999ea6">GitHub Pages</a></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>归档</span>
+      
+    </div>
+  
+    <ul class="card-archive-list">
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/07/">
+            <span class="card-archive-list-date">
+              七月 2025
+            </span>
+            <span class="card-archive-list-count">4</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/06/">
+            <span class="card-archive-list-date">
+              六月 2025
+            </span>
+            <span class="card-archive-list-count">2</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/05/">
+            <span class="card-archive-list-date">
+              五月 2025
+            </span>
+            <span class="card-archive-list-count">4</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/04/">
+            <span class="card-archive-list-date">
+              四月 2025
+            </span>
+            <span class="card-archive-list-count">3</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2024/05/">
+            <span class="card-archive-list-date">
+              五月 2024
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+    </ul>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">14</div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">5.3k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-07-12T23:30:56.361Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer" style="background: transparent;"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;2025 By Dora Honor</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.4.1</a></span></div><div class="footer_custom_text">欢迎来到 mskk 的个人博客！ Welcome to mskk’s personal blog!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"><script>(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+
+  const commentCount = n => {
+    const isCommentCount = document.querySelector('#post-meta .gitalk-comment-count')
+    if (isCommentCount) {
+      isCommentCount.textContent= n
+    }
+  }
+
+  const initGitalk = (el, path) => {
+    if (isShuoshuo) {
+      window.shuoshuoComment.destroyGitalk = () => {
+        if (el.children.length) {
+          el.innerHTML = ''
+          el.classList.add('no-comment')
+        }
+      }
+    }
+
+    const gitalk = new Gitalk({
+      clientID: 'Ov23liYpmdJlt3q851aq',
+      clientSecret: '15bae88bcabbc88347cd0cf36d4f3f03d0013d82',
+      repo: 'dora-honor.github.io',
+      owner: 'Dora-Honor',
+      admin: ['Dora-Honor'],
+      updateCountCallback: commentCount,
+      ...option,
+      id: isShuoshuo ? path : (option && option.id) || '0d816c9fef548b9516a169329f6af8a3'
+    })
+
+    gitalk.render('gitalk-container')
+  }
+
+  const loadGitalk = async(el, path) => {
+    if (typeof Gitalk === 'function') initGitalk(el, path)
+    else {
+      await btf.getCSS('https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css')
+      await btf.getScript('https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js')
+      initGitalk(el, path)
+    }
+  }
+
+  if (isShuoshuo) {
+    'Gitalk' === 'Gitalk'
+      ? window.shuoshuoComment = { loadComment: loadGitalk }
+      : window.loadOtherComment = loadGitalk
+    return
+  }
+
+  if ('Gitalk' === 'Gitalk' || !true) {
+    if (true) btf.loadComment(document.getElementById('gitalk-container'), loadGitalk)
+    else loadGitalk()
+  } else {
+    window.loadOtherComment = loadGitalk
+  }
+})()</script><script>(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+
+  const getGiscusTheme = theme => theme === 'dark' ? 'dark' : 'light'
+
+  const createScriptElement = config => {
+    const ele = document.createElement('script')
+    Object.entries(config).forEach(([key, value]) => {
+      ele.setAttribute(key, value)
+    })
+    return ele
+  }
+
+  const loadGiscus = (el = document, key) => {
+    const mappingConfig = isShuoshuo
+      ? { 'data-mapping': 'specific', 'data-term': key }
+      : { 'data-mapping': (option && option['data-mapping']) || 'pathname' }
+
+    const giscusConfig = {
+      src: 'https://giscus.app/client.js',
+      'data-repo': 'Dora-Honor/dora-honor.github.io',
+      'data-repo-id': 'R_kgDOPFqS2A',
+      'data-category-id': 'DIC_kwDOPFqS2M4CsiZj',
+      'data-theme': getGiscusTheme(document.documentElement.getAttribute('data-theme')),
+      'data-reactions-enabled': '1',
+      crossorigin: 'anonymous',
+      async: true,
+      ...option,
+      ...mappingConfig
+    }
+
+    const scriptElement = createScriptElement(giscusConfig)
+
+    el.querySelector('#giscus-wrap').appendChild(scriptElement)
+
+    if (isShuoshuo) {
+      window.shuoshuoComment.destroyGiscus = () => {
+        if (el.children.length) {
+          el.innerHTML = ''
+          el.classList.add('no-comment')
+        }
+      }
+    }
+  }
+
+  const changeGiscusTheme = theme => {
+    const iframe = document.querySelector('#giscus-wrap iframe')
+    if (iframe) {
+      const message = {
+        giscus: {
+          setConfig: {
+            theme: getGiscusTheme(theme)
+          }
+        }
+      }
+      iframe.contentWindow.postMessage(message, 'https://giscus.app')
+    }
+  }
+
+  btf.addGlobalFn('themeChange', changeGiscusTheme, 'giscus')
+
+  if (isShuoshuo) {
+    'Gitalk' === 'Giscus'
+      ? window.shuoshuoComment = { loadComment: loadGiscus }
+      : window.loadOtherComment = loadGiscus
+    return
+  }
+
+  if ('Gitalk' === 'Giscus' || !true) {
+    if (true) btf.loadComment(document.getElementById('giscus-wrap'), loadGiscus)
+    else loadGiscus()
+  } else {
+    window.loadOtherComment = loadGiscus
+  }
+})()</script></div><script>window.newestComments = {
+  changeContent: content => {
+    if (content === '') return content
+
+    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
+    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
+    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
+    content = content.replace(/<code>.*?<\/code>/gi, '[代码]') // replace code
+    content = content.replace(/<[^>]+>/g, "") // remove html tag
+
+    if (content.length > 150) {
+      content = content.substring(0, 150) + '...'
+    }
+    return content
+  },
+
+  generateHtml: (array, ele) => {
+    let result = ''
+
+    if (array.length) {
+      for (let i = 0; i < array.length; i++) {
+        result += '<div class="aside-list-item">'
+
+        if (true && array[i].avatar) {
+          const imgAttr = 'src'
+          const lazyloadNative = ''
+          result += `<a href="${array[i].url}" class="thumbnail"><img ${imgAttr}="${array[i].avatar}" alt="${array[i].nick}" ${lazyloadNative}></a>`
+        }
+
+        result += `<div class="content">
+        <a class="comment" href="${array[i].url}" title="${array[i].content}">${array[i].content}</a>
+        <div class="name"><span>${array[i].nick} / </span><time datetime="${array[i].date}">${btf.diffDate(array[i].date, true)}</time></div>
+        </div></div>`
+      }
+    } else {
+      result += '暂无评论'
+    }
+
+    ele.innerHTML = result
+    window.lazyLoadInstance && window.lazyLoadInstance.update()
+    window.pjax && window.pjax.refresh(ele)
+  },
+
+  newestCommentInit: (name, getComment) => {
+    const $dom = document.querySelector('#card-newest-comments .aside-list')
+    if ($dom) {
+      const data = btf.saveToLocal.get(name)
+      if (data) {
+        newestComments.generateHtml(JSON.parse(data), $dom)
+      } else {
+        getComment($dom)
+      }
+    }
+  },
+
+  run: (name, getComment) => {
+    newestComments.newestCommentInit(name, getComment)
+    btf.addGlobalFn('pjaxComplete', () => newestComments.newestCommentInit(name, getComment), name)
+  }
+}</script><script>window.addEventListener('load', () => {
+  const keyName = 'github-newest-comments'
+  const { changeContent, generateHtml, run } = window.newestComments
+
+  const findTrueUrl = (array, ele) => {
+    Promise.all(array.map(item =>
+      fetch(item.url).then(resp => resp.json()).then(data => {
+        let urlArray = data.body ? data.body.match(/(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?/ig) : []
+        if (!Array.isArray(urlArray) || urlArray.length === 0) {
+          urlArray = [`${data.html_url}`]
+        }
+        if (data.user.login === 'utterances-bot') {
+          return urlArray.pop()
+        } else {
+          return urlArray.shift()
+        }
+      })
+    )).then(res => {
+        array = array.map((i,index)=> {
+          return {
+            ...i,
+            url: res[index]
+          }
+        })
+
+        btf.saveToLocal.set(keyName, JSON.stringify(array), 10/(60*24))
+        generateHtml(array, ele)
+    });
+  }
+
+  const getComment = ele => {
+    fetch('https://api.github.com/repos/Dora-Honor/dora-honor.github.io/issues/comments?sort=updated&direction=desc&per_page=6&page=1',{
+      "headers": {
+        Accept: 'application/vnd.github.v3.html+json'
+      }
+    })
+      .then(response => response.json())
+      .then(data => {
+        const githubArray = data.map(item => {
+          return {
+            'avatar': item.user.avatar_url,
+            'content': changeContent(item.body_html || item.body),
+            'nick': item.user.login,
+            'url': item.issue_url,
+            'date': item.updated_at
+          }
+        })
+        findTrueUrl(githubArray, ele)
+      }).catch(e => {
+        console.error(e)
+        ele.textContent= "无法获取评论，请确认相关配置是否正确"
+      })
+  }
+  run(keyName, getComment)
+})</script><canvas class="fireworks" mobile="true"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章 Search articles" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
