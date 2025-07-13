@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4964552 */
+  src: url('//at.alicdn.com/t/c/font_4964552_cgk784zs58s.woff2?t=1752363368520') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4964552_cgk784zs58s.woff?t=1752363368520') format('woff'),
+       url('//at.alicdn.com/t/c/font_4964552_cgk784zs58s.ttf?t=1752363368520') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 22px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-spotify:before {
+  content: "\ebf4";
+}
+
+.icon-itunes:before {
+  content: "\e7bb";
+}
+
+.icon-netease-cloud-music:before {
+  content: "\e600";
+}
+
+.icon-coolapk:before {
+  content: "\e607";
+}
+
+.icon-xiaohongshu:before {
+  content: "\e657";
+}
+
+.icon-github:before {
+  content: "\e60f";
+}
+
+.icon-facebook:before {
+  content: "\e60e";
+}
+
+.icon-zhihu:before {
+  content: "\e60d";
+}
+
+.icon-hoyolab:before {
+  content: "\e60b";
+}
+
+.icon-instagram:before {
+  content: "\e609";
+}
+
+.icon-bilibili:before {
+  content: "\e608";
+}
+
+.icon-bluesky:before {
+  content: "\e601";
+}
+
+.icon-x:before {
+  content: "\e602";
+}
+
+.icon-youtube:before {
+  content: "\e603";
+}
+
+.icon-threads:before {
+  content: "\e604";
+}
+
+.icon-weibo:before {
+  content: "\e606";
+}
+
+.layout_post>#post {
+    background: rgba(255,255,255,.75);
+}
+
+#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
+    background: rgba(255,255,255,.75);
+}
+
+:root {
+  --card-bg: rgba(255, 255, 255, .75);
+}
+
+#footer {
+	background: rgba(255,255,255, .0);
+}
+ 

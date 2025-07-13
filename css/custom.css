@@ -8,3 +8,5 @@ font-style: normal;
 *:not([class*="icon"]):not(i) {
 font-family: "MiSans" !important;
 }
+
+@import url("//at.alicdn.com/t/c/font_4964552_cgk784zs58s.css")
