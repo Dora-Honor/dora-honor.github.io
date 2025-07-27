@@ -10,7 +10,21 @@
 
     <url>
         <loc>https://dora-honor.github.io/categories/%25E9%259A%258F%25E7%25AC%2594/</loc>
-        <lastmod>2025-07-08T20:32:49.805Z</lastmod>
+        <lastmod>2025-07-27T19:32:12.767Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://dora-honor.github.io/categories/%25E6%2595%2599%25E7%25A8%258B/</loc>
+        <lastmod>2025-07-27T14:03:37.871Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://dora-honor.github.io/categories/%25E8%25B8%25A9%25E5%259D%2591/</loc>
+        <lastmod>2025-07-27T08:26:13.058Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
