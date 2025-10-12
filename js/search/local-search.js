@@ -156,10 +156,10 @@ class LocalSearch {
       }
 
       slicesOfContent.forEach(slice => {
-        resultItem += `<p class="search-result">${this.highlightKeyword(content, slice)}...</p></a>`
+        resultItem += `<p class="search-result">${this.highlightKeyword(content, slice)}...</p>`
       })
 
-      resultItem += '</li>'
+      resultItem += '</a></li>'
       resultItems.push({
         item: resultItem,
         id: resultItems.length,
