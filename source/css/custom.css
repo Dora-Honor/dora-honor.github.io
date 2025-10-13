@@ -1,0 +1,12 @@
+@import url("https://font.sec.miui.com/font/css?family=MiSans:400,450:Chinese_Simplify,Latin&display=swap");
+
+@font-face {
+font-family: "MiSans", sans-serif;
+font-weight: normal;
+font-style: normal;
+}
+*:not([class*="icon"]):not(i) {
+font-family: "MiSans" !important;
+}
+
+@import url("//at.alicdn.com/t/c/font_4964552_cgk784zs58s.css")
