@@ -31,7 +31,7 @@ Genshin Impact: # 原神
     - Zhongli # 钟离
     - Xianyun # 闲云
     - Xiangling # 香菱
-    - Lanliang # 蓝砚
+    - Lan Yan # 蓝砚
     - Yanfei # 烟绯
     - Chongyun # 重云
     - Yaoyao # 瑶瑶
@@ -61,7 +61,7 @@ Genshin Impact: # 原神
     - Varesa # 瓦雷莎
     - Kachina # 卡齐娜
 
-Honkai":" Star Rail: # 崩坏：星穹铁道
+Honkai Star Rail: # 崩坏：星穹铁道
   Astral: # 星穹列车
     - March 7th # 三月七
   Stellaron Hunters: # 星核猎手
@@ -110,7 +110,7 @@ Zenless Zone Zero: # 绝区零
     - Ellen Joe # 艾莲·乔
   Obol Squad: # 防卫军·奥波勒斯小队
     - Seed # 席德
-  Criminal Inverstigation Special Response Team: # 刑侦特勤组
+  Criminal Investigation Special Response Team: # 刑侦特勤组
     - Zhu Yuan # 朱鸢
     - Qingyi # 青衣
   Sons of Calydon: # 卡吕冬之子
@@ -134,5 +134,5 @@ Zenless Zone Zero: # 绝区零
     - Alice Thymefield # 爱丽丝·泰姆菲尔德
     - Lucia Elowen # 卢西娅·艾洛温
 
-# Honkai":" Nexus Anima: # 崩坏：因缘精灵
+# Honkai Nexus Anima: # 崩坏：因缘精灵
 ```
