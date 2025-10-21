@@ -1,6 +1,8 @@
+<div align="right">
+
 [English](README.md) | 中文
 
----
+</div>
 
 # dora-honor.github.io
 

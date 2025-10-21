@@ -34,7 +34,7 @@ code_blocks:
   theme: light
   macStyle: true
   # Code block height limit (unit: px)
-  height_limit: 240
+  height_limit: 320
   word_wrap: true
 
   # Toolbar
