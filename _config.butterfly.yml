@@ -545,7 +545,7 @@ comments:
   # Leave it empty if you don't need comments
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # Format of two comments system : Disqus,Waline
-  use: Gitalk, Giscus
+  use: Gitalk, Waline
   # Display the comment name next to the button
   text: true
   # Lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -601,11 +601,14 @@ valine:
 # Waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL:
+  serverURL: https://darling-pixie-2320de.netlify.app/.netlify/functions/comment
   bg:
   # Use Waline pageview count as the page view count
   pageview: false
   option:
+    requiredMeta: [ 'Dora Honor', dorahonor@gmail.com]
+    locale:
+      placeholder: 说点什么吧
 
 # Utterances
 # https://utteranc.es/
