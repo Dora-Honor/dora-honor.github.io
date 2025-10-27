@@ -609,10 +609,7 @@ waline:
     requiredMeta: [ 'Dora Honor', dorahonor@gmail.com]
     locale:
       placeholder:
-        - 说点什么吧
-        - （昵称和邮箱为必填项。为了你能及时收到相关回复的邮件通知，请确保邮箱的正确性！）
-        - Write something
-        - (Nickname and email are required. To ensure that you can receive email notifications of relevant replies in time, please make sure the correctness of the email!)
+        - 说点什么吧（昵称和邮箱为必填项。为了你能及时收到相关回复的邮件通知，请确保邮箱的正确性！）
 
 # Utterances
 # https://utteranc.es/
