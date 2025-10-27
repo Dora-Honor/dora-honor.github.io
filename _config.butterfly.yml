@@ -545,7 +545,7 @@ comments:
   # Leave it empty if you don't need comments
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # Format of two comments system : Disqus,Waline
-  use: Gitalk, Waline
+  use: Waline, Gitalk
   # Display the comment name next to the button
   text: true
   # Lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -608,7 +608,11 @@ waline:
   option:
     requiredMeta: [ 'Dora Honor', dorahonor@gmail.com]
     locale:
-      placeholder: 说点什么吧
+      placeholder:
+        - 说点什么吧
+        - （昵称和邮箱为必填项。为了你能及时收到相关回复的邮件通知，请确保邮箱的正确性！）
+        - Write something
+        - (Nickname and email are required. To ensure that you can receive email notifications of relevant replies in time, please make sure the correctness of the email!)
 
 # Utterances
 # https://utteranc.es/
