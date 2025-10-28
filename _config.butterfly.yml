@@ -607,9 +607,9 @@ waline:
   pageview: false
   option:
     requiredMeta: [ 'Dora Honor', dorahonor@gmail.com]
+    reaction: true
     locale:
       placeholder: 说点什么吧（昵称和邮箱为必填项。为了你能及时收到相关回复的邮件通知，请确保邮箱的正确性！）
-      reaction: true
 
 # Utterances
 # https://utteranc.es/
