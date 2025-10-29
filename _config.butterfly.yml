@@ -310,7 +310,9 @@ aside:
       link: https://github.com/Dora-Honor
   card_announcement:
     enable: true
-    content: 这是我的个人博客。 This is my personal blog.
+    content:
+      - 这是我的个人博客。
+      - This is my personal blog.
   card_recent_post:
     enable: true
     # If set 0 will show all
