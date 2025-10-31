@@ -1,7 +1,7 @@
 ---
 title: 关于我 | About Me | 自分について
 layout: about
-comments: false
+comments: true
 ---
 
 ## 自我介绍 | Self-introduction | 自己紹介

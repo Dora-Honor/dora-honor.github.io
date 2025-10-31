@@ -844,7 +844,7 @@ font:
 # Font settings for the site title and site subtitle
 blog_title_font:
   font_link: https://font.sec.miui.com/font/css?family=MiSans:400,450:Chinese_Simplify,Latin&display=swap
-  font_family: MiSans, 'Noto Sans SC', 'Noto Serif SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Microsoft JhengHei', sans-serif
+  font_family: MiSans, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Microsoft JhengHei', sans-serif
 
 # The setting of divider icon
 hr_icon:
