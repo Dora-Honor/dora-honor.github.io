@@ -30,6 +30,9 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
   - googleee2249751ec6188b.html
+  - BingSiteAuth.xml
+  - README.md
+  - README_ZH.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
