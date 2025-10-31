@@ -311,8 +311,7 @@ aside:
   card_announcement:
     enable: true
     content:
-      - 这是我的个人博客。
-      - This is my personal blog.
+      - 这是我的个人博客。<br>This is my personal blog.
   card_recent_post:
     enable: true
     # If set 0 will show all
