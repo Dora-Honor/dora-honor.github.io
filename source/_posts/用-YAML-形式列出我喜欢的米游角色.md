@@ -62,7 +62,7 @@ Genshin Impact: # 原神
     - Varesa # 瓦雷莎
     - Kachina # 卡齐娜
 
-Honkai Star Rail: # 崩坏：星穹铁道
+"Honkai: Star Rail": # 崩坏：星穹铁道
   Astral: # 星穹列车
     - March 7th # 三月七
   Stellaron Hunters: # 星核猎手
@@ -135,5 +135,5 @@ Zenless Zone Zero: # 绝区零
     - Alice Thymefield # 爱丽丝·泰姆菲尔德
     - Lucia Elowen # 卢西娅·艾洛温
 
-# Honkai Nexus Anima: # 崩坏：因缘精灵
+# "Honkai: Nexus Anima": # 崩坏：因缘精灵
 ```
