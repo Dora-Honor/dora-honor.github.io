@@ -1,3 +1,40 @@
+@font-face {
+  font-family: "MiSans", sans-serif;
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  src: local("MiSans"), local("MiSans-Regular"),
+       url("../fonts/MiSans-Regular.woff2") format("woff2"),
+       url("../fonts/MiSans-Regular.woff") format("woff");
+  src: local("MiSans"), local("MiSans-Medium"),
+       url("../fonts/MiSans-Medium.woff2") format("woff2"),
+       url("../fonts/MiSans-Medium.woff") format("woff");
+  src: local("MiSans"), local("MiSans-SemiBold"),
+       url("../fonts/MiSans-SemiBold.woff2") format("woff2"),
+       url("../fonts/MiSans-SemiBold.woff") format("woff");
+  src: local("MiSans"), local("MiSans-Bold"),
+       url("../fonts/MiSans-Bold.woff2") format("woff2"),
+       url("../fonts/MiSans-Bold.woff") format("woff");
+  src: local("MiSans"), local("MiSans-Heavy"),
+       url("../fonts/MiSans-Heavy.woff2") format("woff2"),
+       url("../fonts/MiSans-Heavy.woff") format("woff");
+  src: local("MiSans"), local("MiSans-Demibold"),
+       url("../fonts/MiSans-Demibold.woff2") format("woff2"),
+       url("../fonts/MiSans-Demibold.woff") format("woff");
+  src: local("MiSans"), local("MiSans-Light"),
+       url("../fonts/MiSans-Light.woff2") format("woff2"),
+       url("../fonts/MiSans-Light.woff") format("woff");
+  src: local("MiSans"), local("MiSans-Thin"),
+       url("../fonts/MiSans-Thin.woff2") format("woff2"),
+       url("../fonts/MiSans-Thin.woff") format("woff");
+  src: local("MiSans"), local("MiSans-ExtraLight"),
+       url("../fonts/MiSans-ExtraLight.woff2") format("woff2"),
+       url("../fonts/MiSans-ExtraLight.woff") format("woff");
+  src: local("MiSans"), local("MiSans-Normal"),
+       url("../fonts/MiSans-Normal.woff2") format("woff2"),
+       url("../fonts/MiSans-Normal.woff") format("woff");
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+SC:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+HK:wght@200..900&family=Noto+Serif+JP:wght@200..900&family=Noto+Serif+KR:wght@200..900&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif+TC:wght@200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 @font-face {
@@ -128,43 +165,6 @@
   src: local("Roboto Mono"), local("RobotoMono-Regular"),
        url("/fonts/RobotoMono-VariableFont_wght.woff2") format("woff2-variations"),
        url("/fonts/RobotoMono-Regular.woff") format("woff");
-}
-
-@font-face {
-  font-family: "MiSans", sans-serif;
-  font-display: swap;
-  font-weight: normal;
-  font-style: normal;
-  src: local("MiSans"), local("MiSans-Regular"),
-       url("../fonts/MiSans-Regular.woff2") format("woff2"),
-       url("../fonts/MiSans-Regular.woff") format("woff");
-  src: local("MiSans"), local("MiSans-Medium"),
-       url("../fonts/MiSans-Medium.woff2") format("woff2"),
-       url("../fonts/MiSans-Medium.woff") format("woff");
-  src: local("MiSans"), local("MiSans-SemiBold"),
-       url("../fonts/MiSans-SemiBold.woff2") format("woff2"),
-       url("../fonts/MiSans-SemiBold.woff") format("woff");
-  src: local("MiSans"), local("MiSans-Bold"),
-       url("../fonts/MiSans-Bold.woff2") format("woff2"),
-       url("../fonts/MiSans-Bold.woff") format("woff");
-  src: local("MiSans"), local("MiSans-Heavy"),
-       url("../fonts/MiSans-Heavy.woff2") format("woff2"),
-       url("../fonts/MiSans-Heavy.woff") format("woff");
-  src: local("MiSans"), local("MiSans-Demibold"),
-       url("../fonts/MiSans-Demibold.woff2") format("woff2"),
-       url("../fonts/MiSans-Demibold.woff") format("woff");
-  src: local("MiSans"), local("MiSans-Light"),
-       url("../fonts/MiSans-Light.woff2") format("woff2"),
-       url("../fonts/MiSans-Light.woff") format("woff");
-  src: local("MiSans"), local("MiSans-Thin"),
-       url("../fonts/MiSans-Thin.woff2") format("woff2"),
-       url("../fonts/MiSans-Thin.woff") format("woff");
-  src: local("MiSans"), local("MiSans-ExtraLight"),
-       url("../fonts/MiSans-ExtraLight.woff2") format("woff2"),
-       url("../fonts/MiSans-ExtraLight.woff") format("woff");
-  src: local("MiSans"), local("MiSans-Normal"),
-       url("../fonts/MiSans-Normal.woff2") format("woff2"),
-       url("../fonts/MiSans-Normal.woff") format("woff");
 }
 
 @import url("//at.alicdn.com/t/c/font_4964552_cgk784zs58s.css")
