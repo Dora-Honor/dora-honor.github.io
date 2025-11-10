@@ -61,6 +61,10 @@ Genshin Impact: # 原神
     - Citlali # 茜特菈莉
     - Varesa # 瓦雷莎
     - Kachina # 卡齐娜
+  Nod-Krai: # 挪德卡莱
+    - Lauma # 菈乌玛
+    - Ineffa # 伊涅芙
+    - Nefer # 奈芙尔
 
 "Honkai: Star Rail": # 崩坏：星穹铁道
   Astral: # 星穹列车
