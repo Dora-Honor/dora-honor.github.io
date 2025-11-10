@@ -607,7 +607,7 @@ waline:
   # Use Waline pageview count as the page view count
   pageview: false
   option:
-    requiredMeta: [ 'Dora Honor', dorahonor@gmail.com]
+    requiredMeta: [ 'Dora Honor', dorahonor@gmail.com ]
     reaction: true
     locale:
       placeholder: 说点什么吧（昵称和邮箱为必填项。为了你能及时收到相关回复的邮件通知，请确保邮箱的正确性！）
@@ -844,8 +844,6 @@ font:
 # Font settings for the site title and site subtitle
 blog_title_font:
   font_link:
-    - https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+SC:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+HK:wght@200..900&family=Noto+Serif+JP:wght@200..900&family=Noto+Serif+KR:wght@200..900&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif+TC:wght@200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap
-    - https://font.sec.miui.com/font/css?family=MiSans:400,450:Chinese_Simplify,Latin&display=swap
   font_family: MiSans, Roboto, "Noto Sans SC", "PingFang SC", -apple-system, "Microsoft Yahei", "WenQuanYi Micro Hei", "ST Heiti", "Noto Sans TC", "PingFang TC", "Microsoft Jhenghei", "Noto Sans HK", "Noto Sans JP", Hiragino, Osaka, "Yu Gothic", Meiryo, "MS Mincho", "Noto Sans KR", "Apple Gothic", Seoul, "Malgun Gothic", Dotum, sans-serif, "Roboto Slab", "Noto Serif SC", SimSun, "Noto Serif TC", MingLiu, "Noto Serif HK", "Noto Serif JP", "Yu Mincho", "MS Mincho", "Noto Serif KR", "PC Myungjo", "Shin Myungjo Neue", Batang, serif, "Inter", 'Quicksand', 'Nimbus Roman No9 L', ui-sans-serif, system-ui, sans-serif, "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
 
 # The setting of divider icon
