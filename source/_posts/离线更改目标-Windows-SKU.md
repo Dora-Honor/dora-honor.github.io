@@ -6,11 +6,14 @@ categories: 教程
 ---
 
 ## 使用注意
+
 以下命令**均要以管理员身份在 `cmd` 或 `PowerShell` 中运行。**
 
 ## Windows 8 (NT 6.2, build 9200)
 
 对于 Windows 8，微软官方尚未提供镜像，因此需要用命令行转换 SKU。
+
+> [!NOTE]
 > **必须用 Retail 零售版镜像的专业版，不能用 VL 批量授权版镜像。VL 批量授权版不支持添加 Windows 功能！**
 
 首先要挂载目标镜像，输入以下命令（也可使用 [Dism++](https://github.com/Chuyu-Team/Dism-Multi-Language) 挂载）：
@@ -47,6 +50,7 @@ dism /Unmount-Image /MountDir:X:\xxxx /commit
 - 对于 Windows 8.1，在 WSUS 和 [基于 Microsoft® 列出的文件列表](https://files.rg-adguard.net/language/138dda8e-bacd-0d47-cc74-af23f9f489a0) 上已有专业版（含 Media Center）ESD 镜像，只需用 [Dism++](https://github.com/Chuyu-Team/Dism-Multi-Language) 解密 ESD 而无需转换 SKU。
 - 当然，Windows 8.1 同样支持 SKU 转换。
 
+> [!NOTE]
 > **必须用 Retail 零售版镜像的专业版，不能用 VL 批量授权版镜像。VL 批量授权版不支持添加 Windows 功能！**
 
 首先要挂载目标镜像，输入以下命令（也可使用 [Dism++](https://github.com/Chuyu-Team/Dism-Multi-Language) 挂载）：
