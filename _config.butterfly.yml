@@ -11,7 +11,7 @@
 
 nav:
   # Navigation bar logo image
-  logo: https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/logo.png
+  logo: /img/background/logo.png
   display_title: true
   display_post_title: true
   # Whether to fix navigation bar
@@ -70,26 +70,26 @@ social:
 # Image Settings
 # --------------------------------------
 
-favicon: https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/logo.png
+favicon: /img/background/logo.png
 
 avatar:
-  img: https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/user.jpg
+  img: /img/background/user.jpg
   effect: false
 
 # Disable all banner images
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img: https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/125931837_p0.webp
+default_top_img: /img/background/125931837_p0.webp
 
 # The banner image of index page
-index_img: https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/5040-5.3.webp
+index_img: /img/background/5040-5.3.webp
 
 # The banner image of archive page
-archive_img: https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/125931837_p0.webp
+archive_img: /img/background/125931837_p0.webp
 
 # Note: tag page, not tags page
-tag_img: https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/125931837_p0.webp
+tag_img: /img/background/125931837_p0.webp
 
 # The banner image of tag page, you can set the banner image for each tag
 # Format:
@@ -109,7 +109,7 @@ footer_img: transparent
 
 # Website Background
 # Can set it to color or image url
-background: https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/5040-5.3.webp
+background: /img/background/5040-5.3.webp
 
 cover:
   # Disable the cover or not
@@ -229,10 +229,10 @@ reward:
   enable: true
   text: 你的支持是我更新的最大动力！
   QR_code:
-    - img: https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/sponsor/wechat.png
+    - img: /img/background/sponsor/wechat.png
       link:
       text: 微信 WeChat
-    - img: https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/background/sponsor/alipay.png
+    - img: /img/background/sponsor/alipay.png
       link:
       text: 支付宝 Alipay
 
@@ -838,13 +838,13 @@ beautify:
 font:
   global_font_size: 16px
   code_font_size: 12px
-  font_family: MiSans, Roboto, 'Noto Sans SC', -apple-system, 'Quicksand', 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;
-  code_font_family: Consolas, "Roboto Mono", Monaco, "GNU Unifont", Courier, "Courier New", MiSans, "Microsoft YaHei", Menlo, "PingFang SC", "Microsoft JhengHei", sans-serif
+  font_family: MiSans, Roboto, "Noto Sans SC", "PingFang SC", -apple-system, "Microsoft Yahei", "WenQuanYi Micro Hei", "ST Heiti", "Noto Sans TC", "PingFang TC", "Microsoft Jhenghei", "Noto Sans HK", "Noto Sans JP", Hiragino, Osaka, "Yu Gothic", Meiryo, "MS Mincho", "Noto Sans KR", "Apple Gothic", Seoul, "Malgun Gothic", Dotum, sans-serif, "Roboto Slab", "Noto Serif SC", SimSun, "Noto Serif TC", MingLiu, "Noto Serif HK", "Noto Serif JP", "Yu Mincho", "MS Mincho", "Noto Serif KR", "PC Myungjo", "Shin Myungjo Neue", Batang, serif, "Inter", 'Quicksand', 'Nimbus Roman No9 L', ui-sans-serif, system-ui, sans-serif, "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+  code_font_family: Consolas, "Roboto Mono", Monaco, "GNU Unifont", Courier, "Courier New", MiSans, Roboto, "Noto Sans SC", "PingFang SC", -apple-system, "Microsoft Yahei", "WenQuanYi Micro Hei", "ST Heiti", "Noto Sans TC", "PingFang TC", "Microsoft Jhenghei", "Noto Sans HK", "Noto Sans JP", Hiragino, Osaka, "Yu Gothic", Meiryo, "MS Mincho", "Noto Sans KR", "Apple Gothic", Seoul, "Malgun Gothic", Dotum, sans-serif, "Roboto Slab", "Noto Serif SC", SimSun, "Noto Serif TC", MingLiu, "Noto Serif HK", "Noto Serif JP", "Yu Mincho", "MS Mincho", "Noto Serif KR", "PC Myungjo", "Shin Myungjo Neue", Batang, serif, "Inter", 'Quicksand', 'Nimbus Roman No9 L', ui-sans-serif, system-ui, sans-serif, "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
 
 # Font settings for the site title and site subtitle
 blog_title_font:
   font_link: https://font.sec.miui.com/font/css?family=MiSans:400,450:Chinese_Simplify,Latin&display=swap
-  font_family: MiSans, 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Microsoft JhengHei', sans-serif
+  font_family: MiSans, Roboto, "Noto Sans SC", "PingFang SC", -apple-system, "Microsoft Yahei", "WenQuanYi Micro Hei", "ST Heiti", "Noto Sans TC", "PingFang TC", "Microsoft Jhenghei", "Noto Sans HK", "Noto Sans JP", Hiragino, Osaka, "Yu Gothic", Meiryo, "MS Mincho", "Noto Sans KR", "Apple Gothic", Seoul, "Malgun Gothic", Dotum, sans-serif, "Roboto Slab", "Noto Serif SC", SimSun, "Noto Serif TC", MingLiu, "Noto Serif HK", "Noto Serif JP", "Yu Mincho", "MS Mincho", "Noto Serif KR", "PC Myungjo", "Shin Myungjo Neue", Batang, serif, "Inter", 'Quicksand', 'Nimbus Roman No9 L', ui-sans-serif, system-ui, sans-serif, "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
 
 # The setting of divider icon
 hr_icon:
