@@ -92,3 +92,95 @@
 #footer {
 	background: rgba(255,255,255, .0);
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+SC:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+HK:wght@200..900&family=Noto+Serif+JP:wght@200..900&family=Noto+Serif+KR:wght@200..900&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif+TC:wght@200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 100;
+    font-style: normal;
+    src: local("MiSans-Thin"),
+         url("../fonts/MiSans-Thin.woff2") format("woff2"),
+         url("../fonts/MiSans-Thin.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 200;
+    font-style: normal;
+    src: local("MiSans-ExtraLight"),
+         url("../fonts/MiSans-ExtraLight.woff2") format("woff2"),
+         url("../fonts/MiSans-ExtraLight.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 300;
+    font-style: normal;
+    src: local("MiSans-Light"),
+         url("../fonts/MiSans-Light.woff2") format("woff2"),
+         url("../fonts/MiSans-Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+    src: local("MiSans-Normal"), local("MiSans"),
+         url("../fonts/MiSans-Normal.woff2") format("woff2"),
+         url("../fonts/MiSans-Normal.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+    src: local("MiSans-Medium"),
+         url("../fonts/MiSans-Medium.woff2") format("woff2"),
+         url("../fonts/MiSans-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 600;
+    font-style: normal;
+    src: local("MiSans-SemiBold"),
+         url("../fonts/MiSans-SemiBold.woff2") format("woff2"),
+         url("../fonts/MiSans-SemiBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+    src: local("MiSans-Bold"),
+         url("../fonts/MiSans-Bold.woff2") format("woff2"),
+         url("../fonts/MiSans-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 800;
+    font-style: normal;
+    src: local("MiSans-Heavy"),
+         url("../fonts/MiSans-Heavy.woff2") format("woff2"),
+         url("../fonts/MiSans-Heavy.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 900;
+    font-style: normal;
+    src: local("MiSans-Demibold"),
+         url("../fonts/MiSans-Demibold.woff2") format("woff2"),
+         url("../fonts/MiSans-Demibold.woff") format("woff");
+}
