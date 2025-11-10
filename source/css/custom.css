@@ -136,35 +136,35 @@
   font-weight: normal;
   font-style: normal;
   src: local("MiSans"), local("MiSans-Regular"),
-       url("/fonts/MiSans-Regular.woff2") format("woff2"),
-       url("/fonts/MiSans-Regular.woff") format("woff");
+       url("../fonts/MiSans-Regular.woff2") format("woff2"),
+       url("../fonts/MiSans-Regular.woff") format("woff");
   src: local("MiSans"), local("MiSans-Medium"),
-       url("/fonts/MiSans-Medium.woff2") format("woff2"),
-       url("/fonts/MiSans-Medium.woff") format("woff");
+       url("../fonts/MiSans-Medium.woff2") format("woff2"),
+       url("../fonts/MiSans-Medium.woff") format("woff");
   src: local("MiSans"), local("MiSans-SemiBold"),
-       url("/fonts/MiSans-SemiBold.woff2") format("woff2"),
-       url("/fonts/MiSans-SemiBold.woff") format("woff");
+       url("../fonts/MiSans-SemiBold.woff2") format("woff2"),
+       url("../fonts/MiSans-SemiBold.woff") format("woff");
   src: local("MiSans"), local("MiSans-Bold"),
-       url("/fonts/MiSans-Bold.woff2") format("woff2"),
-       url("/fonts/MiSans-Bold.woff") format("woff");
+       url("../fonts/MiSans-Bold.woff2") format("woff2"),
+       url("../fonts/MiSans-Bold.woff") format("woff");
   src: local("MiSans"), local("MiSans-Heavy"),
-       url("/fonts/MiSans-Heavy.woff2") format("woff2"),
-       url("/fonts/MiSans-Heavy.woff") format("woff");
+       url("../fonts/MiSans-Heavy.woff2") format("woff2"),
+       url("../fonts/MiSans-Heavy.woff") format("woff");
   src: local("MiSans"), local("MiSans-Demibold"),
-       url("/fonts/MiSans-Demibold.woff2") format("woff2"),
-       url("/fonts/MiSans-Demibold.woff") format("woff");
+       url("../fonts/MiSans-Demibold.woff2") format("woff2"),
+       url("../fonts/MiSans-Demibold.woff") format("woff");
   src: local("MiSans"), local("MiSans-Light"),
-       url("/fonts/MiSans-Light.woff2") format("woff2"),
-       url("/fonts/MiSans-Light.woff") format("woff");
+       url("../fonts/MiSans-Light.woff2") format("woff2"),
+       url("../fonts/MiSans-Light.woff") format("woff");
   src: local("MiSans"), local("MiSans-Thin"),
-       url("/fonts/MiSans-Thin.woff2") format("woff2"),
-       url("/fonts/MiSans-Thin.woff") format("woff");
+       url("../fonts/MiSans-Thin.woff2") format("woff2"),
+       url("../fonts/MiSans-Thin.woff") format("woff");
   src: local("MiSans"), local("MiSans-ExtraLight"),
-       url("/fonts/MiSans-ExtraLight.woff2") format("woff2"),
-       url("/fonts/MiSans-ExtraLight.woff") format("woff");
+       url("../fonts/MiSans-ExtraLight.woff2") format("woff2"),
+       url("../fonts/MiSans-ExtraLight.woff") format("woff");
   src: local("MiSans"), local("MiSans-Normal"),
-       url("/fonts/MiSans-Normal.woff2") format("woff2"),
-       url("/fonts/MiSans-Normal.woff") format("woff");
+       url("../fonts/MiSans-Normal.woff2") format("woff2"),
+       url("../fonts/MiSans-Normal.woff") format("woff");
 }
 
 @import url("//at.alicdn.com/t/c/font_4964552_cgk784zs58s.css")
