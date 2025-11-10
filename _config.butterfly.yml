@@ -839,12 +839,12 @@ font:
   global_font_size: 16px
   code_font_size: 12px
   font_family: MiSans, Roboto, "Noto Sans SC", "PingFang SC", -apple-system, "Microsoft Yahei", "WenQuanYi Micro Hei", "ST Heiti", "Noto Sans TC", "PingFang TC", "Microsoft Jhenghei", "Noto Sans HK", "Noto Sans JP", Hiragino, Osaka, "Yu Gothic", Meiryo, "MS Mincho", "Noto Sans KR", "Apple Gothic", Seoul, "Malgun Gothic", Dotum, sans-serif, "Roboto Slab", "Noto Serif SC", SimSun, "Noto Serif TC", MingLiu, "Noto Serif HK", "Noto Serif JP", "Yu Mincho", "MS Mincho", "Noto Serif KR", "PC Myungjo", "Shin Myungjo Neue", Batang, serif, "Inter", 'Quicksand', 'Nimbus Roman No9 L', ui-sans-serif, system-ui, sans-serif, "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
-  code_font_family: Consolas, "Roboto Mono", Monaco, "GNU Unifont", Courier, "Courier New", MiSans, Roboto, "Noto Sans SC", "PingFang SC", -apple-system, "Microsoft Yahei", "WenQuanYi Micro Hei", "ST Heiti", "Noto Sans TC", "PingFang TC", "Microsoft Jhenghei", "Noto Sans HK", "Noto Sans JP", Hiragino, Osaka, "Yu Gothic", Meiryo, "MS Mincho", "Noto Sans KR", "Apple Gothic", Seoul, "Malgun Gothic", Dotum, sans-serif, "Roboto Slab", "Noto Serif SC", SimSun, "Noto Serif TC", MingLiu, "Noto Serif HK", "Noto Serif JP", "Yu Mincho", "MS Mincho", "Noto Serif KR", "PC Myungjo", "Shin Myungjo Neue", Batang, serif, "Inter", 'Quicksand', 'Nimbus Roman No9 L', ui-sans-serif, system-ui, sans-serif, "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+  code_font_family: Consolas, "Roboto Mono", "Monaco", "Andale Mono", "Ubuntu Mono", monospace
 
 # Font settings for the site title and site subtitle
 blog_title_font:
-  font_link: https://font.sec.miui.com/font/css?family=MiSans:400,450:Chinese_Simplify,Latin&display=swap
-  font_family: MiSans, Roboto, "Noto Sans SC", "PingFang SC", -apple-system, "Microsoft Yahei", "WenQuanYi Micro Hei", "ST Heiti", "Noto Sans TC", "PingFang TC", "Microsoft Jhenghei", "Noto Sans HK", "Noto Sans JP", Hiragino, Osaka, "Yu Gothic", Meiryo, "MS Mincho", "Noto Sans KR", "Apple Gothic", Seoul, "Malgun Gothic", Dotum, sans-serif, "Roboto Slab", "Noto Serif SC", SimSun, "Noto Serif TC", MingLiu, "Noto Serif HK", "Noto Serif JP", "Yu Mincho", "MS Mincho", "Noto Serif KR", "PC Myungjo", "Shin Myungjo Neue", Batang, serif, "Inter", 'Quicksand', 'Nimbus Roman No9 L', ui-sans-serif, system-ui, sans-serif, "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+  font_link:
+  font_family: MiSans, Roboto, "Noto Sans SC", "PingFang SC", -apple-system, "Microsoft Yahei", "WenQuanYi Micro Hei", "ST Heiti", "Noto Sans TC", "PingFang TC", "Microsoft Jhenghei", "Noto Sans HK", "Noto Sans JP", Hiragino, Osaka, "Yu Gothic", Meiryo, "MS Mincho", "Noto Sans KR", "Apple Gothic", Seoul, "Malgun Gothic", Dotum, sans-serif, "Roboto Slab", "Noto Serif SC", SimSun, "Noto Serif TC", MingLiu, "Noto Serif HK", "Noto Serif JP", "Yu Mincho", "MS Mincho", "Noto Serif KR", "PC Myungjo", "Shin Myungjo Neue", Batang, serif, "Inter", 'Quicksand', 'Nimbus Roman No9 L', ui-sans-serif, system-ui, sans-serif, "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 # The setting of divider icon
 hr_icon:
@@ -1068,7 +1068,7 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
     - <link rel="stylesheet" href="/css/iconfont.css">
-    - <link rel="sytlesheet" href="/css/custom.css">
+    - <link rel="stylesheet" href="/css/custom.css">
   bottom:
     # - <script src="xxxx"></script>
 

@@ -11,7 +11,7 @@ categories: 随笔
 如下所示。
 
 ``` YAML
-title: My Favourite HoYo Characters
+title: My Favorite HoYo Characters
 # 我喜欢的米游角色
 
 Honkai Impact 3rd: # 崩坏 3rd

@@ -1,42 +1,170 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+SC:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+HK:wght@200..900&family=Noto+Serif+JP:wght@200..900&family=Noto+Serif+KR:wght@200..900&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif+TC:wght@200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 @font-face {
-font-family: "MiSans", sans-serif;
-font-weight: normal;
-font-style: normal;
-src: local("MiSans"), local("MiSans-Regular"),
+  font-family: "Noto Sans SC", sans-serif;
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  src: local("Noto Sans SC"), local("NotoSansSC"),
+       url("/fonts/NotoSansSC-VariableFont_wdth,wght.woff2") format("woff2-variations"),
+       url("/fonts/NotoSansSC-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Noto Serif SC", serif;
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  src: local("Noto Serif SC"), local("NotoSerifSC"),
+       url("/fonts/NotoSerifSC-VariableFont_wdth,wght.woff2") format("woff2-variations"),
+       url("/fonts/NotoSerifSC-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Noto Sans TC", sans-serif;
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  src: local("Noto Sans TC"), local("NotoSansTC"),
+       url("/fonts/NotoSansTC-VariableFont_wdth,wght.woff2") format("woff2-variations"),
+       url("/fonts/NotoSansTC-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Noto Serif TC", serif;
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  src: local("Noto Serif TC"), local("NotoSerifTC"),
+       url("/fonts/NotoSerifTC-VariableFont_wdth,wght.woff2") format("woff2-variations"),
+       url("/fonts/NotoSerifTC-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Noto Sans HK", sans-serif;
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  src: local("Noto Sans HK"), local("NotoSansHK"),
+       url("/fonts/NotoSansHK-VariableFont_wdth,wght.woff2") format("woff2-variations"),
+       url("/fonts/NotoSansHK-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Noto Serif HK", serif;
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  src: local("Noto Serif HK"), local("NotoSerifHK"),
+       url("/fonts/NotoSerifHK-VariableFont_wdth,wght.woff2") format("woff2-variations"),
+       url("/fonts/NotoSerifHK-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Noto Sans JP", sans-serif;
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  src: local("Noto Sans JP"), local("NotoSansJP"),
+       url("/fonts/NotoSansJP-VariableFont_wdth,wght.woff2") format("woff2-variations"),
+       url("/fonts/NotoSansJP-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Noto Serif JP", serif;
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  src: local("Noto Serif JP"), local("NotoSerifJP"),
+       url("/fonts/NotoSerifJP-VariableFont_wdth,wght.woff2") format("woff2-variations"),
+       url("/fonts/NotoSerifJP-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Noto Sans KR", sans-serif;
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  src: local("Noto Sans KR"), local("NotoSansKR"),
+       url("/fonts/NotoSansKR-VariableFont_wdth,wght.woff2") format("woff2-variations"),
+       url("/fonts/NotoSansKR-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Noto Serif KR", serif;
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  src: local("Noto Serif KR"), local("NotoSerifKR"),
+       url("/fonts/NotoSerifKR-VariableFont_wdth,wght.woff2") format("woff2-variations"),
+       url("/fonts/NotoSerifKR-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto", sans-serif;
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal, italic;
+  src: local("Roboto"), local("Roboto-Regular"),
+       url("/fonts/Roboto-VariableFont_wght.woff2") format("woff2-variations"),
+       url("/fonts/Roboto-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto Slab", serif;
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  src: local("Roboto Slab"), local("RobotoSlab-Regular"),
+       url("/fonts/RobotoSlab-VariableFont_wght.woff2") format("woff2-variations"),
+       url("/fonts/RobotoSlab-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto Mono", monospace;
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal, italic;
+  src: local("Roboto Mono"), local("RobotoMono-Regular"),
+       url("/fonts/RobotoMono-VariableFont_wght.woff2") format("woff2-variations"),
+       url("/fonts/RobotoMono-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "MiSans", sans-serif;
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  src: local("MiSans"), local("MiSans-Regular"),
        url("/fonts/MiSans-Regular.woff2") format("woff2"),
        url("/fonts/MiSans-Regular.woff") format("woff");
-src: local("MiSans"), local("MiSans-Medium"),
+  src: local("MiSans"), local("MiSans-Medium"),
        url("/fonts/MiSans-Medium.woff2") format("woff2"),
        url("/fonts/MiSans-Medium.woff") format("woff");
-src: local("MiSans"), local("MiSans-SemiBold"),
+  src: local("MiSans"), local("MiSans-SemiBold"),
        url("/fonts/MiSans-SemiBold.woff2") format("woff2"),
        url("/fonts/MiSans-SemiBold.woff") format("woff");
-src: local("MiSans"), local("MiSans-Bold"),
+  src: local("MiSans"), local("MiSans-Bold"),
        url("/fonts/MiSans-Bold.woff2") format("woff2"),
        url("/fonts/MiSans-Bold.woff") format("woff");
-src: local("MiSans"), local("MiSans-Heavy"),
+  src: local("MiSans"), local("MiSans-Heavy"),
        url("/fonts/MiSans-Heavy.woff2") format("woff2"),
        url("/fonts/MiSans-Heavy.woff") format("woff");
-src: local("MiSans"), local("MiSans-Demibold"),
+  src: local("MiSans"), local("MiSans-Demibold"),
        url("/fonts/MiSans-Demibold.woff2") format("woff2"),
        url("/fonts/MiSans-Demibold.woff") format("woff");
-src: local("MiSans"), local("MiSans-Light"),
+  src: local("MiSans"), local("MiSans-Light"),
        url("/fonts/MiSans-Light.woff2") format("woff2"),
        url("/fonts/MiSans-Light.woff") format("woff");
-src: local("MiSans"), local("MiSans-Thin"),
+  src: local("MiSans"), local("MiSans-Thin"),
        url("/fonts/MiSans-Thin.woff2") format("woff2"),
        url("/fonts/MiSans-Thin.woff") format("woff");
-src: local("MiSans"), local("MiSans-ExtraLight"),
+  src: local("MiSans"), local("MiSans-ExtraLight"),
        url("/fonts/MiSans-ExtraLight.woff2") format("woff2"),
        url("/fonts/MiSans-ExtraLight.woff") format("woff");
-src: local("MiSans"), local("MiSans-Normal"),
+  src: local("MiSans"), local("MiSans-Normal"),
        url("/fonts/MiSans-Normal.woff2") format("woff2"),
        url("/fonts/MiSans-Normal.woff") format("woff");
-}
-*:not([class*="icon"]):not(i) {
-font-family: "MiSans" !important;
 }
 
 @import url("//at.alicdn.com/t/c/font_4964552_cgk784zs58s.css")
