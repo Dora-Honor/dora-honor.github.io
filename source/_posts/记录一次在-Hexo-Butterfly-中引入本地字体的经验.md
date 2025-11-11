@@ -19,8 +19,8 @@ categories:
 
 以我下载好的多字重 MiSans 字体和 Google Fonts 的 Noto Sans[^1]/Serif[^2] SC/TC/HK/JP/KR、Roboto、Roboto Slab、Roboto Mono 在线字体为例。
 
-[^1]: 中文：思源黑体，日文：源ノ角ゴシック，韩文：본고딕(本고딕)  
-[^2]: 中文：思源宋体，日文：源ノ明朝，韩文：본명조(本明朝)
+[^1]: 中文：思源黑体，日文：源ノ角ゴシック，韩文：본고딕(本고딕)，英文别名：Source Han Sans  
+[^2]: 中文：思源宋体，日文：源ノ明朝，韩文：본명조(本明朝)，英文别名：Source Han Serif
 
 ### [下载 MiSans 字体](https://hyperos.mi.com/font/download)
 
