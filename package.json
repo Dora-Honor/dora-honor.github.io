@@ -22,12 +22,14 @@
     "hexo-generator-seo-friendly-sitemap": "^0.2.1",
     "hexo-generator-tag": "^2.0.0",
     "hexo-renderer-ejs": "^2.0.0",
-    "hexo-renderer-marked": "^7.0.1",
+    "hexo-renderer-markdown-it": "^7.1.1",
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
     "hexo-theme-butterfly": "^5.5.1",
     "hexo-theme-landscape": "^1.1.0",
-    "hexo-wordcount": "^6.0.1"
+    "hexo-wordcount": "^6.0.1",
+    "markdown-it-merge-cells": "^2.0.0",
+    "markdown-it-task-checkbox": "^1.0.6"
   }
 }
