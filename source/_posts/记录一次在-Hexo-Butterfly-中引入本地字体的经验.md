@@ -1,7 +1,9 @@
 ---
 title: 记录一次在 Hexo + Butterfly 中引入本地字体的经验
 date: 2025-11-11 02:30:07
-tags: GitHub Pages
+tags: 
+  - GitHub Pages
+  - 踩坑记录
 categories:
   - 踩坑记录
   - 经验总结

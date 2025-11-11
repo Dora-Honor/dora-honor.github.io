@@ -1,27 +1,8 @@
 ---
 title: 关于 sunflower2333 大佬的 MIX 2s (polaris) 音频驱动安装和使用问题的总结
 date: 2025-04-22
-updated:
 tags: 踩坑记录
 categories: 踩坑记录
-keywords:
-description:
-top_img:
-comments:
-cover:
-toc:
-toc_number:
-toc_style_simple:
-copyright:
-copyright_author:
-copyright_author_href:
-copyright_url:
-copyright_info:
-mathjax:
-katex:
-aplayer:
-highlight_shrink:
-aside: 
 ---
 
 # [sunflower2333 大佬的 MIX 2s (polaris) 音频驱动](https://github.com/sunflower2333/mix2s_tas2559_2560_win)

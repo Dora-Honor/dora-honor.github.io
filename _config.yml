@@ -147,10 +147,10 @@ markdown:
   anchors:
     level: 1
     collisionSuffix: ''
-    permalink: false
+    permalink: true
     permalinkClass: 'anchor'
     permalinkSide: 'right'
-    permalinkSymbol: '·'
+    permalinkSymbol: '●'
     case: 0
     separator: '-'
   images:
