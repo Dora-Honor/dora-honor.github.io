@@ -35,7 +35,7 @@ code_blocks:
   macStyle: true
   # Code block height limit (unit: px)
   height_limit: 320
-  word_wrap: true
+  word_wrap: false
 
   # Toolbar
   copy: true
@@ -239,10 +239,10 @@ reward:
 # Post edit
 # Easily browse and edit blog source code online.
 post_edit:
-  enable: false
+  enable: true
   # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
-  url:
+  url: https://github.com/Dora-Honor/dora-honor.github.io/edit/main/source/
 
 # Related Articles
 related_post:
