@@ -150,7 +150,7 @@ markdown:
     permalink: true
     permalinkClass: 'anchor'
     permalinkSide: 'right'
-    permalinkSymbol: '●'
+    permalinkSymbol: ' ●'
     case: 0
     separator: '-'
   images:
