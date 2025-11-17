@@ -114,7 +114,7 @@ footer_img: transparent
 
 # Website Background
 # Can set it to color or image url
-background: /img/background/5040-5.3.webp
+background: /img/background/251117/x-jp-390.webp
 
 cover:
   # Disable the cover or not
@@ -148,7 +148,7 @@ post_meta:
     label: true
   post:
     # Choose: left / center
-    position: left
+    position: center
     # Choose: created / updated / both
     date_type: both
     # Choose: date / relative
