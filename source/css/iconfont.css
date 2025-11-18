@@ -109,14 +109,14 @@
   --trans-light: rgba(255, 255, 255, 0.75);
   --trans-dark: rgba(25, 25, 25, 0.75);
   --border-style: 1px solid rgb(169, 169, 169);
-  --backdrop-filter: blur(5px) saturate(150%);
+  /* --backdrop-filter: blur(5px) saturate(150%); */
   --card-bg: rgba(255, 255, 255, .75);
 }
 
 /* 首页文章卡片 */
 #recent-posts > .recent-post-item {
   background: var(--trans-light);
-  backdrop-filter: var(--backdrop-filter);
+  /* backdrop-filter: var(--backdrop-filter); */
   border-radius: 25px;
   border: var(--border-style);
 }
@@ -124,7 +124,7 @@
 /* 首页侧栏卡片 */
 #aside-content .card-widget {
   background: var(--trans-light);
-  backdrop-filter: var(--backdrop-filter);
+  /* backdrop-filter: var(--backdrop-filter); */
   border-radius: 18px;
   border: var(--border-style);
 }
@@ -134,7 +134,7 @@ div#post,
 div#page,
 div#archive {
   background: var(--trans-light);
-  backdrop-filter: var(--backdrop-filter);
+  /* backdrop-filter: var(--backdrop-filter); */
   border: var(--border-style);
   border-radius: 20px;
 }
@@ -142,7 +142,7 @@ div#archive {
 /* 导航栏 */
 #page-header.nav-fixed #nav {
   background: rgba(255, 255, 255, 0.75);
-  backdrop-filter: var(--backdrop-filter);
+  /* backdrop-filter: var(--backdrop-filter); */
 }
 
 [data-theme="dark"] #page-header.nav-fixed #nav {
