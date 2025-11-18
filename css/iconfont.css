@@ -80,17 +80,21 @@
 /* 页脚与头图透明 */
 #footer {
   background: transparent !important;
+  opacity: 0.75 !important;
 }
 #page-header {
   background: transparent !important;
+  opacity: 0.75 !important;
 }
 
 /* 白天模式遮罩透明 */
 #footer::before {
   background: transparent !important;
+  opacity: 0.75 !important;
 }
 #page-header::before {
   background: transparent !important;
+  opacity: 0.75 !important;
 }
 
 /* 夜间模式遮罩透明 */
@@ -183,6 +187,10 @@ div#archive {
 [data-theme='dark'] {
   --card-bg: rgba(25, 25, 25, .75);
 }
+
+/* [data-theme="light"] #web_bg {
+  opacity: 0.8;
+} */
 
 /* :root {
   --card-bg: rgba(255, 255, 255, .75);
