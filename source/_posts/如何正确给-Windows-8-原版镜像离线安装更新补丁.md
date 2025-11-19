@@ -5,9 +5,8 @@ tags: Windows
 categories: 教程
 ---
 
-{% note warning flat %}
-本文针对的是 Windows 8 (NT 6.2, build 9200)，并非 Windows 8.1 (NT 6.3, build 9600)！
-{% endnote %}
+> [!caution]
+> 本文针对的是 Windows 8 (NT 6.2, build 9200)，并非 Windows 8.1 (NT 6.3, build 9600)！
 
 ## 前言
 
@@ -50,9 +49,8 @@ categories: 教程
 
 - 启动 Dism++，在主界面选择【文件】—【挂载映像】，填入 WIM 文件路径和挂载目录。
 
-{% note warning %}
-注意挂载目录要先创建，**不能是根目录、有文件的目录、非半角英文数字字符目录！**\
-{% endnote %}
+> [!caution]
+> 注意挂载目录要先创建，**不能是根目录、有文件的目录、非半角英文数字字符目录！**
 
 ![](https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/250730/01.png)  
 ![](https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/250730/02.png)
@@ -65,15 +63,13 @@ categories: 教程
 3. 选择【应用】，等待一段时间后就启用了。
   ![](https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/250730/04.png)
 
-{% note info flat %}
-保险起见，最好先保存映像，避免因后续失败而花大量时间重做。
-{% endnote %}
+> [!note]
+> 保险起见，最好先保存映像，避免因后续失败而花大量时间重做。
 
 #### 安装 WE8 SKU、IE 11、.NET 4 更新补丁
 
-{% note info warning %}
-注意一定要按照安装顺序进行，**否则会出现「不适合」的现象而无法安装！**
-{% endnote %}
+> [!warning]
+> 注意一定要按照安装顺序进行，**否则会出现「不适合」的现象而无法安装！**
 
 1. 解压 [Windows 8 安装 IE 11 和 .NET 4 先决更新补丁](https://gitlab.com/stdout12/adns/uploads/c7c9f583da309adfb5f7a621ff3cf218/W8_NetFx4_IE11_Prereqs.7z)，里面有 `x64` 和 `x86` 文件夹，分别代表 64 位和 32 位，根据镜像位宽选择即可。以下以 64 位为例。
 2. 在 Dism++ 选择【更新管理】—【Windows Update】—【添加】，找到先决更新补丁所在位置，进入 `x64` 文件夹，先选中以 `Microsoft-Windows-Embedded-SKU` 开头的全部 `MUM` 文件，然后单击【打开】安装 SKU 更新，等待一段时间。
@@ -84,9 +80,8 @@ categories: 教程
   ![](https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/250730/08.png)
   ![](https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/250730/09.png)
 
-{% note info %}
-保险起见，最好先保存映像，避免因后续失败而花大量时间重做。
-{% endnote %}
+> [!note]
+> 保险起见，最好先保存映像，避免因后续失败而花大量时间重做。
 
 ### 安装 IE 11 和 .NET 4.8
 
@@ -97,9 +92,8 @@ categories: 教程
 2. 然后选择 `ie11-windows6.2-languagepack-x64-*.msu` 语言包更新补丁，安装 IE 11 语言包，等待一段时间。
   ![](https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/250730/11.png)
 
-{% note info %}
-保险起见，最好先保存映像，避免因后续失败而花大量时间重做。
-{% endnote %}
+> [!note]
+> 保险起见，最好先保存映像，避免因后续失败而花大量时间重做。
 
 #### 安装 .NET Framework 4.8
 
@@ -110,9 +104,8 @@ categories: 教程
   ![](https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/250730/13.png)
 4. 在 Dism++ 保存映像，然后卸载。
 
-{% note info %}
-保险起见，最好先保存映像，避免因后续失败而花大量时间重做。
-{% endnote %}
+> [!note]
+> 保险起见，最好先保存映像，避免因后续失败而花大量时间重做。
 
 ### 使用 BypassESU-Blue-v2 安装 ESU 破解补丁
 
@@ -132,9 +125,8 @@ categories: 教程
 3. 单击 [Start] 开始下载更新补丁。等待一段时间。
   ![](https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/250730/19.png)
 
-{% note info %}
-更新补丁下载在程序目录的 `cilent\w62-x64\glb` 处。
-{% endnote %}
+> [!note]
+> 更新补丁下载在程序目录的 `cilent\w62-x64\glb` 处。
 
 ### 使用 NTLite 安装更新补丁
 
@@ -146,13 +138,11 @@ categories: 教程
 3. 完成后，选择【结束】下的【应用】，再单击【工具栏】选项卡下的【开始】，确认应用更改。
   ![](https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/Images/250730/23.png)
 
-{% note info %}
-更新补丁安装需要等待一段时间。
-{% endnote %}
+> [!note]
+> 更新补丁安装需要等待一段时间。
 
-{% note danger %}
-一定不要安装 `KB2966827` 更新补丁，否则 **.NET Framework 3.5 会被关闭，且无法再启用！**
-{% endnote %}
+> [!warning]
+> 一定不要安装 `KB2966827` 更新补丁，否则 **.NET Framework 3.5 会被关闭，且无法再启用！**
 
 ---
 
@@ -167,10 +157,10 @@ categories: 教程
 
 ---
 
-## 微软对 Windows 8 安装 IE 11 和 .NET 4 设置阻碍的说明
-
-- 在 Windows 8 上，**无法直接安装 IE 11 和 .NET 4，在未安装 SKU 先决更新补丁的情况下均会报错**。而同为 NT 6.2 内核的 Windows Embedded 8 和 Windows Server 2012 则不受影响。
-- 就算装上 SKU 先决更新补丁，从微软官网下载的 .NET 4 安装包**运行后也会报错**。因此需要用 Windows Update 的更新补丁包进行安装。
+> [!caution]
+> ## 微软对 Windows 8 安装 IE 11 和 .NET 4 设置阻碍的说明
+> - 在 Windows 8 上，**无法直接安装 IE 11 和 .NET 4，在未安装 SKU 先决更新补丁的情况下均会报错**。而同为 NT 6.2 内核的 Windows Embedded 8 和 Windows Server 2012 则不受影响。
+> - 就算装上 SKU 先决更新补丁，从微软官网下载的 .NET 4 安装包**运行后也会报错**。因此需要用 Windows Update 的更新补丁包进行安装。
 
 ---
 

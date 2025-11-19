@@ -213,13 +213,11 @@ blog_title_font:
   font_family: MiSans, Roboto, "Noto Sans SC", "PingFang SC", -apple-system, "Microsoft Yahei", "WenQuanYi Micro Hei", "ST Heiti", "Noto Sans TC", "PingFang TC", "Microsoft Jhenghei", "Noto Sans HK", "Noto Sans JP", Hiragino, Osaka, "Yu Gothic", Meiryo, "MS Mincho", "Noto Sans KR", "Apple Gothic", Seoul, "Malgun Gothic", Dotum, sans-serif, "Roboto Slab", "Noto Serif SC", SimSun, "Noto Serif TC", MingLiu, "Noto Serif HK", "Noto Serif JP", "Yu Mincho", "MS Mincho", "Noto Serif KR", "PC Myungjo", "Shin Myungjo Neue", Batang, serif, "Inter", 'Quicksand', 'Nimbus Roman No9 L', ui-sans-serif, system-ui, sans-serif, "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 ```
 
-{% note info %}
+> [!note]
 备用字体根据自行需求填写。
-{% endnote %}
 
-{% note primary %}
+> [!tip]
 建议多填备用字体，以避免部分字符显示不出的问题。
-{% endnote %}
 
 保存配置文件。
 
@@ -263,9 +261,8 @@ blog_title_font:
 }
 ```
 
-{% note info %}
+> [!caution]
 注意要和原本的样式间隔一行。
-{% endnote %}
 
 ## 参考资料
 
