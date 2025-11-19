@@ -109,51 +109,32 @@ deploy:
   repository: https://github.com/Dora-Honor/dora-honor.github.io
   branch: main
 
-# 修改 Markdown 渲染引擎，详见 https://github.com/hexojs/hexo-renderer-markdown-it
-markdown:
-  preset: 'default'
-  render:
+# 修改 Markdown 渲染引擎，详见 https://github.com/CHENXCHEN/hexo-renderer-markdown-it-plus
+markdown_it_plus:
+    # gfm: true
+    highlight: true
     html: true
-    xhtmlOut: false
-    langPrefix: 'language-'
-    breaks: false
+    xhtmlOut: true
+    breaks: true
+    langPrefix:
     linkify: true
-    typographer: true
-    quotes: '“”‘’'
-  enable_rules:
-  disable_rules:
-  plugins:
-    - markdown-it-abbr
-    - markdown-it-attrs
-    - markdown-it-cjk-breaks
-    - markdown-it-container
-    - markdown-it-deflist
-    - markdown-it-emoji
-    - markdown-it-footnote
-    - markdown-it-ins
-    - markdown-it-mark
-    - markdown-it-merge-cells
-    - markdown-it-sub
-    - markdown-it-sup
-    - markdown-it-task-checkbox
-    - name: markdown-it-container
-      options: success
-    - name: markdown-it-container
-      options: tips
-    - name: markdown-it-container
-      options: warning
-    - name: markdown-it-container
-      options: danger
-  anchors:
-    level: 1
-    collisionSuffix: ''
-    permalink: true
-    permalinkClass: 'anchor'
-    permalinkSide: 'right'
-    permalinkSymbol: ' ●'
-    case: 0
-    separator: '-'
-  images:
-    lazyload: false
-    prepend_root: false
-    post_asset: false
+    typographer:
+    quotes: “”‘’
+    plugins:
+        - plugin:
+            enable: true
+            name: markdown-it-task-lists
+            options:
+                # 插件选项
+        - plugin:
+            enable: true
+            name: 'markdown-it-obsidian-callouts'
+            options:
+                # 插件选项
+        # - plugin:
+        # - plugin:
+        # - '@mdit/plugin-alert'
+        # - '@mdit/plugin-img-size'
+        # - markdown-it-anchor
+        # - markdown-it-obsidian-callouts
+        # - mdit-plugin-callouts

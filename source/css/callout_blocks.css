@@ -1,0 +1,340 @@
+:root {
+    --un-ring-offset-shadow: 0 0 transparent;
+    --un-ring-shadow: 0 0 transparent
+}
+
+.custom-callout {
+    border-left: 3px solid;
+    border-radius: var(--callout-radius);
+    box-shadow: var(--un-ring-offset-shadow), var(--un-ring-shadow), var(--un-shadow);
+    margin: 1rem 0;
+    padding: 0 !important;
+}
+
+:root {
+    --callout-note: 68, 138, 255;
+    --callout-abstract: 0, 176, 255;
+    --callout-info: 0, 184, 212;
+    --callout-tip: 0, 191, 165;
+    --callout-success: 8, 185, 78;
+    --callout-question: 224, 172, 0;
+    --callout-warning: 255, 145, 0;
+    --callout-failure: 255, 82, 82;
+    --callout-danger: 255, 23, 68;
+    --callout-bug: 245, 0, 87;
+    --callout-example: 124, 77, 255;
+    --callout-quote: 158, 158, 158;
+    --callout-radius: 0px;
+    --callout-border-opacity: 0.5;
+    --callout-title-bg-opacity: 0.08
+}
+
+.callout-fold:before {
+    align-self: center;
+    content: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="gray" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="chevron-down"><path d="m6 9 6 6 6-6"/></svg>')
+}
+
+.callout-fold {
+    display: flex;
+    transform: rotate(-90deg);
+    transition: .5s cubic-bezier(.075, .82, .165, 1)
+}
+
+.custom-callout[open] > summary > .callout-fold {
+    transform: rotate(0deg)
+}
+
+.custom-callout > summary {
+    border-top-left-radius: var(--callout-radius);
+    border-top-right-radius: var(--callout-radius);
+    cursor: pointer;
+    margin: 0;
+    padding: 1rem
+}
+
+.custom-callout > summary::marker {
+    content: ""
+}
+
+.custom-callout > summary:before {
+    margin-right: .5rem
+}
+
+.custom-callout > summary::-webkit-details-marker {
+    display: none
+}
+
+.callout-title {
+    display: flex;
+    justify-content: space-between
+}
+
+.custom-callout > .callout-body {
+    background: transparent !important;
+    border-left: none;
+    margin: 0 !important;
+    padding: .5rem 1rem;
+    position: relative
+}
+
+.custom-callout > .callout-body > p {
+    margin: 8px 0
+}
+
+.custom-callout > .callout-body > pre {
+    margin: 1.25rem -1rem
+}
+
+.custom-callout > .callout-body > pre:first-child {
+    margin-top: -.75rem
+}
+
+.custom-callout > .callout-body > pre:last-child {
+    margin-bottom: -.75rem
+}
+
+.custom-callout.note, .custom-callout.seealso {
+    border-color: rgba(var(--callout-note), var(--callout-border-opacity))
+}
+
+.custom-callout.note > summary, .custom-callout.seealso > summary {
+    background-color: rgba(var(--callout-note), var(--callout-title-bg-opacity))
+}
+
+.custom-callout.abstract, .custom-callout.summary, .custom-callout.tldr {
+    border-color: rgba(var(--callout-abstract), var(--callout-border-opacity))
+}
+
+.custom-callout.abstract > summary, .custom-callout.summary > summary, .custom-callout.tldr > summary {
+    background-color: rgba(var(--callout-abstract), var(--callout-title-bg-opacity))
+}
+
+.custom-callout.info, .custom-callout.todo {
+    border-color: rgba(var(--callout-info), var(--callout-border-opacity))
+}
+
+.custom-callout.info > summary, .custom-callout.todo > summary {
+    background-color: rgba(var(--callout-info), var(--callout-title-bg-opacity))
+}
+
+.custom-callout.hint, .custom-callout.important, .custom-callout.tip {
+    border-color: rgba(var(--callout-tip), var(--callout-border-opacity))
+}
+
+.custom-callout.hint > summary, .custom-callout.important > summary, .custom-callout.tip > summary {
+    background-color: rgba(var(--callout-tip), var(--callout-title-bg-opacity))
+}
+
+.custom-callout.check, .custom-callout.done, .custom-callout.success {
+    border-color: rgba(var(--callout-success), var(--callout-border-opacity))
+}
+
+.custom-callout.check > summary, .custom-callout.done > summary, .custom-callout.success > summary {
+    background-color: rgba(var(--callout-success), var(--callout-title-bg-opacity))
+}
+
+.custom-callout.faq, .custom-callout.help, .custom-callout.question {
+    border-color: rgba(var(--callout-question), var(--callout-border-opacity))
+}
+
+.custom-callout.faq > summary, .custom-callout.help > summary, .custom-callout.question > summary {
+    background-color: rgba(var(--callout-question), var(--callout-title-bg-opacity))
+}
+
+.custom-callout.attention, .custom-callout.caution, .custom-callout.warning {
+    border-color: rgba(var(--callout-warning), var(--callout-border-opacity))
+}
+
+.custom-callout.attention > summary, .custom-callout.caution > summary, .custom-callout.warning > summary {
+    background-color: rgba(var(--callout-warning), var(--callout-title-bg-opacity))
+}
+
+.custom-callout.fail, .custom-callout.failure, .custom-callout.missing {
+    border-color: rgba(var(--callout-failure), var(--callout-border-opacity))
+}
+
+.custom-callout.fail > summary, .custom-callout.failure > summary, .custom-callout.missing > summary {
+    background-color: rgba(var(--callout-failure), var(--callout-title-bg-opacity))
+}
+
+.custom-callout.danger, .custom-callout.error {
+    border-color: rgba(var(--callout-danger), var(--callout-border-opacity))
+}
+
+.custom-callout.danger > summary, .custom-callout.error > summary {
+    background-color: rgba(var(--callout-danger), var(--callout-title-bg-opacity))
+}
+
+.custom-callout.bug {
+    border-color: rgba(var(--callout-bug), var(--callout-border-opacity))
+}
+
+.custom-callout.bug > summary {
+    background-color: rgba(var(--callout-bug), var(--callout-title-bg-opacity))
+}
+
+.custom-callout.example {
+    border-color: rgba(var(--callout-example), var(--callout-border-opacity))
+}
+
+.custom-callout.example > summary {
+    background-color: rgba(var(--callout-example), var(--callout-title-bg-opacity))
+}
+
+.custom-callout.cite, .custom-callout.quote {
+    border-color: rgba(var(--callout-quote), var(--callout-border-opacity))
+}
+
+.custom-callout.cite > summary, .custom-callout.quote > summary {
+    background-color: rgba(var(--callout-quote), var(--callout-title-bg-opacity))
+}
+
+.callout-title > .callout-icon + div {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 0%;
+    -webkit-flex: 1 1 0%;
+    flex: 1 1 0%;
+    margin-left: .25rem
+}
+
+.callout-icon {
+    align-items: center;
+    color: #000;
+    display: flex
+}
+
+.callout-icon:before {
+    height: 20px;
+    width: 20px
+}
+
+.custom-callout.attention > .callout-title > .callout-icon:before, .custom-callout.caution > .callout-title > .callout-icon:before, .custom-callout.warning > .callout-title > .callout-icon:before {
+    content: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="%23FF9100" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-alert-triangle"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3ZM12 9v4M12 17h.01"/></svg>')
+}
+
+.custom-callout.note > .callout-title > .callout-icon:before, .custom-callout.seealso > .callout-title > .callout-icon:before {
+    content: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="%23448AFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-pencil"><path d="m18 2 4 4M7.5 20.5 19 9l-4-4L3.5 16.5 2 22z"/></svg>')
+}
+
+.custom-callout.abstract > .callout-title > .callout-icon:before, .custom-callout.summary > .callout-title > .callout-icon:before, .custom-callout.tldr > .callout-title > .callout-icon:before {
+    content: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="%2300B0FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-clipboard-list"><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2M12 11h4M12 16h4M8 11h.01M8 16h.01"/></svg>')
+}
+
+.custom-callout.info > .callout-title > .callout-icon:before, .custom-callout.todo > .callout-title > .callout-icon:before {
+    content: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="%2300B8D4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-check-circle-2"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="m9 12 2 2 4-4"/></svg>')
+}
+
+.custom-callout.hint > .callout-title > .callout-icon:before, .custom-callout.important > .callout-title > .callout-icon:before, .custom-callout.tip > .callout-title > .callout-icon:before {
+    content: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="%2300BFA5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-flame"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>')
+}
+
+.custom-callout.check > .callout-title > .callout-icon:before, .custom-callout.done > .callout-title > .callout-icon:before, .custom-callout.success > .callout-title > .callout-icon:before {
+    content: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="%2300C853" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-check"><path d="M20 6 9 17l-5-5"/></svg>')
+}
+
+.custom-callout.faq > .callout-title > .callout-icon:before, .custom-callout.help > .callout-title > .callout-icon:before, .custom-callout.question > .callout-title > .callout-icon:before {
+    content: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="%23E0AC00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-help-circle"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3M12 17h.01"/></svg>')
+}
+
+.custom-callout.fail > .callout-title > .callout-icon:before, .custom-callout.failure > .callout-title > .callout-icon:before, .custom-callout.missing > .callout-title > .callout-icon:before {
+    content: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="%23FF5252" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-x"><path d="M18 6 6 18M6 6l12 12"/></svg>')
+}
+
+.custom-callout.danger > .callout-title > .callout-icon:before, .custom-callout.error > .callout-title > .callout-icon:before {
+    content: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="%23FF1744" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-zap"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>')
+}
+
+.custom-callout.bug > .callout-title > .callout-icon:before {
+    content: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="%23F50057" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-bug"><rect x="8" y="6" width="8" height="14" rx="4"/><path d="m19 7-3 2M5 7l3 2M19 19l-3-2M5 19l3-2M20 13h-4M4 13h4M10 4l1 2M14 4l-1 2"/></svg>')
+}
+
+.custom-callout.example > .callout-title > .callout-icon:before {
+    content: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="%237C4DFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-list"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>')
+}
+
+.custom-callout.cite > .callout-title > .callout-icon:before, .custom-callout.quote > .callout-title > .callout-icon:before {
+    content: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="%239E9E9E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-quote"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1zM15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>')
+}
+
+/* 找不到关键字则提供默认样式 note 样式 */
+
+.custom-callout > .callout-title > .callout-icon:before, .custom-callout.seealso > .callout-title > .callout-icon:before {
+    content: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="%23448AFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-pencil"><path d="m18 2 4 4M7.5 20.5 19 9l-4-4L3.5 16.5 2 22z"/></svg>')
+}
+
+.custom-callout , .custom-callout.seealso {
+    border-color: rgba(var(--callout-note), var(--callout-border-opacity)); /* 不起作用 */
+}
+
+.custom-callout > summary, .custom-callout.seealso > summary {
+    background-color: rgba(var(--callout-note), var(--callout-title-bg-opacity))
+}
+
+
+/* 标题加粗并着色 */
+
+.custom-callout .callout-title > .callout-icon + div{
+    font-weight: bold;
+    color: rgba(var(--callout-note)); /* 默认颜色 */
+}
+
+.custom-callout.abstract> .callout-title > .callout-icon + div ,
+.custom-callout.summary> .callout-title > .callout-icon + div,
+.custom-callout.tldr> .callout-title > .callout-icon + div{
+    color: rgba(var(--callout-abstract));
+}
+
+.custom-callout.info> .callout-title > .callout-icon + div ,
+.custom-callout.todo> .callout-title > .callout-icon + div{
+    color: rgba(var(--callout-info));
+}
+
+.custom-callout.hint> .callout-title > .callout-icon + div ,
+.custom-callout.important> .callout-title > .callout-icon + div,
+.custom-callout.tip> .callout-title > .callout-icon + div{
+    color: rgba(var(--callout-tip));
+}
+
+.custom-callout.check> .callout-title > .callout-icon + div ,
+.custom-callout.done> .callout-title > .callout-icon + div,
+.custom-callout.success> .callout-title > .callout-icon + div{
+    color: rgba(var(--callout-success));
+}
+
+.custom-callout.question> .callout-title > .callout-icon + div ,
+.custom-callout.faq> .callout-title > .callout-icon + div,
+.custom-callout.help> .callout-title > .callout-icon + div{
+    color: rgba(var(--callout-question));
+}
+
+.custom-callout.attention> .callout-title > .callout-icon + div ,
+.custom-callout.caution> .callout-title > .callout-icon + div,
+.custom-callout.warning> .callout-title > .callout-icon + div{
+    color: rgba(var(--callout-warning));
+}
+
+.custom-callout.fail> .callout-title > .callout-icon + div,
+.custom-callout.failure> .callout-title > .callout-icon + div,
+.custom-callout.missing> .callout-title > .callout-icon + div{
+    color: rgba(var(--callout-failure));
+}
+
+.custom-callout.error> .callout-title > .callout-icon + div ,
+.custom-callout.danger> .callout-title > .callout-icon + div
+{
+    color: rgba(var(--callout-danger));
+}
+
+.custom-callout.bug> .callout-title > .callout-icon + div{
+    color: rgba(var(--callout-bug));
+}
+
+.custom-callout.example> .callout-title > .callout-icon + div{
+    color: rgba(var(--callout-example));
+}
+
+.custom-callout.cite> .callout-title > .callout-icon + div ,
+.custom-callout.quote> .callout-title > .callout-icon + div
+{
+    color: rgba(var(--callout-quote));
+}

@@ -1073,6 +1073,8 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
     - <link rel="stylesheet" href="/css/iconfont.css">
+    - <link rel="stylesheet" href="/css/obsidian.css">
+    # - <link rel="stylesheet" href="/css/callout_blocks.css">
     # - <link rel="stylesheet" href="/css/custom.css">
   bottom:
     # - <script src="xxxx"></script>

@@ -5,6 +5,7 @@ tags: Windows
 categories: 踩坑
 ---
 
+> [!note]
 > 该内容与 Windows 8 (NT 6.2, build 9200) 相关，并非 Windows 8.1 (NT 6.3, build 9600)。  
 
 最近，在折腾 Windows 8 (NT 6.2, build 9200) 系统的续命补丁和 IE 11 的安装，这些整体还是很顺利。  

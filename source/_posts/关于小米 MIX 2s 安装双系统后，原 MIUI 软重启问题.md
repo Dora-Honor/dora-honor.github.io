@@ -2,26 +2,13 @@
 title: 关于小米 MIX 2s 安装双系统后，原 MIUI 软重启问题
 date: 2025-04-15
 updated:
-tags: 踩坑记录
-categories: 踩坑记录
-keywords:
-description:
-top_img:
-comments:
-cover:
-toc:
-toc_number:
-toc_style_simple:
-copyright:
-copyright_author:
-copyright_author_href:
-copyright_url:
-copyright_info:
-mathjax:
-katex:
-aplayer:
-highlight_shrink:
-aside:
+tags:
+  - 踩坑记录
+  - Windows
+  - 经验
+categories:
+  - 踩坑记录
+  - 经验总结
 ---
 
 最近发现一件事，就是刷 Win 双系统后，且在原 MIUI 区装 LSPosed 后会软重启一次，同时 LSPosed 通知会消失。

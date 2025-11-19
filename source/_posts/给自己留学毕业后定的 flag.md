@@ -4,24 +4,6 @@ date: 2025-05-24
 updated:
 tags: 随笔
 categories: 随笔
-keywords:
-description:
-top_img:
-comments:
-cover:
-toc:
-toc_number:
-toc_style_simple:
-copyright:
-copyright_author:
-copyright_author_href:
-copyright_url:
-copyright_info:
-mathjax:
-katex:
-aplayer:
-highlight_shrink:
-aside:
 ---
 
 - 回国就职，**最好能找到和自己专业相关的工作。**

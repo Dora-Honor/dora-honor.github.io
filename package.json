@@ -15,6 +15,7 @@
     "gitalk": "^1.8.0",
     "hexo": "^8.1.1",
     "hexo-deployer-git": "^4.0.0",
+    "hexo-filter-titlebased-link": "^0.2.7",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-index": "^4.0.0",
@@ -22,14 +23,22 @@
     "hexo-generator-seo-friendly-sitemap": "^0.2.1",
     "hexo-generator-tag": "^2.0.0",
     "hexo-renderer-ejs": "^2.0.0",
-    "hexo-renderer-markdown-it": "^7.1.1",
+    "hexo-renderer-markdown-it-plus": "^1.0.6",
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
     "hexo-theme-butterfly": "^5.5.1",
     "hexo-theme-landscape": "^1.1.0",
     "hexo-wordcount": "^6.0.1",
+    "markdown-it-anchor": "^9.2.0",
     "markdown-it-merge-cells": "^2.0.0",
-    "markdown-it-task-checkbox": "^1.0.6"
+    "markdown-it-obsidian-callouts": "^0.3.2",
+    "markdown-it-task-checkbox": "^1.0.6",
+    "markdown-it-task-lists": "^2.1.1",
+    "mdit-plugin-callouts": "^1.2.0"
+  },
+  "devDependencies": {
+    "@mdit/plugin-alert": "^0.22.3",
+    "@mdit/plugin-img-size": "^0.22.3"
   }
 }
