@@ -10,17 +10,8 @@
     
     
     <url>
-        <loc>https://dora-honor.github.io/link/</loc>
-        <lastmod>2025-11-19T18:06:36.031Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
         <loc>https://dora-honor.github.io/tags/</loc>
-        <lastmod>2025-11-19T18:06:36.031Z</lastmod>
+        <lastmod>2025-11-21T09:26:28.545Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -28,8 +19,53 @@
     
     
     <url>
-        <loc>https://dora-honor.github.io/about/</loc>
-        <lastmod>2025-11-19T18:06:35.884Z</lastmod>
+        <loc>https://dora-honor.github.io/live2d-widget/demo/chat.html</loc>
+        <lastmod>2025-11-21T09:26:28.538Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://dora-honor.github.io/live2d-widget/demo/demo.html</loc>
+        <lastmod>2025-11-21T09:26:28.538Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://dora-honor.github.io/live2d-widget/demo/login.html</loc>
+        <lastmod>2025-11-21T09:26:28.538Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://dora-honor.github.io/live2d-widget/README.en.html</loc>
+        <lastmod>2025-11-21T09:26:28.536Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://dora-honor.github.io/live2d-widget/README.html</loc>
+        <lastmod>2025-11-21T09:26:28.536Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://dora-honor.github.io/link/</loc>
+        <lastmod>2025-11-21T09:26:28.535Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -38,16 +74,7 @@
     
     <url>
         <loc>https://dora-honor.github.io/archive/</loc>
-        <lastmod>2025-11-19T18:06:35.884Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://dora-honor.github.io/comments/</loc>
-        <lastmod>2025-11-19T18:06:35.884Z</lastmod>
+        <lastmod>2025-11-21T09:26:28.389Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -56,7 +83,25 @@
     
     <url>
         <loc>https://dora-honor.github.io/categories/</loc>
-        <lastmod>2025-11-19T18:06:35.884Z</lastmod>
+        <lastmod>2025-11-21T09:26:28.389Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://dora-honor.github.io/comments/</loc>
+        <lastmod>2025-11-21T09:26:28.389Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://dora-honor.github.io/about/</loc>
+        <lastmod>2025-11-21T09:26:28.389Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
