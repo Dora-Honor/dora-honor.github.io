@@ -1078,6 +1078,7 @@ inject:
     # - <link rel="stylesheet" href="/css/custom.css">
   bottom:
     # - <script src="xxxx"></script>
+    - <script src="/live2d-widget/dist/autoload.js"></script>
 
 # CDN Settings
 # Don't modify the following settings unless you know how they work
