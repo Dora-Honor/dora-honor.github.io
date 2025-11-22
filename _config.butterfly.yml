@@ -793,8 +793,8 @@ theme_color:
   blockquote_padding_color: "#F8789B"
   blockquote_background_color: "#F8789B"
   scrollbar_color: "#F8789B"
-#   meta_theme_color_light: "ffffff"
-#   meta_theme_color_dark: "#0d0d0d"
+  # meta_theme_color_light: "ffffff"
+  # meta_theme_color_dark: "#0d0d0d"
 
 # The user interface setting of category and tag page
 # Choose: index - same as Homepage UI / default - same as archives UI
