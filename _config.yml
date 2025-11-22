@@ -107,7 +107,7 @@ theme: butterfly
 deploy:
   type: git
   repository: https://github.com/Dora-Honor/dora-honor.github.io
-  branch: main
+  branch: gh-pages
 
 # 修改 Markdown 渲染引擎，详见 https://github.com/CHENXCHEN/hexo-renderer-markdown-it-plus
 markdown_it_plus:
