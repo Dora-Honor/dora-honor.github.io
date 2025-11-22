@@ -50,7 +50,7 @@ code_blocks:
 #   icon: link || the description || color
 social:
   fab fa-github: https://github.com/Dora-Honor || Github || '#24292e'
-  fab fa-git-alt: https://github.com/Dora-Honor/dora-honor.github.io || Source Code || '#f05030'
+  fab fa-git-alt: https://github.com/Dora-Honor/dora-honor.github.io || 源代码 Source Code || '#f05030'
   fas fa-history: https://dora-honor.github.io/mskk-blog || 旧站点 Old Blog Site || '#6e5494'
   fas fa-envelope: mailto:dorahonor@gmail.com || Email || '#4a7dbe'
   fab fa-telegram: https://t.me/dora_honor || Telegram || '#0088cc'
