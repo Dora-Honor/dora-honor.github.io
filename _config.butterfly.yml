@@ -25,8 +25,6 @@ menu:
   友链 Links: /link/ || fas fa-link
   留言板 Comments Board: /comments/ || fas fa-comments
   关于 About: /about/ || fas fa-heart
-  旧站点 Old Site: https://dora-honor.github.io/mskk-blog || fas fa-history
-  源代码 Source Code: https://github.com/Dora-Honor/dora-honor.github.io || fab fa-github
 
 # --------------------------------------
 # Code Blocks Settings
@@ -52,6 +50,8 @@ code_blocks:
 #   icon: link || the description || color
 social:
   fab fa-github: https://github.com/Dora-Honor || Github || '#24292e'
+  fab fa-git-alt: https://github.com/Dora-Honor/dora-honor.github.io || Source Code || '#f05030'
+  fas fa-history: https://dora-honor.github.io/mskk-blog || 旧站点 Old Blog Site || '#6e5494'
   fas fa-envelope: mailto:dorahonor@gmail.com || Email || '#4a7dbe'
   fab fa-telegram: https://t.me/dora_honor || Telegram || '#0088cc'
   fab fa-qq: https://qm.qq.com/q/uSLf4n32JW || QQ || '#12b7f5'
