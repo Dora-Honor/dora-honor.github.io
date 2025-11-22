@@ -1,10 +1,11 @@
 ---
 title: 关于在 Hexo Butterfly 下配置 Gitalk 评论系统的经验总结
-date: 2025-07-09 03:08:47
 tags: GitHub Pages
 categories:
   - 踩坑记录
   - 经验总结
+abbrlink: 609463809
+date: 2025-07-09 03:08:47
 ---
 
 刚开始配置 Gitalk 的时候，虽然对我来说配置并不是什么难事，但因为踩坑而出现评论区不同步的 bug 而放弃了一阵子，属实可惜。

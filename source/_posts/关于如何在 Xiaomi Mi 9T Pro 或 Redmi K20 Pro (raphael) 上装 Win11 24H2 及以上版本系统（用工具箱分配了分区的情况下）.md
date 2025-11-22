@@ -1,7 +1,7 @@
 ---
-title: 关于如何在 Xiaomi Mi 9T Pro / Redmi K20 Pro (raphael) 上重装 Win11 24H2 (26100) 及以上版本系统（用工具箱分配了分区的情况下）
-date: 2025-04-15
-updated:
+title: >-
+  关于如何在 Xiaomi Mi 9T Pro / Redmi K20 Pro (raphael) 上重装 Win11 24H2 (26100)
+  及以上版本系统（用工具箱分配了分区的情况下）
 tags:
   - 踩坑记录
   - Windows
@@ -9,6 +9,9 @@ tags:
 categories:
   - 踩坑记录
   - 经验总结
+abbrlink: 3192632891
+date: 2025-04-15 00:00:00
+updated:
 ---
 
 ## 所需工具

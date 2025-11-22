@@ -1,8 +1,9 @@
 ---
 title: 关于 sunflower2333 大佬的 MIX 2s (polaris) 音频驱动安装和使用问题的总结
-date: 2025-04-22
 tags: 踩坑记录
 categories: 踩坑记录
+abbrlink: 726809956
+date: 2025-04-22 00:00:00
 ---
 
 # [sunflower2333 大佬的 MIX 2s (polaris) 音频驱动](https://github.com/sunflower2333/mix2s_tas2559_2560_win)

@@ -1,8 +1,9 @@
 ---
 title: Hexo + Butterfly 评论系统配置总结
-date: 2025-07-06 15:10:11
 tags: GitHub Pages
 categories: 踩坑记录
+abbrlink: 3365821966
+date: 2025-07-06 15:10:11
 ---
 
 最近在用 Hexo 框架加 Butterfly 主题搭建自己的 GitHub Pages 博客，想给自己的博客加入评论系统。

@@ -1,8 +1,9 @@
 ---
 title: 如何正确给 Windows 8 原版镜像离线安装更新补丁
-date: 2025-07-30 09:44:55
 tags: Windows
 categories: 教程
+abbrlink: 1625272181
+date: 2025-07-30 09:44:55
 ---
 
 > [!caution]

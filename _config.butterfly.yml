@@ -51,8 +51,9 @@ code_blocks:
 social:
   fab fa-github: https://github.com/Dora-Honor || Github || '#24292e'
   fab fa-git-alt: https://github.com/Dora-Honor/dora-honor.github.io || 源代码 Source Code || '#f05030'
-  fas fa-history: https://dora-honor.github.io/mskk-blog || 旧站点 Old Blog Site || '#6e5494'
   fas fa-envelope: mailto:dorahonor@gmail.com || Email || '#4a7dbe'
+  fab fa-google: mailto:dorahonor@gmail.com || Gmail || '#4285f4'
+  fab fa-microsoft: mailto:dorahonor903@outlook.com || Outlook || '#0078d4'
   fab fa-telegram: https://t.me/dora_honor || Telegram || '#0088cc'
   fab fa-qq: https://qm.qq.com/q/uSLf4n32JW || QQ || '#12b7f5'
   fab fa-youtube: https://youtube.com/@dorahonor_mskk || YouTube || '#ff3d00'
@@ -551,7 +552,7 @@ comments:
   # Leave it empty if you don't need comments
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # Format of two comments system : Disqus,Waline
-  use: Waline, Gitalk
+  use: Waline
   # Display the comment name next to the button
   text: true
   # Lazyload: The comment system will be load when comment element enters the browser's viewport.

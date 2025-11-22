@@ -1,8 +1,9 @@
 ---
 title: 关于在 Windows 8 上加载 WofAdk 驱动重启后卡修复的解决方法
-date: 2025-07-26 21:32:11
 tags: Windows
 categories: 踩坑
+abbrlink: 4161271086
+date: 2025-07-26 21:32:11
 ---
 
 > [!note]

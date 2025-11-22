@@ -1,9 +1,10 @@
 ---
 title: 给自己留学毕业后定的 flag
-date: 2025-05-24
-updated:
 tags: 随笔
 categories: 随笔
+abbrlink: 2625151877
+date: 2025-05-24 00:00:00
+updated:
 ---
 
 - 回国就职，**最好能找到和自己专业相关的工作。**
