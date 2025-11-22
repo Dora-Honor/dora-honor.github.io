@@ -38,14 +38,28 @@ jobs:
           npx hexo generate
 
       # 5. 部署到 gh-pages 分支
-      - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v3
+      # 查看 workflow 的文档来获取更多信息
+      # @see https://github.com/crazy-max/ghaction-github-pages
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4
         with:
+          # 部署到 gh-pages 分支
+          target_branch: gh-pages
+          # 部署目录为 VuePress 的默认输出目录
+          build_dir: source/public
+        env:
+          # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
+          GITHUB_TOKEN: ${{ secrets.HEXO_DEPLOY }}
+
+      # 5. 部署到 gh-pages 分支
+      # - name: Deploy to gh-pages
+        # uses: peaceiris/actions-gh-pages@v3
+        # with:
           # 使用之前保存在 Secrets 中的 PERSONAL_TOKEN
-          personal_token: ${{ secrets.HEXO_DEPLOY }}
+          # personal_token: ${{ secrets.HEXO_DEPLOY }}
           # 静态文件的路径，对应 Hexo 生成的 public 文件夹
-          publish_dir: ./source/public
+          # publish_dir: ./source/public
           # 指定要推送到的目标分支
-          publish_branch: gh-pages
+          # publish_branch: gh-pages
           # 可选：为本次部署提交一个清晰的注释
-          commit_message: ${{ github.event.head_commit.message }} - Automated deployment via GitHub Actions
+          # commit_message: ${{ github.event.head_commit.message }} - Automated deployment via GitHub Actions
