@@ -4,7 +4,7 @@
     - name: Hexo 
       link: https://hexo.io/zh-cn/
       avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
-      descr: 快速、简单且强大的网页框架 A fast, simple & powerful blog framework
+      descr: 快速、简单且强大的网页框架
       siteshot: https://source.fomal.cc/siteshot/hexo.io.jpg
     - name: Hexo-theme-butterfly
       link: https://butterfly.js.org/
@@ -13,4 +13,16 @@
     - name: GitHub, GitHub Pages
       link: https://github.com/
       avatar: https://raw.githubusercontent.com/Dora-Honor/mskk-blog/23032661ec37d5c643e4c852936ce2921ea46d18/Images/background/github-mark.svg
-      descr: 全球最大的代码托管站 The world’s biggest code hosting site
+      descr: 全球最大的代码托管站
+
+- class_name: 我的其他项目
+  class_desc: My Other Projects
+  link_list:
+    - name: 旧站点
+      link: https://dora-honor.github.io/mskk-blog/
+      avatar: https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/favicon.ico
+      descr: 使用 docsify 搭建的旧站点
+    - name: leadership-kcgi
+      link: https://dora-honor.github.io/leadership-kcgi/
+      avatar: https://raw.githubusercontent.com/Dora-Honor/mskk-blog/23032661ec37d5c643e4c852936ce2921ea46d18/Images/background/github-mark.svg
+      descr: leadership-kcgi 项目主页（日语）
