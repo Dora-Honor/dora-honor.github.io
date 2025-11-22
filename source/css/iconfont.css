@@ -301,3 +301,11 @@ a.categoryBar-list-link {
          url("../fonts/MiSans-Demibold.woff2") format("woff2"),
          url("../fonts/MiSans-Demibold.woff") format("woff");
 }
+
+@font-face {
+    font-family: 'HYWenHei 85W';
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/SDK_SC_Web.ttf") format("truetype");
+}
