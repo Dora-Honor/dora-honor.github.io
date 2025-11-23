@@ -143,3 +143,9 @@ markdown_it_plus:
 abbrlink:
   alg: crc32
   rep: dec
+
+# hexo sitemap config
+sitemap:
+    path: sitemap.xml
+    tag: false
+    category: false
