@@ -105,7 +105,9 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
+- type: cjh_google_url_submitter
+- type: cjh_bing_url_submitter
+- type: git
   repository: https://github.com/Dora-Honor/dora-honor.github.io
   branch: gh-pages
 
@@ -149,3 +151,27 @@ sitemap:
     path: sitemap.xml
     tag: false
     category: false
+
+# SEO settings
+hexo-seo-submit:
+  CI:
+    enable: true
+  baidu:
+    enable: false
+  google:
+    enable: true
+  bing:
+    enable: true
+
+# plugins
+plugins:
+  - hexo-generator-feed
+
+feed: 
+  type: atom
+  path: atom.xml
+  limit: 20
+
+nofollow:
+  enable: true
+  field: site # Apply to the whole site

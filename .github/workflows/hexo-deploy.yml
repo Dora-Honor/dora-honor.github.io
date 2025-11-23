@@ -50,6 +50,9 @@ jobs:
         env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.HEXO_DEPLOY }}
+          BING_TOKEN: ${{ secrets.BING_TOKEN }}
+          GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
+          GOOGLE_CLIENT_EMAIL: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
 
       # 5. 部署到 gh-pages 分支
       # - name: Deploy to gh-pages
