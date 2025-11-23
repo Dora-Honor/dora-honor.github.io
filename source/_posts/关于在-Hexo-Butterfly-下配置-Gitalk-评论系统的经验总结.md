@@ -20,6 +20,6 @@ date: 2025-07-09 03:08:47
 
 执行以下命令，删除 `hexo-plugin-talk` 插件。
 
-``` Git Bash
+``` Bash
 npm uninstall hexo-plugin-gitalk
 ```

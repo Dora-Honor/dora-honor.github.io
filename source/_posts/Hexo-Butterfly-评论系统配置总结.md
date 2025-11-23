@@ -16,7 +16,7 @@ date: 2025-07-06 15:10:11
 
 - 报错。
 
-``` Git Bash
+``` Bash
 FATAL Something's wrong. Maybe you can find the solution here: https://hexo.io/docs/troubleshooting.html
 TypeError: Cannot read properties of undefined (reading 'gitalk')
     at Hexo.<anonymous> (D:\Documents\hexo-blog-butterfly\node_modules\hexo-plugin-gitalk\index.js:2:41)
