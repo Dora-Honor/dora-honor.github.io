@@ -13,7 +13,9 @@ date: 2025-11-25 23:25:39
 
 博客从今年 6 月份建立至今，已经有 5 个多月了。在给博客折腾，优化得更好、更有个性的这段时间，我发现我有了不少收获。
 
-不只是熟悉了注册 [GitHub] 在上面发布自己的项目，还熟悉了非常好用的 [VS Code](https://github.com/microsoft/vscode)[^1] 代码编辑器，以及如何用 [Git](https://git-scm.com/) 远程管理 [GitHub] 项目仓库、Markdown 扩展语法、部分 HTML/CSS 语法。
+不只是熟悉了注册 [GitHub] 在上面发布自己的项目，还熟悉了非常好用的 [VS Code](https://github.com/microsoft/vscode)[^1] 代码编辑器，以及如何用 [Git] 远程管理 [GitHub] 项目仓库、Markdown 扩展语法、部分 HTML/CSS 语法。
+
+[Git]: https://git-scm.com/
 
 [^1]: 全称 Visual Studio Code，和 Visual Studio 并非一类软件。
 
