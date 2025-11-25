@@ -13,13 +13,13 @@ date: 2025-11-25 23:25:39
 
 博客从今年 6 月份建立至今，已经有 5 个多月了。在给博客折腾，优化得更好、更有个性的这段时间，我发现我有了不少收获。
 
-不只是熟悉了注册 GitHub 在上面发布自己的项目，还熟悉了非常好用的 [VS Code](https://github.com/microsoft/vscode)[^1] 代码编辑器，以及如何用 [Git](https://git-scm.com/) 远程管理 [GitHub] 项目仓库、Markdown 扩展语法、部分 HTML/CSS 语法。
+不只是熟悉了注册 [GitHub] 在上面发布自己的项目，还熟悉了非常好用的 [VS Code](https://github.com/microsoft/vscode)[^1] 代码编辑器，以及如何用 [Git](https://git-scm.com/) 远程管理 [GitHub] 项目仓库、Markdown 扩展语法、部分 HTML/CSS 语法。
 
 [^1]: 全称 Visual Studio Code，和 Visual Studio 并非一类软件。
 
 ## 为什么要建立自己的博客？
 
-平常在用 [Google]、[Bing] 搜索引擎查资料、解决问题的方法时，总能发现不少博主有自己的博客网页，他们的网页都做得很华丽，而且在 GitHub 托管项目和在 GitHub Pages 部署静态网页很方便。我就在想「**如果我也能有自己的博客就好了**」，于是就有了自己折腾博客的想法。
+平常在用 [Google]、[Bing] 搜索引擎查资料、解决问题的方法时，总能发现不少博主有自己的博客网页，他们的网页都做得很华丽，而且在 [GitHub] 托管项目和在 GitHub Pages 部署静态网页很方便。我就在想「**如果我也能有自己的博客就好了**」，于是就有了自己折腾博客的想法。
 
 **自己有自己的博客感觉很酷**。能自己写博文和管理博客，再加上能折腾变得更有个性，想想就很开心！
 
@@ -46,8 +46,8 @@ date: 2025-11-25 23:25:39
 ### 依赖组件和标记语言
 
 - **Node.js 和 NPM、PNPM、Yarn 等包管理器**：[Hexo] 博客的搭建、测试、页面生成离不开这些依赖组件。简单了解了如何通过对应命令安装、更新、卸载组件。
-- **Git**：管理 GitHub 仓库**必不可少**的依赖。有了这个组件，对于管理在 GitHub 上托管的项目很方便，结合 [VS Code](https://github.com/microsoft/vscode)[^1] 的图形界面则更加方便。同时，Git 还自带了 Bash 终端，对我来说比 CMD 更舒服。
-- **VS Code**：非常好用的代码编辑器，不止支持 Markdown、YAML、HTML、CSS、JavaScript 等常见语法，还带了 Git 和终端功能，且可以更改默认终端（我就改成了 Git Bash）和打开文件夹，用起来更方便，不用频繁切窗口。
+- **Git**：管理 [GitHub] 仓库**必不可少**的依赖。有了这个组件，对于管理在 [GitHub] 上托管的项目很方便，结合 [VS Code](https://github.com/microsoft/vscode)[^1] 的图形界面则更加方便。同时，Git 还自带了 Bash 终端，对我来说比 CMD 更舒服。
+- **[VS Code](https://github.com/microsoft/vscode)[^1]**：非常好用的代码编辑器，不止支持 Markdown、YAML、HTML、CSS、JavaScript 等常见语法，还带了 Git 和终端功能，且可以更改默认终端（我就改成了 Git Bash）和打开文件夹，用起来更方便，不用频繁切窗口。
 - **Markdown**：上手速度极快的标记语法。只要几分钟就能轻松上手，且可读性强。
 - **HTML**：在之前部署 [docsify](https://docsify.js.org/)[^2] 加组件的时候，我又学到了一些 HTML 语法，以及 HTML 存在许多起始和结束标签，和引入 CSS、JavaScript 样式。
 - **CSS/JavaScript**：在 [Hexo] 的 [Butterfly] 主题和 [docsify](https://docsify.js.org/) 修改字体和自定义样式、插件的时候，这俩必不可少。
