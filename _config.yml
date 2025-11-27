@@ -7,6 +7,13 @@ title: mskk 的个人博客
 subtitle: 大家我都喜欢哦
 description: Everyone I like
 keywords:
+  - mskk
+  - Dora Honor
+  - 博客
+  - 部落格
+  - blog
+  - Hexo
+  - Butterfly
 author: Dora Honor
 language: zh-CN
 timezone: ''
@@ -24,7 +31,7 @@ pretty_urls:
 source_dir: source
 public_dir: public
 tag_dir: tags
-archive_dir: archives
+archive_dir: archive
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
