@@ -182,3 +182,8 @@ feed:
 nofollow:
   enable: true
   field: site # Apply to the whole site
+
+algolia:
+  applicationID: 'CGDOXH8ER1'
+  apiKey: '47971ae24f203f2bc1d64fab58739195'
+  indexName: 'mskk’s blog'

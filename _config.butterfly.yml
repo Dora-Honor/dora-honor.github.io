@@ -498,7 +498,7 @@ math:
 search:
   # Choose: algolia_search / local_search / docsearch
   # leave it empty if you don't need search
-  use: local_search
+  use: algolia_search
   placeholder: 搜索文章 Search articles
 
   # Algolia Search
