@@ -45,6 +45,6 @@
   },
   "devDependencies": {
     "@mdit/plugin-alert": "^0.22.3",
-    "@mdit/plugin-img-size": "^0.22.3"
+    "@mdit/plugin-img-size": "^0.22.4"
   }
 }
