@@ -23,6 +23,7 @@
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-feed": "^3.0.0",
     "hexo-generator-index": "^4.0.0",
+    "hexo-generator-search": "^2.4.3",
     "hexo-generator-searchdb": "^1.5.0",
     "hexo-generator-seo-friendly-sitemap": "^0.2.1",
     "hexo-generator-sitemap": "^3.0.1",

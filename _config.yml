@@ -183,6 +183,12 @@ nofollow:
   enable: true
   field: site # Apply to the whole site
 
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
 algolia:
   applicationID: 'CGDOXH8ER1'
   apiKey: '47971ae24f203f2bc1d64fab58739195'
