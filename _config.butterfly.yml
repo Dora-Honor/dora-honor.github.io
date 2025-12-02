@@ -536,7 +536,7 @@ share:
   # Share.js
   # https://github.com/overtrue/share.js
   sharejs:
-    sites: facebook,twitter,wechat,weibo,qq
+    sites: facebook,twitter,wechat,weibo,qq,qzone,linkedin
 
   # AddToAny
   # https://www.addtoany.com/
