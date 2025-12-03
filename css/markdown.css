@@ -1,0 +1,24 @@
+.tips {
+  padding-left: 10px;
+  background-color: #bae2fc;
+  border-left: 4px solid #3498db;
+  color: #185d8a;
+}
+.success {
+  padding-left: 10px;
+  background-color: #caffe7;
+  border-left: 4px solid #42b983;
+  color: #286f4f;
+}
+.warning {
+  padding-left: 10px;
+  background-color: #fff7d0;
+  border-left: 4px solid #e7c000;
+  color: #8b7300;
+}
+.danger {
+  padding-left: 10px;
+  background-color: #ffe6e6;
+  border-left: 4px solid #c00;
+  color: #7a0000;
+}

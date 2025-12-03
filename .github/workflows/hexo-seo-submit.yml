@@ -1,0 +1,55 @@
+name: Hexo Seo Submit
+on:
+  schedule:
+    - cron: 0 4 * * *
+  push:
+    branches:
+      - master
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+      - uses: actions/setup-node@main
+        with:
+          node-version: latest
+
+      - name: check owner
+        id: check_owner
+        run: |
+          OWNER_TYPE=$(jq -r '.repository.owner.type' "$GITHUB_EVENT_PATH")
+          OWNER_ID=$(jq -r '.repository.owner.id' "$GITHUB_EVENT_PATH")
+          SENDER_ID=$(jq -r '.sender.id' "$GITHUB_EVENT_PATH")
+
+          if [ "$OWNER_TYPE" = "User" ] && [ "$OWNER_ID" -eq "$SENDER_ID" ]; then
+            echo "is_owner=true" >> $GITHUB_ENV
+          elif [ "$OWNER_TYPE" = "Organization" ]; then
+            echo "is_owner=true" >> $GITHUB_ENV
+          else
+            echo "is_owner=false" >> $GITHUB_ENV
+          fi
+        env:
+          GITHUB_EVENT_PATH: ${{ github.event_path }}
+
+      - name: install dependencies
+        run: |
+          npm init -y
+          npm install hexo-seo-submit
+
+
+      - name: push search engine bing
+        if: env.is_owner
+        continue-on-error: true
+        run: |
+          npx hexo-seo-submit@1.8.0 bing -k ${{ secrets.bing_apikey }} -f bing.json
+
+      - name: push search engine google
+        if: env.is_owner
+        continue-on-error: true
+        run: |
+          npx hexo-seo-submit@1.8.0 google -f google.txt -m ${{ secrets.google_client_email }} -k "${{ secrets.google_private_key }}"

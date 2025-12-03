@@ -1,0 +1,311 @@
+/* @import 'alert.css'; */
+
+/* @import 'callout_block.css'; */
+
+/* @import 'obsidian.css'; */
+
+@font-face {
+  font-family: "iconfont"; /* Project id 4964552 */
+  src: url('//at.alicdn.com/t/c/font_4964552_cgk784zs58s.woff2?t=1752363368520') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4964552_cgk784zs58s.woff?t=1752363368520') format('woff'),
+       url('//at.alicdn.com/t/c/font_4964552_cgk784zs58s.ttf?t=1752363368520') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 22px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-spotify:before {
+  content: "\ebf4";
+}
+
+.icon-itunes:before {
+  content: "\e7bb";
+}
+
+.icon-netease-cloud-music:before {
+  content: "\e600";
+}
+
+.icon-coolapk:before {
+  content: "\e607";
+}
+
+.icon-xiaohongshu:before {
+  content: "\e657";
+}
+
+.icon-github:before {
+  content: "\e60f";
+}
+
+.icon-facebook:before {
+  content: "\e60e";
+}
+
+.icon-zhihu:before {
+  content: "\e60d";
+}
+
+.icon-hoyolab:before {
+  content: "\e60b";
+}
+
+.icon-instagram:before {
+  content: "\e609";
+}
+
+.icon-bilibili:before {
+  content: "\e608";
+}
+
+.icon-bluesky:before {
+  content: "\e601";
+}
+
+.icon-x:before {
+  content: "\e602";
+}
+
+.icon-youtube:before {
+  content: "\e603";
+}
+
+.icon-threads:before {
+  content: "\e604";
+}
+
+.icon-weibo:before {
+  content: "\e606";
+}
+
+/* 页脚与头图透明 */
+#footer {
+  background: transparent !important;
+  text-shadow: #0000001a 1px 0 0, #000000 0 1px 0, #000000 -1px 0 0, #00000000 0 -1px 0
+}
+#page-header {
+  background: transparent !important;
+  text-shadow: #0000001a 1px 0 0, #000000 0 1px 0, #000000 -1px 0 0, #00000000 0 -1px 0
+}
+
+/* 白天模式遮罩透明 */
+#footer::before {
+  background: transparent !important;
+  text-shadow: #0000001a 1px 0 0, #000000 0 1px 0, #000000 -1px 0 0, #00000000 0 -1px 0
+}
+#page-header::before {
+  background: transparent !important;
+  text-shadow: #0000001a 1px 0 0, #000000 0 1px 0, #000000 -1px 0 0, #00000000 0 -1px 0
+}
+
+/* 夜间模式遮罩透明 */
+[data-theme="dark"] #footer::before {
+  background: transparent !important;
+}
+[data-theme="dark"] #page-header::before {
+  background: transparent !important;
+}
+
+:root {
+  --trans-light: rgba(255, 255, 255, 0.75);
+  --trans-dark: rgba(25, 25, 25, 0.75);
+  --border-style: 1px solid rgb(169, 169, 169);
+  /* --backdrop-filter: blur(5px) saturate(150%); */
+  --card-bg: rgba(255, 255, 255, .75);
+}
+
+/* 首页文章卡片 */
+#recent-posts > .recent-post-item {
+  background: var(--trans-light);
+  /* backdrop-filter: var(--backdrop-filter); */
+  border-radius: 25px;
+  border: var(--border-style);
+}
+
+/* 首页侧栏卡片 */
+#aside-content .card-widget {
+  background: var(--trans-light);
+  /* backdrop-filter: var(--backdrop-filter); */
+  border-radius: 18px;
+  border: var(--border-style);
+}
+
+/* 文章页、归档页、普通页面 */
+div#post,
+div#page,
+div#archive {
+  background: var(--trans-light);
+  /* backdrop-filter: var(--backdrop-filter); */
+  border: var(--border-style);
+  border-radius: 20px;
+}
+
+/* 导航栏 */
+#page-header.nav-fixed #nav {
+  background: rgba(255, 255, 255, 0.75);
+  /* backdrop-filter: var(--backdrop-filter); */
+}
+
+[data-theme="dark"] #page-header.nav-fixed #nav {
+  background: rgba(0, 0, 0, 0.75) !important;
+}
+
+/* 夜间模式遮罩 */
+[data-theme="dark"] #recent-posts > .recent-post-item,
+[data-theme="dark"] #aside-content .card-widget,
+[data-theme="dark"] div#post,
+[data-theme="dark"] div#archive,
+[data-theme="dark"] div#page {
+  background: var(--trans-dark);
+}
+
+/* 夜间模式页脚页头遮罩透明 */
+[data-theme="dark"] #footer::before {
+  background: transparent !important;
+}
+[data-theme="dark"] #page-header::before {
+  background: transparent !important;
+}
+
+/* 阅读模式 */
+.read-mode #aside-content .card-widget {
+  background: rgba(158, 204, 171, 0.5) !important;
+}
+.read-mode div#post {
+  background: rgba(158, 204, 171, 0.5) !important;
+}
+
+/* 夜间模式下的阅读模式 */
+[data-theme="dark"] .read-mode #aside-content .card-widget {
+  background: rgba(25, 25, 25, 0.75) !important;
+  color: #ffffff;
+}
+[data-theme="dark"] .read-mode div#post {
+  background: rgba(25, 25, 25, 0.75) !important;
+  color: #ffffff;
+}
+
+[data-theme='dark'] {
+  --card-bg: rgba(25, 25, 25, .75);
+}
+
+a.categoryBar-list-link {
+  text-shadow: #0000001a 1px 0 0, #000000 0 1px 0, #000000 -1px 0 0, #00000000 0 -1px 0;
+}
+
+/* [data-theme="light"] #web_bg {
+  opacity: 0.8;
+} */
+
+/* :root {
+  --card-bg: rgba(255, 255, 255, .75);
+}
+  
+[data-theme='dark'] {
+  --card-bg: #2F3437;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+SC:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+HK:wght@200..900&family=Noto+Serif+JP:wght@200..900&family=Noto+Serif+KR:wght@200..900&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif+TC:wght@200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 100;
+    font-style: normal;
+    src: local("MiSans-Thin"),
+         url("../fonts/MiSans-Thin.woff2") format("woff2"),
+         url("../fonts/MiSans-Thin.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 200;
+    font-style: normal;
+    src: local("MiSans-ExtraLight"),
+         url("../fonts/MiSans-ExtraLight.woff2") format("woff2"),
+         url("../fonts/MiSans-ExtraLight.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 300;
+    font-style: normal;
+    src: local("MiSans-Light"),
+         url("../fonts/MiSans-Light.woff2") format("woff2"),
+         url("../fonts/MiSans-Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+    src: local("MiSans-Normal"), local("MiSans"),
+         url("../fonts/MiSans-Normal.woff2") format("woff2"),
+         url("../fonts/MiSans-Normal.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+    src: local("MiSans-Medium"),
+         url("../fonts/MiSans-Medium.woff2") format("woff2"),
+         url("../fonts/MiSans-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 600;
+    font-style: normal;
+    src: local("MiSans-SemiBold"),
+         url("../fonts/MiSans-SemiBold.woff2") format("woff2"),
+         url("../fonts/MiSans-SemiBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+    src: local("MiSans-Bold"),
+         url("../fonts/MiSans-Bold.woff2") format("woff2"),
+         url("../fonts/MiSans-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 800;
+    font-style: normal;
+    src: local("MiSans-Heavy"),
+         url("../fonts/MiSans-Heavy.woff2") format("woff2"),
+         url("../fonts/MiSans-Heavy.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 900;
+    font-style: normal;
+    src: local("MiSans-Demibold"),
+         url("../fonts/MiSans-Demibold.woff2") format("woff2"),
+         url("../fonts/MiSans-Demibold.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'HYWenHei 85W';
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/SDK_SC_Web.ttf") format("truetype");
+}
