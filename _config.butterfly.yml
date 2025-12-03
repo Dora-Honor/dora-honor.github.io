@@ -509,11 +509,11 @@ rightside_scroll_percent: true
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
 # Don't repeat the same value
 rightside_item_order:
-  enable: false
+  enable: true
   # Default: readmode,translate,darkmode,hideAside
-  hide:
+  hide: readmode,darkmode,hideAside
   # Default: toc,chat,comment
-  show:
+  show: toc,translate,chat,comment
 
 # Animation for the bottom right config button
 rightside_config_animation: true
