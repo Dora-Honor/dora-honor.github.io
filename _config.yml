@@ -16,7 +16,7 @@ keywords:
   - Butterfly
 author: Dora Honor
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -100,9 +100,13 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include:
+include: []
 exclude:
-ignore:
+  - googleee2249751ec6188b.html
+  - BingSiteAuth.xml
+  - README.md
+  - README_ZH.md
+ignore: []
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/

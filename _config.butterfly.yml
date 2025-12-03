@@ -134,7 +134,7 @@ error_img:
 # A simple 404 page
 error_404:
   enable: true
-  subtitle: '找不到页面了！The page is missing!'
+  subtitle: "找不到页面了！The page is missing!"
   background: /img/error-page.png
 
 post_meta:
@@ -365,7 +365,7 @@ aside:
     # The title shows the series name
     series_title: false
     # Order by title or date
-    orderBy: 'date'
+    orderBy: "date"
     # Sort of order. 1, asc for ascending; -1, desc for descending
     order: -1
   card_webinfo:
@@ -395,9 +395,9 @@ translate:
   # Time delay
   translateDelay: 0
   # The text of the button when the language is Simplified Chinese
-  msgToTraditionalChinese: '繁'
+  msgToTraditionalChinese: "繁"
   # The text of the button when the language is Traditional Chinese
-  msgToSimplifiedChinese: '簡'
+  msgToSimplifiedChinese: "簡"
 
 # Read Mode
 readmode: true
@@ -590,7 +590,7 @@ gitalk:
   repo: dora-honor.github.io
   owner: Dora-Honor
   admin: Dora-Honor
-  option: 
+  option:
 
 # Valine
 # https://valine.js.org
@@ -613,7 +613,7 @@ waline:
   # Use Waline pageview count as the page view count
   pageview: false
   option:
-    requiredMeta: ['nick', 'mail']
+    requiredMeta: ["nick", "mail"]
     reaction: true
     locale:
       placeholder: 说点什么吧（昵称和邮箱为必填项。为了你能及时收到相关回复的邮件通知，请确保邮箱的正确性！）
@@ -837,7 +837,7 @@ beautify:
   # Specify the icon to be used as a prefix for the title, such as '\f0c1'
   title_prefix_icon:
   # Specify the color of the title prefix icon, such as '#F47466'
-  title_prefix_icon_color: '#000000'
+  title_prefix_icon_color: "#000000"
 
 # Global font settings
 # Don't modify the following settings unless you know how they work
@@ -893,7 +893,7 @@ canvas_fluttering_ribbon:
 canvas_nest:
   enable: false
   # Color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
-  color: '0,0,255'
+  color: "0,0,255"
   # The opacity of line (0~1)
   opacity: 0.7
   # The z-index property of the background
@@ -942,7 +942,7 @@ lightbox: fancybox
 series:
   enable: false
   # Order by title or date
-  orderBy: 'title'
+  orderBy: "title"
   # Sort of order. 1, asc for ascending; -1, desc for descending
   order: 1
   number: true
@@ -972,16 +972,16 @@ chartjs:
   # The default settings are only used when the MD syntax is not specified.
   # General font color for the chart
   fontColor:
-    light: 'rgba(0, 0, 0, 0.8)'
-    dark: 'rgba(255, 255, 255, 0.8)'
+    light: "rgba(0, 0, 0, 0.8)"
+    dark: "rgba(255, 255, 255, 0.8)"
   # General border color for the chart
   borderColor:
-    light: 'rgba(0, 0, 0, 0.1)'
-    dark: 'rgba(255, 255, 255, 0.2)'
+    light: "rgba(0, 0, 0, 0.1)"
+    dark: "rgba(255, 255, 255, 0.2)"
   # Background color for scale labels on radar and polar area charts
   scale_ticks_backdropColor:
-    light: 'transparent'
-    dark: 'transparent'
+    light: "transparent"
+    dark: "transparent"
 
 # Note - Bootstrap Callout
 note:
@@ -1020,8 +1020,8 @@ snackbar:
   enable: true
   position: bottom-left
   # The background color of Toast Notification in light mode and dark mode
-  bg_light: '#F8789B'
-  bg_dark: '#1f1f1f'
+  bg_light: "#F8789B"
+  bg_dark: "#1f1f1f"
 
 # Instant.page
 # https://instant.page/
