@@ -293,80 +293,83 @@ footer:
               url: /tags/
             - title: 分类
               url: /categories/
+            - title: 友链
+              url: /link/
             - title: 留言板
               url: /comments/
             - title: 关于
               url: /about/
     - content:
-      - title: 我的其他项目
-        item:
-          - title: docsify 旧站点
-            url: https://dora-honor.github.io/mskk-blog
-          - title: 领导力项目（日语）
-            url: https://dora-honor.github.io/leadership-kcgi
+        - title: 其他项目
+          item:
+            - title: docsify 旧站点
+              url: https://dora-honor.github.io/mskk-blog
+            - title: 领导力项目（日语）
+              url: https://dora-honor.github.io/leadership-kcgi
+            - title: VPTH 博客站点
+              url: https://dora-honor.github.io/mskk-vpth-blog/
+            - title: VPTH 文档站点
+              url: https://dora-honor.github.io/mskk-vpth-docs/
     - content:
-      - title: 联系方式
-        item:
-          - title: Gmail
-            url: mailto:dorahonor@gmail.com
-          - title: Outlook
-            url: mailto:dorahonor903@outlook.com
-          - title: Telegram
-            url: https://t.me/dora_honor
-          - title: QQ
-            url: https://qm.qq.com/q/uSLf4n32JW
+        - title: 联系方式
+          item:
+            - title: Gmail
+              url: mailto:dorahonor@gmail.com
+            - title: Outlook
+              url: mailto:dorahonor903@outlook.com
+            - title: Telegram
+              url: https://t.me/dora_honor
+            - title: QQ
+              url: https://qm.qq.com/q/uSLf4n32JW
     - content:
-      - title: SNS
-        item:
-          - title: 知乎
-            url: https://www.zhihu.com/people/dorahonor
-          - title: 小红书
-            url: https://www.xiaohongshu.com/user/profile/63b56120000000002702a843
-          - title: 酷安
-            url: http://www.coolapk.com/u/1744954
-          - title: 微博
-            url: https://weibo.com/u/5635501226
-          - title: X (Twitter)
-            url: https://x.com/dora_honor
-          - title: Bluesky
-            url: https://bsky.app/profile/dora-honor.bsky.social
-          - title: Threads
-            url: https://threads.net/@dora_honor
-          - title: Instagram
-            url: https://instagram.com/dora_honor
-          - title: Facebook
-            url: https://www.facebook.com/dora.honor.944
+        - title: SNS
+          item:
+            - title: 知乎
+              url: https://www.zhihu.com/people/dorahonor
+            - title: 小红书
+              url: https://www.xiaohongshu.com/user/profile/63b56120000000002702a843
+            - title: 酷安
+              url: http://www.coolapk.com/u/1744954
+            - title: 微博
+              url: https://weibo.com/u/5635501226
+            - title: X (Twitter)
+              url: https://x.com/dora_honor
+            - title: Bluesky
+              url: https://bsky.app/profile/dora-honor.bsky.social
+            - title: Threads
+              url: https://threads.net/@dora_honor
+            - title: Instagram
+              url: https://instagram.com/dora_honor
+            - title: Facebook
+              url: https://www.facebook.com/dora.honor.944
     - content:
-      - title: 流媒体平台
-        item:
-          - title: 哔哩哔哩
-            url: https://space.bilibili.com/68026760
-          - title: YouTube
-            url: https://youtube.com/@dorahonor_mskk
-          - title: Spotify
-            url: https://open.spotify.com/user/31tnk5f4als6u4r7kcg2mj2dqq4a
-          - title: 网易云音乐
-            url: https://music.163.com/#/user/home?id=436313178
+        - title: 流媒体、米游
+          item:
+            - title: 哔哩哔哩
+              url: https://space.bilibili.com/68026760
+            - title: YouTube
+              url: https://youtube.com/@dorahonor_mskk
+            - title: Spotify
+              url: https://open.spotify.com/user/31tnk5f4als6u4r7kcg2mj2dqq4a
+            - title: 网易云音乐
+              url: https://music.163.com/#/user/home?id=436313178
+            - title: 米游社
+              url: https://www.miyoushe.com/ys/accountCenter/postList?id=295708491
+            - title: HoYoLAB
+              url: https://hoyolab.com/accountCenter/postList?id=300847631
     - content:
-      - title: 米游社 & HoYoLAB
-        item:
-          - title: 米游社
-            url: https://www.miyoushe.com/ys/accountCenter/postList?id=295708491
-          - title: HoYoLAB
-            url: https://hoyolab.com/accountCenter/postList?id=300847631
-    - content:
-      - title: 其他
-        item:
-          - title: Hexo
-            url: https://hexo.io/
-          - title: Butterfly 主题
-            url: https://butterfly.js.org/
-          - title: 源代码
-            url: https://github.com/Dora-Honor/dora-honor.github.io
-          - title: GitHub
-            url: https://github.com/Dora-Honor
-          - title: Gitee
-            url: https://gitee.com/Dora-Honor
+        - title: 模板和源码
+          item:
+            - title: Hexo
+              url: https://hexo.io/
+            - title: Butterfly 主题
+              url: https://butterfly.js.org/
+            - title: 源代码
+              url: https://github.com/Dora-Honor/dora-honor.github.io
+            - title: GitHub
+              url: https://github.com/Dora-Honor
+            - title: Gitee
+              url: https://gitee.com/Dora-Honor
   owner:
     enable: true
     since: 2025
