@@ -303,9 +303,10 @@ a.categoryBar-list-link {
 }
 
 @font-face {
-    font-family: 'HYWenHei 85W';
+    font-family: "HYWenHei 85W";
     font-display: swap;
     font-weight: normal;
     font-style: normal;
-    src: url("../fonts/SDK_SC_Web.ttf") format("truetype");
+    src: url("../fonts/SDK_SC_Web.woff2") format("woff2"),
+         url("../fonts/SDK_SC_Web.woff") format("woff");
 }
