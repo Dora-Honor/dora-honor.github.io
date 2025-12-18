@@ -35,7 +35,7 @@ function loadExternalResource(url, type) {
 (async () => {
   // If you are concerned about display issues on mobile devices, you can use screen.width to determine whether to load
   // 如果担心手机上显示效果不佳，可以根据屏幕宽度来判断是否加载
-  // if (screen.width < 768) return;
+  if (screen.width < 768) return;
 
   // Avoid cross-origin issues with image resources
   // 避免图片资源跨域问题
@@ -61,7 +61,7 @@ function loadExternalResource(url, type) {
     cubism5Path: 'https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js',
     tools: ['hitokoto', 'asteroids', 'switch-model', 'switch-texture', 'photo', 'info', 'quit'],
     logLevel: 'warn',
-    drag: false,
+    drag: true,
   });
 })();
 
