@@ -705,7 +705,7 @@ valine:
 # Waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: https://darling-pixie-2320de.netlify.app/.netlify/functions/comment
+  serverURL: https://waline.dorahonor.me/.netlify/functions/comment
   bg: /img/background/citlali.webp
   # Use Waline pageview count as the page view count
   pageview: false
