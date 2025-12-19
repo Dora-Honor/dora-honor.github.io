@@ -50,6 +50,7 @@ code_blocks:
 #   icon: link || the description || color
 social:
   fab fa-github: https://github.com/Dora-Honor || Github || '#24292e'
+  fas fa-rss: /atom.xml || RSS || '#ff6600'
   # fab fa-git-alt: https://github.com/Dora-Honor/dora-honor.github.io || 源代码 Source Code || '#f05030'
   fas fa-envelope: mailto:dorahonor903@163.com || Email || '#4a7dbe'
   fab fa-google: mailto:dorahonor@gmail.com || Gmail || '#4285f4'
@@ -304,13 +305,15 @@ footer:
         - title: 其他项目
           item:
             - title: docsify 旧站点
-              url: https://dora-honor.github.io/mskk-blog
+              url: https://docsify.dorahonor.me
             - title: 领导力项目（日语）
-              url: https://dora-honor.github.io/leadership-kcgi
+              url: https://leadership.dorahonor.me
             - title: VPTH 博客站点
-              url: https://dora-honor.github.io/mskk-vpth-blog/
+              url: https://vpthblog.dorahonor.me
             - title: VPTH 文档站点
-              url: https://dora-honor.github.io/mskk-vpth-docs/
+              url: https://vpthdocs.dorahonor.me
+            - title: Hexo NexT 主题站点
+              url: https://hexonext.dorahonor.me
     - content:
         - title: 联系方式
           item:
@@ -344,7 +347,7 @@ footer:
             - title: Facebook
               url: https://www.facebook.com/dora.honor.944
     - content:
-        - title: 流媒体、米游
+        - title: 流媒体、游戏、RSS
           item:
             - title: 哔哩哔哩
               url: https://space.bilibili.com/68026760
@@ -360,6 +363,8 @@ footer:
               url: https://www.miyoushe.com/ys/accountCenter/postList?id=295708491
             - title: HoYoLAB
               url: https://hoyolab.com/accountCenter/postList?id=300847631
+            - title: RSS 订阅
+              url: /atom.xml
     - content:
         - title: 模板和源码
           item:
