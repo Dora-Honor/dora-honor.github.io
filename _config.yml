@@ -40,6 +40,9 @@ skip_render:
   - BingSiteAuth.xml
   - README.md
   - README_ZH.md
+  - CNAME
+  - atom.xml
+  - live2d-widget/demo/*.html
 
 # Writing
 new_post_name: :title.md # File name of new posts

@@ -7,7 +7,7 @@
 ![](https://forthebadge.com/images/badges/powered-by-electricity.svg)
 ![](https://forthebadge.com/images/badges/makes-people-smile.svg)
 
-[中文](README.md)
+[中文](/README)
 
 ## Features
 

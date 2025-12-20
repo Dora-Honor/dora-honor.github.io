@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://dora-honor.github.io/sitemap.xml
+Sitemap: https://dorahonor.me/sitemap.xml
