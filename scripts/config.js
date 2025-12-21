@@ -1,7 +1,7 @@
 // scripts/config.js
 hexo.on('ready', () => {
   const isNetlify = process.env.NETLIFY_CNAME === 'true';
-  const isVercel = process.env.VERCEL_CNAME === 'true';
+  const isVercel = process.env.VERCEL === 'true';
   const config = hexo.config;
 
   if (isNetlify) {
