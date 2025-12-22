@@ -118,6 +118,7 @@ theme: butterfly
 deploy:
 - type: cjh_google_url_submitter
 - type: cjh_bing_url_submitter
+  ignore_hidden: false
 # - type: git
   # repository: https://github.com/Dora-Honor/dora-honor.github.io
   # branch: gh-pages
@@ -160,19 +161,39 @@ abbrlink:
 # hexo sitemap config
 sitemap:
     path: sitemap.xml
-    tag: false
-    category: false
 
-# SEO settings
-hexo-seo-submit:
-  CI:
-    enable: true
+# enable: 开启/关闭 推送
+# cron: 执行时间周期
+# deployBranch: 部署分支
+# count: 每次提交最新的10篇文章，输入0或者不填写则默认为所有文章(建议是最新的10篇文章)
+# date: 更新时间(updated)|创建日期(created)
+# https://github.com/Lete114/hexo-seo-autopush.git
+hexo_seo_autopush:
+  cron: 0 4 * * *
+  deployBranch: gh-pages
   baidu:
     enable: false
-  google:
-    enable: true
+    date: created
+    count: 10
   bing:
     enable: true
+    date: created
+    count: 10
+  google:
+    enable: true
+    date: created
+    count: 10
+
+# SEO settings
+# hexo-seo-submit:
+  # CI:
+    # enable: true
+  # baidu:
+    # enable: false
+  # google:
+    # enable: true
+  # bing:
+    # enable: true
 
 # plugins
 plugins:
