@@ -6,6 +6,8 @@
 
 # dora-honor.github.io
 
-用于「mskk 的个人博客」的已生成的网页分支。源代码在 [`main`](https://github.com/Dora-Honor/dora-honor.github.io/tree/gh-pages) 分支。
+![GitHub top language](https://img.shields.io/github/languages/top/Dora-Honor/dora-honor.github.io?color=blue&logo=Ionic&style=flat&logoColor=white) ![GitHub stars](https://img.shields.io/github/stars/Dora-Honor/dora-honor.github.io?color=success&style=flat&logo=github) ![GitHub forks](https://img.shields.io/github/forks/Dora-Honor/dora-honor.github.io?color=orange&logo=Furry%20Network&style=flat&logoColor=white) ![GitHub last commit](https://img.shields.io/github/last-commit/Dora-Honor/dora-honor.github.io?color=ff69b4&label=update&logo=git&style=flat&logoColor=white)
+
+用于「mskk 的个人博客」的已生成的网页分支。源代码在 [`main`](https://github.com/Dora-Honor/dora-honor.github.io) 分支。
 
 由 [`Hexo`](https://hexo.io/zh-cn) 和 [`Butterfly Theme`](https://github.com/jerryc127/hexo-theme-butterfly) 提供支持。

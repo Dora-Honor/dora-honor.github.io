@@ -3,8 +3,6 @@ name: Deploy Hexo to GitHub Pages
 on:
   push:
     branches: [ main ] # 当向 main 分支推送时触发，你可根据实际情况改为 master 等
-  schedule:
-    - cron: '0 0 * * *' # 每天午夜触发一次部署
 
 jobs:
   build-and-deploy:
@@ -20,7 +18,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '24.11.1' # 请确保此版本与你本地使用的 Node.js 主要版本兼容:cite[1]:cite[8]
+          node-version: '24.12.0' # 请确保此版本与你本地使用的 Node.js 主要版本兼容:cite[1]:cite[8]
 
       # 3. 缓存 npm 依赖以加速后续构建
       - name: Cache NPM Dependencies
