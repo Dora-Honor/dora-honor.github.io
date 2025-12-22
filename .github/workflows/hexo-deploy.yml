@@ -39,39 +39,6 @@ jobs:
           npx hexo clean
           npx hexo generate
 
-      - name: Submit URLs
-        run: |
-          cd source
-          # Submit google if generated file exists
-          if [ -f public/google.txt ]; then
-            npx hexo-seo-submit google -f public/google.txt
-          else
-            echo "public/google.txt not found, skipping google submit"
-          fi
-          # Submit bing if generated file exists
-          if [ -f public/bing.json ]; then
-            npx hexo-seo-submit bing -f public/bing.json
-          else
-            echo "public/bing.json not found, skipping bing submit"
-          fi
-        env:
-          # 将 Secrets 作为环境变量传递给插件
-          GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
-          GOOGLE_CLIENT_EMAIL: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
-          BING_TOKEN: ${{ secrets.BING_TOKEN }}
-          BING_APIKEY: ${{ secrets.BING_APIKEY }}
-
-      # 在 source 目录中准备 google-keys.json（如果 secret 存在）
-      - name: Prepare google-keys.json
-        run: |
-          cd source
-          if [ -n "${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}" ]; then
-            echo "${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}" > google-keys.json
-            npx hexo-seo-submit google -f public/google.txt -a google-keys.json
-          else
-            echo "GOOGLE_SERVICE_ACCOUNT_JSON missing, skipping google submit"
-          fi
-
       # 6. 部署到 gh-pages 分支
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
@@ -85,9 +52,9 @@ jobs:
         env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.HEXO_DEPLOY }}
-          # BING_TOKEN: ${{ secrets.BING_TOKEN }}
-          # GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
-          # GOOGLE_CLIENT_EMAIL: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
+          BING_APIKEY: ${{ secrets.BING_APIKEY }}
+          GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
+          GOOGLE_CLIENT_EMAIL: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
 
       # 6. 部署到 gh-pages 分支
       # - name: Deploy to gh-pages
