@@ -61,6 +61,17 @@ jobs:
           BING_TOKEN: ${{ secrets.BING_TOKEN }}
           BING_APIKEY: ${{ secrets.BING_APIKEY }}
 
+      # 在 source 目录中准备 google-keys.json（如果 secret 存在）
+      - name: Prepare google-keys.json
+        run: |
+          cd source
+          if [ -n "${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}" ]; then
+            echo "${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}" > google-keys.json
+            npx hexo-seo-submit google -f public/google.txt -a google-keys.json
+          else
+            echo "GOOGLE_SERVICE_ACCOUNT_JSON missing, skipping google submit"
+          fi
+
       # 6. 部署到 gh-pages 分支
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
