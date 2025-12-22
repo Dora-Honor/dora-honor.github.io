@@ -52,7 +52,7 @@ TypeError: Cannot read properties of undefined (reading 'gitalk')
 - 往下翻，找到 `# Giscus` 选项，在 `repo` 处填写对应的用户名和仓库（格式 `username/repositories`），`repo_id` 和 `category_id` 处填写 Giscus 生成的 ID，`light_theme` 和 `dark_theme` 项保持不动，`js` 和 `opition` 根据需求设置即可。
 - **注意冒号后面要一个空格间隔，参数则不带引号！否则会出现评论发不出去的问题！**
 
-# 参考资料
+## 参考资料
 - hexo-butterfly主题-giscus评论系统设置 - 知乎. https://zhuanlan.zhihu.com/p/603658639
 - Giscus 配置. https://giscus.app/zh-CN
 - Butterfly 文檔(三) 主題配置 | Butterfly. https://butterfly.js.org/posts/4aa8abbe/#%E8%A9%95%E8%AB%96

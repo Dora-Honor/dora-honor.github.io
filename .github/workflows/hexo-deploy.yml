@@ -3,6 +3,8 @@ name: Deploy Hexo to GitHub Pages
 on:
   push:
     branches: [ main ] # 当向 main 分支推送时触发，你可根据实际情况改为 master 等
+  schedule:
+    - cron: '0 0 * * *' # 每天午夜触发一次部署
 
 jobs:
   build-and-deploy:
@@ -37,7 +39,18 @@ jobs:
           npx hexo clean
           npx hexo generate
 
-      # 5. 部署到 gh-pages 分支
+      - name: Submit URLs
+        run: |
+          npx hexo-seo-submit google
+          npx hexo-seo-submit bing
+        env:
+        # 将 Secrets 作为环境变量传递给插件
+          GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
+          GOOGLE_CLIENT_EMAIL: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
+          BING_TOKEN: ${{ secrets.BING_TOKEN }}
+          BING_APIKEY: ${{ secrets.BING_APIKEY }}
+
+      # 6. 部署到 gh-pages 分支
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
       - name: Deploy to GitHub Pages
@@ -45,16 +58,16 @@ jobs:
         with:
           # 部署到 gh-pages 分支
           target_branch: gh-pages
-          # 部署目录为 VuePress 的默认输出目录
+          # 部署目录为 Hexo 的默认输出目录
           build_dir: source/public
         env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.HEXO_DEPLOY }}
-          BING_TOKEN: ${{ secrets.BING_TOKEN }}
-          GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
-          GOOGLE_CLIENT_EMAIL: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
+          # BING_TOKEN: ${{ secrets.BING_TOKEN }}
+          # GOOGLE_PRIVATE_KEY: ${{ secrets.GOOGLE_PRIVATE_KEY }}
+          # GOOGLE_CLIENT_EMAIL: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
 
-      # 5. 部署到 gh-pages 分支
+      # 6. 部署到 gh-pages 分支
       # - name: Deploy to gh-pages
         # uses: peaceiris/actions-gh-pages@v3
         # with:
