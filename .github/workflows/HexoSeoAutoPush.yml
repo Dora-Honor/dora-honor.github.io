@@ -11,8 +11,8 @@ jobs:
     if: github.event.repository.owner.id == github.event.sender.id || github.event_name == 'schedule'
     steps:
       - uses: actions/checkout@main
-        
-          
+        with:
+          ref: 'gh-pages'
       - uses: actions/setup-node@main
         with:
           node-version: 24.12.0
