@@ -1,0 +1,29 @@
+name: Hexo SEO Auto Push
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: 0 * * * *
+  watch:
+    types: [started]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: github.event.repository.owner.id == github.event.sender.id || github.event_name == 'schedule'
+    steps:
+      - uses: actions/checkout@main
+        
+          
+      - uses: actions/setup-node@main
+        with:
+          node-version: latest
+      - run: |
+          npm init -y
+          npm install hexo-seo-autopush
+
+      - name: google push
+        run: npx hexoautopush ${{secrets.google_client_email}} ${{secrets.google_private_key}}
+      
+      - name: bing push
+        run: curl -X POST "https://ssl.bing.com/webmaster/api.svc/json/SubmitUrlBatch?apikey=${{secrets.bing_apikey}}" -H "Content-Type:application/json" -H "charset:utf-8" -d @bing.json
