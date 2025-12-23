@@ -116,13 +116,12 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-- type: cjh_google_url_submitter
-- type: cjh_bing_url_submitter
-  ignore_hidden: false
-# - type: git
-  # repository: https://github.com/Dora-Honor/dora-honor.github.io
-  # branch: gh-pages
-  # ignore_hidden: false
+  - type: cjh_google_url_submitter
+  - type: cjh_bing_url_submitter
+  # - type: git
+    # repository: https://github.com/Dora-Honor/dora-honor.github.io
+    # branch: gh-pages
+    ignore_hidden: false
 
 # 修改 Markdown 渲染引擎，详见 https://github.com/CHENXCHEN/hexo-renderer-markdown-it-plus
 markdown_it_plus:
@@ -171,7 +170,7 @@ sitemap:
 # https://github.com/Lete114/hexo-seo-autopush.git
 hexo_seo_autopush:
   cron: 0 * * * *
-  deployBranch: gh-pages
+  deployBranch: main
   baidu:
     enable: false
     date: created
