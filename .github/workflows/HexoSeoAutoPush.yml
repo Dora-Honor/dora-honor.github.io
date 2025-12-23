@@ -9,6 +9,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      NODE_OPTIONS: --openssl-legacy-provider
     if: github.event.repository.owner.id == github.event.sender.id || github.event_name == 'schedule'
     steps:
       - uses: actions/checkout@main
