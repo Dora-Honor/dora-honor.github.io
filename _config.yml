@@ -122,6 +122,7 @@ deploy:
 # - type: git
   # repository: https://github.com/Dora-Honor/dora-honor.github.io
   # branch: gh-pages
+  # ignore_hidden: false
 
 # 修改 Markdown 渲染引擎，详见 https://github.com/CHENXCHEN/hexo-renderer-markdown-it-plus
 markdown_it_plus:
@@ -169,20 +170,20 @@ sitemap:
 # date: 更新时间(updated)|创建日期(created)
 # https://github.com/Lete114/hexo-seo-autopush.git
 hexo_seo_autopush:
-  cron: 0 4 * * *
+  cron: 0 * * * *
   deployBranch: gh-pages
   baidu:
     enable: false
     date: created
-    count: 10
+    count: 0
   bing:
     enable: true
     date: created
-    count: 10
+    count: 0
   google:
     enable: true
     date: created
-    count: 10
+    count: 0
 
 # SEO settings
 # hexo-seo-submit:
