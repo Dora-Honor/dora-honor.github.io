@@ -170,7 +170,7 @@ sitemap:
 # https://github.com/Lete114/hexo-seo-autopush.git
 hexo_seo_autopush:
   cron: 0 * * * *
-  deployBranch: main
+  deployBranch:
   baidu:
     enable: false
     date: created
