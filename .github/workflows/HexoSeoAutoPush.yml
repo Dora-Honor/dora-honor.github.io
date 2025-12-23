@@ -1,8 +1,6 @@
 name: Hexo SEO Auto Push
 
 on:
-  push:
-    branches: [ main ]
   schedule:
     - cron: 0 * * * *
   watch:
@@ -17,7 +15,7 @@ jobs:
           
       - uses: actions/setup-node@main
         with:
-          node-version: latest
+          node-version: 24.12.0
       - run: |
           npm init -y
           npm install hexo-seo-autopush
