@@ -13,6 +13,8 @@ jobs:
       # 1. 检出博客源代码
       - name: Checkout Source
         uses: actions/checkout@v4
+        with:
+          path: source
 
       # 2. 设置 Node.js 环境
       - name: Setup Node.js
@@ -41,14 +43,12 @@ jobs:
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        # uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@v4
         with:
-          token: ${{ secrets.HEXO_DEPLOY }}
           # 部署到 gh-pages 分支
-          branch: gh-pages
+          target_branch: gh-pages
           # 部署目录为 Hexo 的默认输出目录
-          folder: source/public
+          build_dir: source/public
         env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.HEXO_DEPLOY }}
