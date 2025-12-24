@@ -81,7 +81,7 @@ social:
 favicon: /img/background/logo.png
 
 avatar:
-  img: /img/background/user.jpg
+  img: /img/background/user.webp
   effect: false
 
 # Disable all banner images
