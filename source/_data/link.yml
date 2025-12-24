@@ -19,10 +19,26 @@
   class_desc: My Other Projects
   link_list:
     - name: 旧站点
-      link: https://dora-honor.github.io/mskk-blog/
-      avatar: https://raw.githubusercontent.com/Dora-Honor/mskk-blog/refs/heads/main/favicon.ico
+      link: https://docsify.dorahonor.me
+      avatar: https://cdn.jsdelivr.net/gh/Dora-Honor/mskk-blog/favicon.ico
       descr: 使用 docsify 搭建的旧站点
     - name: leadership-kcgi
-      link: https://dora-honor.github.io/leadership-kcgi/
+      link: https://leadership.dorahonor.me
       avatar: https://raw.githubusercontent.com/Dora-Honor/mskk-blog/23032661ec37d5c643e4c852936ce2921ea46d18/Images/background/github-mark.svg
       descr: leadership-kcgi 项目主页（日语）
+    - name: Hexo NexT 站点
+      link: https://hexonext.dorahonor.me
+      avatar: https://cdn.jsdelivr.net/gh/Dora-Honor/mskk-blog/favicon.ico
+      descr: 使用 Hexo 框架和 NexT 主题搭建的站点
+    - name: Hugo Stack 站点
+      link: https://hugo.dorahonor.me
+      avatar: https://cdn.jsdelivr.net/gh/Dora-Honor/mskk-blog/favicon.ico
+      descr: 使用 Hugo 框架和 Stack 主题搭建的站点
+    - name: VPTH 博客
+      link: https://vpthblog.dorahonor.me
+      avatar: https://theme-hope-assets.vuejs.press/logo.svg
+      descr: 使用 VuePress 框架和 Hope 主题搭建的站点
+    - name: VPTH 文档
+      link: https://vpthdocs.dorahonor.me
+      avatar: https://theme-hope-assets.vuejs.press/logo.svg
+      descr: 使用 VuePress 框架和 Hope 主题搭建的文档站点
