@@ -29,16 +29,16 @@
     - name: Hexo NexT 站点
       link: https://hexonext.dorahonor.me
       avatar: https://cdn.jsdelivr.net/gh/Dora-Honor/mskk-blog/favicon.ico
-      descr: 使用 Hexo 框架和 NexT 主题搭建的站点
+      descr: 使用 Hexo 框架和 NexT 主题搭建的站点（开发中）
     - name: Hugo Stack 站点
       link: https://hugo.dorahonor.me
       avatar: https://cdn.jsdelivr.net/gh/Dora-Honor/mskk-blog/favicon.ico
-      descr: 使用 Hugo 框架和 Stack 主题搭建的站点
+      descr: 使用 Hugo 框架和 Stack 主题搭建的站点（开发中）
     - name: VPTH 博客
       link: https://vpthblog.dorahonor.me
       avatar: https://theme-hope-assets.vuejs.press/logo.svg
-      descr: 使用 VuePress 框架和 Hope 主题搭建的站点
+      descr: 使用 VuePress 框架和 Hope 主题搭建的站点（开发中）
     - name: VPTH 文档
       link: https://vpthdocs.dorahonor.me
       avatar: https://theme-hope-assets.vuejs.press/logo.svg
-      descr: 使用 VuePress 框架和 Hope 主题搭建的文档站点
+      descr: 使用 VuePress 框架和 Hope 主题搭建的文档站点（开发中）

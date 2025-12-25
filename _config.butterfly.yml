@@ -321,6 +321,8 @@ footer:
               url: mailto:dorahonor@gmail.com
             - title: Outlook
               url: mailto:dorahonor903@outlook.com
+            - title: 网易邮箱
+              url: mailto:dorahonor903@163.com
             - title: Telegram
               url: https://t.me/dora_honor
             - title: QQ
@@ -347,7 +349,7 @@ footer:
             - title: Facebook
               url: https://www.facebook.com/dora.honor.944
     - content:
-        - title: 流媒体、游戏、RSS
+        - title: 娱乐和 RSS
           item:
             - title: 哔哩哔哩
               url: https://space.bilibili.com/68026760
