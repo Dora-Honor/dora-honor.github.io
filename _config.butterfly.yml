@@ -314,6 +314,8 @@ footer:
               url: https://vpthdocs.dorahonor.me
             - title: Hexo NexT 主题站点
               url: https://hexonext.dorahonor.me
+            - title: Hugo Stack 主题站点
+              url: https://hugo.dorahonor.me
     - content:
         - title: 联系方式
           item:
