@@ -91,7 +91,7 @@ disable_top_img: false
 default_top_img: /img/background/125931837_p0.webp
 
 # The banner image of index page
-index_img: /img/background/4.3.jpg
+index_img: /img/background/5040-5.3.webp
 
 # The banner image of archive page
 archive_img: /img/background/125931837_p0.webp
@@ -117,7 +117,7 @@ footer_img: transparent
 
 # Website Background
 # Can set it to color or image url
-background: /img/background/4.3.jpg
+background: /img/background/5040-5.3.webp
 
 cover:
   # Disable the cover or not
