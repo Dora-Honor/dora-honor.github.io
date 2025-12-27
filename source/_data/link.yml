@@ -34,6 +34,10 @@
       link: https://hugo.dorahonor.me
       avatar: https://cdn.jsdelivr.net/gh/Dora-Honor/mskk-blog/favicon.ico
       descr: 使用 Hugo 框架和 Stack 主题搭建的站点（开发中）
+    - name: Hugo Blowfish 站点
+      link: https://hugo2.dorahonor.me
+      avatar: https://cdn.jsdelivr.net/gh/Dora-Honor/mskk-blog/favicon.ico
+      descr: 使用 Hugo 框架和 Blowfish 主题搭建的站点（开发中）
     - name: VPTH 博客
       link: https://vpthblog.dorahonor.me
       avatar: https://theme-hope-assets.vuejs.press/logo.svg
