@@ -169,7 +169,7 @@ sitemap:
 # date: 更新时间(updated)|创建日期(created)
 # https://github.com/Lete114/hexo-seo-autopush.git
 hexo_seo_autopush:
-  cron: 0 * * * *
+  cron: 0 4 * * *
   deployBranch: gh-pages
   baidu:
     enable: false

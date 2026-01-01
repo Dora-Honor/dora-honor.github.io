@@ -3,7 +3,7 @@ name: Hexo SEO Auto Push
 on:
   workflow_dispatch:
   schedule:
-    - cron: 0 * * * *
+    - cron: 0 4 * * *
   watch:
     types: [started]
 jobs:
