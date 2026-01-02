@@ -391,7 +391,7 @@ footer:
   copyright:
     enable: true
     version: true
-  custom_text: 欢迎来到 mskk 的个人博客！ Welcome to mskk’s personal blog!
+  custom_text: <a href="https://icp.gov.moe/?keyword=20260024" target="_blank">萌 ICP 备 20260024 号</a>
 
 # --------------------------------------
 # Aside Settings
