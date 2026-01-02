@@ -391,7 +391,7 @@ footer:
   copyright:
     enable: true
     version: true
-  custom_text: <p><img src="/img/moe/icon400.png" alt="moe" width="15" height="15"> <a href="https://icp.gov.moe/?keyword=20260024" target="_blank">萌 ICP 备 20260024 号</a> | 大家我都喜欢哦</p>
+  custom_text: <p>欢迎来到 mskk 的个人博客！</p><p><img src="/img/moe/icon400.png" alt="moe" height="10"> <a href="https://icp.gov.moe/?keyword=20260024" target="_blank">萌 ICP 备 20260024 号</a></p>
 
 # --------------------------------------
 # Aside Settings
