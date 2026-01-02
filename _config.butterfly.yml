@@ -19,7 +19,7 @@ nav:
 
 menu:
   首页: / || fas fa-home
-  归档: /archives/ || fas fa-archive
+  归档: /archive/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
   友链: /link/ || fas fa-link
@@ -228,7 +228,7 @@ toc:
 post_copyright:
   enable: true
   decode: true
-  author_href: https://dora-honor.github.io/
+  author_href: https://dorahonor.me
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -290,7 +290,7 @@ footer:
             - title: 首页
               url: /
             - title: 归档
-              url: /archives/
+              url: /archive/
             - title: 标签
               url: /tags/
             - title: 分类
@@ -391,7 +391,7 @@ footer:
   copyright:
     enable: true
     version: true
-  custom_text: <p><img src="/img/moe/icon400.png" alt="moe" width="15" height="15"><a href="https://icp.gov.moe/?keyword=20260024" target="_blank">萌 ICP 备 20260024 号</a> | 大家我都喜欢哦</p>
+  custom_text: <p><img src="/img/moe/icon400.png" alt="moe" width="15" height="15"> <a href="https://icp.gov.moe/?keyword=20260024" target="_blank">萌 ICP 备 20260024 号</a> | 大家我都喜欢哦</p>
 
 # --------------------------------------
 # Aside Settings
@@ -456,7 +456,7 @@ aside:
     # Type: monthly / yearly
     type: monthly
     # Eg: YYYY年MM月
-    format: MMMM YYYY
+    format: YYYY 年 M 月
     # Sort of order. 1, asc for ascending; -1, desc for descending
     order: -1
     # If set 0 will show all

@@ -198,6 +198,7 @@ hexo_seo_autopush:
 # plugins
 plugins:
   - hexo-generator-feed
+  # - hexo-algoliasearch
 
 feed: 
   type: atom
