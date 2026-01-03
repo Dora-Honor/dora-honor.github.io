@@ -1177,13 +1177,12 @@ lazyload:
 # See https://github.com/JLHwung/hexo-offline
 # ---------------
 pwa:
-  enable: false
-  manifest:
-  apple_touch_icon:
-  favicon_32_32:
-  favicon_16_16:
-  mask_icon:
-
+  enable: true
+  manifest: /manifest.json
+  apple_touch_icon: /img/pwa/apple-touch-icon.png
+  favicon_32_32: /img/pwa/32.png
+  favicon_16_16: /img/pwa/16.png
+  mask_icon: /img/pwa/mask-icon.svg
 # Open graph meta tags
 # https://hexo.io/docs/helpers#open-graph
 Open_Graph_meta:
