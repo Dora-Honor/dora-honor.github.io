@@ -1,3 +1,11 @@
+# - date: 2024-06-01 12:00:00
+  # key: shuoshuo-key
+  # content: |
+    # 内容
+  # tags: 
+    # - 标签 1
+    # - 标签 2
+
 - date: 2024-06-01 12:00:00
   key: first-shuoshuo
   content: |
@@ -6,3 +14,11 @@
     - 欢迎
     - 说说
 
+- date: 2026-01-04 06:30:00
+  key: zzz-station
+  content: |
+    截止 2026 年 1 月 4 日，我的官服绝区零站点**已满员，无法再申请**。感谢大家的支持！
+  tags: 
+    - 绝区零
+    - 米哈游
+    - 米游
