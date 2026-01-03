@@ -24,7 +24,11 @@ comments: true
 
 是双米粉（小米和米哈游）。
 
-#### 喜欢的 ACG 作品？
+#### 喜欢的 ACG 作品、角色？
+
+{% tabs ACG 作品、角色, -1 %}
+
+<!-- tab ACG 作品 -->
 
 - 崩坏 3rd
 - 原神
@@ -37,7 +41,9 @@ comments: true
 - 罗小黑战记系列
 - 乖巧宝宝
 
-#### 喜欢的 ACG 角色？
+<!-- endtab -->
+
+<!-- tab ACG 角色 -->
 
 - **BanG Dream!**：Poppin’Party 乐队，户山香澄。
 - **崩坏 3rd**：琪亚娜、芽衣、德莉莎、布洛妮娅、爱莉希雅。
@@ -45,7 +51,15 @@ comments: true
 - **星铁**：三月七、卡芙卡、银狼、希儿、符玄、云璃、流萤、知更鸟、大黑塔、遐蝶、缇宝、风堇、赛飞儿、克律德菈、昔涟。
 - **绝区零**：艾莲、朱鸢、青衣、柏妮斯、月城柳、星见雅、浅羽悠真、耀佳音、零号·安比、薇薇安、仪玄、橘福福、叶瞬光、浮波柚叶、爱丽丝、卢西娅、琉音。
 
-#### 喜欢的音乐风格？
+<!-- endtab -->
+
+{% endtabs %}
+
+#### 喜欢的音乐风格、歌手？
+
+{% tabs 音乐风格、歌手, -1 %}
+
+<!-- tab 音乐风格 -->
 
 - 华语流行 Mandopop
 - 粤语流行 Cantopop
@@ -58,36 +72,52 @@ comments: true
 - 国际流行 Pop
 - 乡村乐 Country
 
-#### 喜欢的歌手？
+<!-- endtab -->
 
-- **华语**：银河快递、门尼、汪苏泷、许嵩、伍佰 & China Blue、周杰伦、陈奕迅、王心凌、朴树、周深、毛不易、刀郎、上海彩虹室内合唱团。
+<!-- tab 歌手 -->
+
+- **华语**：银河快递、门尼、汪苏泷、许嵩、伍佰 & China Blue、周杰伦、陈奕迅、邓紫棋、王心凌、朴树、周深、毛不易、刀郎、上海彩虹室内合唱团。
 - **ACG、Vocaloid**：HOYO-MiX、三Z-STUDIO、Poppin’Party、初音未来、洛天依、Aimer、LiSA。
 - **日语**：YOASOBI、Yorushika、ZUTOMAYO、RADWIMPS、Mrs. GREEN APPLE、爱缪、米津玄师、星野源、宇多田光、Aimer、Ado、LiSA、Vaundy、中岛美嘉。
 
+<!-- endtab -->
+
+{% endtabs %}
+
 ### 我的游戏 UID？
 
-#### BanG Dream!
+{% tabs 游戏 UID, -1 %}
+
+<!-- tab BanG Dream! -->
 
 - **国服**：1000763297
 - **日服**：108780904
 
-#### 官服米游
+<!-- endtab -->
+
+<!-- tab 官服米游 -->
 
 - **星铁**：106062491
 - **原神**：198966282
 - **绝区零**：14231292
 
-#### 亚服 HoYoverse
+<!-- endtab -->
+
+<!-- tab 亚服 HoYoverse -->
 
 - **星铁**：837628931
 - **原神**：1811691703
 - **绝区零**：1312760809
 
+<!-- endtab -->
+
+{% endtabs %}
+
 ---
 
 ## 关于本站
 
-使用 [Hexo](https://hexo.io/zh-cn/) 框架和 [Butterfly](https://butterfly.js.org/) 主题搭建，在 [GitHub](https://github.com/Dora-Honor/dora-honor.github.io) 托管源代码和部署，自定义了域名并用了 Cloudflare CDN 加速。
+使用 [Hexo](https://hexo.io/zh-cn/) 框架和 [Butterfly](https://butterfly.js.org/) 主题搭建，在 [GitHub](https://github.com/Dora-Honor/dora-honor.github.io) 公开源代码和在 GitHub Pages 部署，自定义了域名并用了 Cloudflare CDN 加速。
 
 页面设置了自定义字体，且字体文件也在源代码有存放，无论在哪访问都一致。主要用的是从《原神》中提取的定制版【汉仪文黑 85W】字体，后备字体有 MiSans、Roboto、Noto CJK、各系统默认字体，确保字符都能正常显示。
 

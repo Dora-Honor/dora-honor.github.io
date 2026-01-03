@@ -23,6 +23,7 @@ menu:
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
   友链: /link/ || fas fa-link
+  说说: /shuoshuo/ || fas fa-comment-dots
   留言板: /comments/ || fas fa-comments
   关于: /about/ || fas fa-heart
 
@@ -297,6 +298,8 @@ footer:
               url: /categories/
             - title: 友链
               url: /link/
+            - title: 说说
+              url: /shuoshuo/
             - title: 留言板
               url: /comments/
             - title: 关于
