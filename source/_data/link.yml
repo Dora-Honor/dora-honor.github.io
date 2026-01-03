@@ -46,3 +46,35 @@
       link: https://vpthdocs.dorahonor.me
       avatar: https://theme-hope-assets.vuejs.press/logo.svg
       descr: 使用 VuePress 框架和 Hope 主题搭建的文档站点（开发中）
+
+- class_name: 我的朋友们
+  class_desc: My Friends
+  link_list:
+    - name: 某科学的贝壳
+      link: https://blog.ning.moe/
+      avatar: https://img.ning.moe/i/1/23/01/30/63d755db9649a.ico
+      descr: Get busy living or get busy dying.
+
+- class_name: 特别鸣谢
+  class_desc: Special Thanks
+  link_list:
+    - name: 萌国 ICP 备案
+      link: https://icp.gov.moe/
+      avatar: /img/moe/icon400.png
+      descr: 来自虚拟国度的备案
+    - name: 萌社区
+      link: https://moe.one/
+      avatar: /img/moe/icon400.png
+      descr: 萌主们的聚集地
+    - name: Cloudflare
+      link: https://www.cloudflare.com/zh-cn/
+      avatar: /img/background/cloudflare-logo.jpg
+      descr: 全球领先的内容分发网络和 DDoS 防护服务商
+    - name: jsDelivr
+      link: https://www.jsdelivr.com/
+      avatar: https://www.jsdelivr.com/icon_256x256.png
+      descr: 免费的开源 CDN 服务
+    - name: Spaceship
+      link: https://www.spaceship.com/zh/
+      avatar: /img/background/spaceship-logo.svg
+      descr: 全球领先的域名交易商

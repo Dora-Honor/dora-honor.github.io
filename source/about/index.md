@@ -1,89 +1,98 @@
 ---
-title: 关于我 | About Me | 自分について
+title: 关于
 layout: about
 comments: true
 ---
 
-## 自我介绍 | Self-introduction | 自己紹介
+你好呀！👋
 
-中文｜Chinese｜中国語
-
-大家好！我是 Dora Honor，别名 mskk。
-
-2002 年 4 月 23 日出生，江西人。
-
-成分 BanG Dreamer 邦邦人、米游玩家、米粉。
-
-母语是中文，会说英语和日语。
-
-目前在日留学，读动漫专业。
-
-兴趣是绘画、唱歌、听歌、弹琴、看番、玩游戏、数码、摄影、HiFi、观光。
-
-会修电脑、拆机、重装系统、刷机、定制母盘、封装系统。
-
-喜欢的 ACG 作品：《BanG Dream!》《原神》《绝区零》《崩坏：星穹铁道》。
-
-喜欢的角色：《BanG Dream!》户山香澄，《原神》可莉、胡桃、甘雨、申鹤、钟离、宵宫、神里绫华、珊瑚宫心海、枫原万叶、荒泷一斗、纳西妲、妮露、芙宁娜、娜维娅、希格雯、玛拉妮、茜特菈莉、玛薇卡、瓦雷莎、达达利亚，《星铁》三月七、卡芙卡、银狼、希儿、符玄、云璃、流萤、知更鸟、大黑塔、遐蝶、缇宝，《绝区零》艾莲、朱鸢、青衣、柏妮斯、月城柳、星见雅、浅羽悠真、耀佳音、零号·安比。
-
-喜欢的音乐类型：华语 C-Pop/Mandopop、日语 J-Pop、Anisong、Vocaloid、OST、古典。
-
-喜欢的歌手、乐队：HOYO-MiX、三Z-STUDIO、Poppin’Party、初音未来、洛天依、汪苏泷、许嵩、伍佰 & China Blue、王心凌、朴树、周深、毛不易、上海彩虹室内合唱团、银河快递、门尼、YOASOBI、Yorushika、ZUTOMAYO、Mrs. GREEN APPLE、爱缪、米津玄师、星野源、宇多田光、Aimer、Ado、LiSA、Vaundy、中岛美嘉。
-
-大家我都喜欢哦！
+欢迎来到我的博客！这里主要记录我的生活和兴趣爱好，以及踩坑经历、个人经验总结，和我的一些主观观点。
 
 ---
 
-English｜英语｜英語
+## 自介
 
-Hello everyone! I’m Dora Honor and another name is mskk.
+我是 Dora Honor，别名简称 mskk。你可以叫我 DH。
 
-Born in April 23, 2002 and from Jiangxi.
+2002 年 4 月 23 日出生，江西人，家乡在江西省赣州市全南县。目前在日留学。
 
-I’m BanG Dreamer, HoYoverse Player and Xiaomi Fans.
+会说英语和日语。
 
-My mother tongue is Chinese and can speak English and Japanese.
+### 兴趣爱好？
 
-Now I’m study in Japan and the major is Animation.
+喜欢动漫、游戏、漫画、绘画、唱歌、弹琴、摄影、旅游、数码、HiFi。
 
-I like painting, singing, listen to music, play the piano, watching anime, play games, digital, take a photograph, HiFi and traveling.
+是双米粉（小米和米哈游）。
 
-I can repair the computer, disassembly, re-install the OS on PC, flash firmware on smartphone, customize the Windows ISO and Sysprep.
+#### 喜欢的 ACG 作品？
 
-My favourite ACG works is BanG Dream!, Genshin Impact, Zenless Zone Zero and Honkai: Star Rail.
+- 崩坏 3rd
+- 原神
+- 崩坏：星穹铁道
+- 绝区零
+- BanG Dream! 系列
+- BTR 孤独摇滚！
+- GBC 少女乐队的呐喊
+- 《请问你今天要来点兔子吗？》系列
+- 罗小黑战记系列
+- 乖巧宝宝
 
-My favourite character (ACG) is Kasumi Toyama on BanG Dream!; Klee, Hu Tao, Ganyu, Shenhe, Zhongli, Yoimiya, Ayaka Kamisato, Kokomi Sangonomiya, Kazura Kaedehara, Itto Arataki, Nahida, Nilou, Furina, Navia, Sigewinne, Mualani, Citlali, Mavuika, Varesa, Tartaglia on Genshin Impact; March 7th, Kafka, Silver Wolf, Seele, Fu Xuan, Yunli, Firefly, Robin, The Herta, Castorice, Tribble on HSR (Honkai: Star Rail); Ellen, Zhu Yuan, Qing Yi, Burnice, Yanagi Tsukishiro, Miyabi Hoshimi, Harumasa Asaba, Astra Yao, Soldier 0-Anby on ZZZ (Zenless Zone Zero).
+#### 喜欢的 ACG 角色？
 
-My favourite music genre is Chinese C-Pop/Mandopop, Japanese J-Pop, Anisong, Vocaloid, OST, Classical.
+- **BanG Dream!**：Poppin’Party 乐队，户山香澄。
+- **崩坏 3rd**：琪亚娜、芽衣、德莉莎、布洛妮娅、爱莉希雅。
+- **原神**：可莉、胡桃、甘雨、申鹤、钟离、宵宫、神里绫华、珊瑚宫心海、枫原万叶、荒泷一斗、纳西妲、妮露、芙宁娜、娜维娅、希格雯、玛拉妮、茜特菈莉、玛薇卡、瓦雷莎、菈乌玛、哥伦比娅、达达利亚。
+- **星铁**：三月七、卡芙卡、银狼、希儿、符玄、云璃、流萤、知更鸟、大黑塔、遐蝶、缇宝、风堇、赛飞儿、克律德菈、昔涟。
+- **绝区零**：艾莲、朱鸢、青衣、柏妮斯、月城柳、星见雅、浅羽悠真、耀佳音、零号·安比、薇薇安、仪玄、橘福福、叶瞬光、浮波柚叶、爱丽丝、卢西娅、琉音。
 
-My favourite singer and band is HOYO-MiX, San-Z Studio, Poppin’Party, Miku Hatsune, Luo Tianyi, Silence Wang, Vae Xu, Wu Bai & China Blue, Cyndi Wang, Pu Shu, Zhou Shen, Mao Buyi, Shanghai Rainbow Chamber Singers (SRCS), Galaxy Express, Money, YOASOBI, Yorushika, ZUTOMAYO, Mrs. GREEN APPLE, Aimyon, Kenshi Yonezu, Gen Hoshino, Hikaru Utada, Aimer, Ado, LiSA, Vaundy, Mika Nakashima.
+#### 喜欢的音乐风格？
 
-Everyone I like!
+- 华语流行 Mandopop
+- 粤语流行 Cantopop
+- 日语流行 J-Pop
+- 韩语流行 K-Pop
+- Anisong
+- Vocaloid
+- 古典 Classical
+- 摇滚 Rock
+- 国际流行 Pop
+- 乡村乐 Country
+
+#### 喜欢的歌手？
+
+- **华语**：银河快递、门尼、汪苏泷、许嵩、伍佰 & China Blue、周杰伦、陈奕迅、王心凌、朴树、周深、毛不易、刀郎、上海彩虹室内合唱团。
+- **ACG、Vocaloid**：HOYO-MiX、三Z-STUDIO、Poppin’Party、初音未来、洛天依、Aimer、LiSA。
+- **日语**：YOASOBI、Yorushika、ZUTOMAYO、RADWIMPS、Mrs. GREEN APPLE、爱缪、米津玄师、星野源、宇多田光、Aimer、Ado、LiSA、Vaundy、中岛美嘉。
+
+### 我的游戏 UID？
+
+#### BanG Dream!
+
+- **国服**：1000763297
+- **日服**：108780904
+
+#### 官服米游
+
+- **星铁**：106062491
+- **原神**：198966282
+- **绝区零**：14231292
+
+#### 亚服 HoYoverse
+
+- **星铁**：837628931
+- **原神**：1811691703
+- **绝区零**：1312760809
 
 ---
 
-日本語｜Japanese｜日语
+## 关于本站
 
-みなさん、こんにちは！私は Dora Honor、他の名は mskk である。
+使用 [Hexo](https://hexo.io/zh-cn/) 框架和 [Butterfly](https://butterfly.js.org/) 主题搭建，在 [GitHub](https://github.com/Dora-Honor/dora-honor.github.io) 托管源代码和部署，自定义了域名并用了 Cloudflare CDN 加速。
 
-2002 年 4 月 23 日江西に生まれた。
+页面设置了自定义字体，且字体文件也在源代码有存放，无论在哪访问都一致。主要用的是从《原神》中提取的定制版【汉仪文黑 85W】字体，后备字体有 MiSans、Roboto、Noto CJK、各系统默认字体，确保字符都能正常显示。
 
-バンドリーマー、ホヨバのプレーヤー、シャオミのファン。
+卡片有半透明效果，无论日夜模式都显示正常。背景全局覆盖，一体性好。
 
-母国語は中国語、それに英語と日本語の話すがわかる。
+页面点击时有烟花效果，更有个性。
 
-今日本に留学、専門はアニメである。
-
-趣味は絵を描く、歌を歌う、音楽を聞く、ピアノを弾く、アニメを見る、ゲームを遊ぶ、デジタル、写真を撮る、HiFi、観光である。
-
-パソコンの修理、分解、OS の再インストール、スマホファームウェアの書き込む、Windows ISO のカスタマイズ、Sysprep ができる。
-
-好きな ACG 作品は、『バンドリ！』『原神』『ゼンレスゾーンゼロ』『崩壊：スターレイル』である。
-
-好きなキャラは、『バンドリ！』の戸山香澄、『原神』のクレー、胡桃、甘雨、申鶴、鍾離、宵宮、神里綾華、珊瑚宮心海、楓原万葉、荒瀧一斗、ナヒーダ、ニィロウ、フリーナ、ナヴィア、シグウィン、ムアラニ、シトラリ、マーヴィカ、ヴァレサ、タルタリヤ、『崩壊：スターレイル』の三月なのか、カフカ、銀狼、ゼーレ、符玄、雲璃、ホタル、ロビン、マダム・ヘルタ、キャストリス、トリビー、『ゼンレスゾーンゼロ』のエレン、朱鳶、青衣、バーニス、月城柳、星見雅、浅羽悠真、アストラ・ヤオ、0 号・アンビーである。
-
-好きな音楽ジャンルは、中国語 C-Pop／マンドポップ、日本語 J-Pop、アニソン、ボカロ、OST、クラシックである。
-
-好きな歌手とバンドは、HOYO-MiX、San-Z スタジオ、Poppin’Party、初音ミク、洛天依、汪蘇瀧（サイレンス・ワン）、許嵩（ヴェイ・シュー）、ウーバイ & China Blue、王心凌（シンディー・ワン）、朴樹、周深、毛不易、上海彩虹室内合唱団、銀河快逓（ギャラクシー・エクスプレス）、門尼（モンニー）、YOASOBI、ヨルシカ、ずっと真夜中でいいのに。、Mrs. GREEN APPLE、あいみょん、星野源、宇多田ヒカル、Aimer、Ado、LiSA、Vaundy、中島美嘉である。
-
-私は皆さんが好きだよ！
+左下角有看板娘，除了插件自带的看板娘，还自己添加了芙宁娜、胡桃、爱莉希雅、流萤、昔涟 Live2D 模型看板娘。

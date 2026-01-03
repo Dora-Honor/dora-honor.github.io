@@ -391,7 +391,7 @@ footer:
   copyright:
     enable: true
     version: true
-  custom_text: <p>欢迎来到 mskk 的个人博客！</p><p><img src="/img/moe/icon400.png" alt="moe" height="10"> <a href="https://icp.gov.moe/?keyword=20260024" target="_blank">萌 ICP 备 20260024 号</a></p>
+  custom_text: <p>欢迎来到 mskk 的个人博客！</p><p><a href="https://icp.gov.moe/?keyword=20260024" target="_blank"><img src="/img/moe/icon400.png" alt="moe" height="12"> 萌 ICP 备 20260024 号</a></p>
 
 # --------------------------------------
 # Aside Settings
@@ -419,7 +419,7 @@ aside:
       link: https://github.com/Dora-Honor/dora-honor.github.io
   card_announcement:
     enable: true
-    content: <p>欢迎加入我的官服绝区零站点！UID <strong>478840</strong></p><hr><div align="center"><h2>关于域名更换的公告</h2></div><p>本站从建立之初，一直在使用 <strong>dora-honor.github.io</strong> 作为主要访问域名。</p><p>考虑到默认 <code>username.github.io</code> 域名对于 SEO 优化不太友好，同时想更有个性，因此已购买并绑定了 <strong>dorahonor.me</strong> 作为新的主要访问域名。</p><p>与此同时，考虑到国内访问 GitHub 和 GitHub Pages 会比较慢，本站也使用了 Cloudflare CDN 加速访问，提升访问速度。</p><p>目前，<strong>dorahonor.me</strong> 已经正式启用，所有访问 <code>dora-honor.github.io</code> 的请求都会自动重定向到 <strong>dorahonor.me</strong> 。</p><p>感谢大家一直以来的支持与关注！如果有任何问题或建议，欢迎通过博客的留言功能与我联系。</p><div align="right">- Dora Honor 于 2025 年 12 月 21 日</div>
+    content: <p>欢迎加入我的官服绝区零站点！UID <strong>478840</strong></p><hr><div align="center"><h2>关于域名更换的公告</h2></div><p>本站从建立之初，一直在使用 <strong>dora-honor.github.io</strong> 作为主要访问域名。</p><p>考虑到默认 <code>username.github.io</code> 域名对于 SEO 优化不太友好，同时想更有个性，因此已购买并绑定了 <strong>dorahonor.me</strong> 作为新的主要访问域名。</p><p>与此同时，考虑到国内访问 GitHub 和 GitHub Pages 会比较慢，本站也使用了 Cloudflare CDN 加速访问，提升访问速度。</p><p>目前，<strong>dorahonor.me</strong> 已经正式启用，所有访问 <code>dora-honor.github.io</code> 的请求都会自动重定向到 <strong>dorahonor.me</strong> 。</p><p>感谢大家一直以来的支持与关注！如果有任何问题或建议，欢迎通过博客的留言功能与我联系。</p><div align="right"><p>- Dora Honor 于 2025 年 12 月 21 日</p></div>
   card_recent_post:
     enable: true
     # If set 0 will show all
