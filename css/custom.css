@@ -1,0 +1,140 @@
+/* 导入 Google Fonts - 必须放在最前面 */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100..900&family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+KR:wght@100..900&family=Noto+Sans+SC:wght@100..900&family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+HK:wght@200..900&family=Noto+Serif+JP:wght@200..900&family=Noto+Serif+KR:wght@200..900&family=Noto+Serif+SC:wght@200..900&family=Noto+Serif+TC:wght@200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* MiSans 各字重正确定义 */
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 100;
+    font-style: normal;
+    src: local("MiSans-Thin"),
+         url("../fonts/MiSans-Thin.woff2") format("woff2"),
+         url("../fonts/MiSans-Thin.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 200;
+    font-style: normal;
+    src: local("MiSans-ExtraLight"),
+         url("../fonts/MiSans-ExtraLight.woff2") format("woff2"),
+         url("../fonts/MiSans-ExtraLight.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 300;
+    font-style: normal;
+    src: local("MiSans-Light"),
+         url("../fonts/MiSans-Light.woff2") format("woff2"),
+         url("../fonts/MiSans-Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+    src: local("MiSans-Normal"), local("MiSans"),
+         url("../fonts/MiSans-Normal.woff2") format("woff2"),
+         url("../fonts/MiSans-Normal.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+    src: local("MiSans-Medium"),
+         url("../fonts/MiSans-Medium.woff2") format("woff2"),
+         url("../fonts/MiSans-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 600;
+    font-style: normal;
+    src: local("MiSans-SemiBold"),
+         url("../fonts/MiSans-SemiBold.woff2") format("woff2"),
+         url("../fonts/MiSans-SemiBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+    src: local("MiSans-Bold"),
+         url("../fonts/MiSans-Bold.woff2") format("woff2"),
+         url("../fonts/MiSans-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 800;
+    font-style: normal;
+    src: local("MiSans-Heavy"),
+         url("../fonts/MiSans-Heavy.woff2") format("woff2"),
+         url("../fonts/MiSans-Heavy.woff") format("woff");
+}
+
+@font-face {
+    font-family: "MiSans";
+    font-display: swap;
+    font-weight: 900;
+    font-style: normal;
+    src: local("MiSans-Demibold"),
+         url("../fonts/MiSans-Demibold.woff2") format("woff2"),
+         url("../fonts/MiSans-Demibold.woff") format("woff");
+}
+
+/* 本地 Noto 字体定义（可选，因为已导入在线字体）*/
+/* 如果您确实有这些字体的本地文件，可以取消注释 */
+/*
+@font-face {
+    font-family: "Noto Sans SC";
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+    src: local("Noto Sans SC"), local("NotoSansSC"),
+         url("/fonts/NotoSansSC-Regular.woff") format("woff");
+}
+*/
+
+/* 简化后的字体栈 */
+body {
+    font-family: 
+        /* 主要中文字体 */
+        "MiSans", 
+        "Noto Sans SC", "Noto Sans TC", "Noto Sans HK",
+        "PingFang SC", "Microsoft YaHei", 
+        -apple-system, BlinkMacSystemFont,
+        
+        /* 西文字体 */
+        "Roboto", "Roboto Mono", "Segoe UI",
+        
+        /* 最终回退 */
+        sans-serif;
+}
+
+/* 为不同语言设置特定字体（可选） */
+/* 中文内容 */
+:lang(zh) {
+    font-family: "MiSans", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+/* 代码字体 */
+code, pre {
+    font-family: "Roboto Mono", "Consolas", "Monaco", "Andale Mono", monospace;
+}
+
+/* 衬线字体（用于特殊场景） */
+.serif {
+    font-family: "Noto Serif SC", "Noto Serif TC", "SimSun", serif;
+}
+
+@import url("//at.alicdn.com/t/c/font_4964552_cgk784zs58s.css")

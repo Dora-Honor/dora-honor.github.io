@@ -1,0 +1,1 @@
+{"Version":3,"FileReferences":{"Moc":"Furina.moc3","Textures":["Furina.8192/texture_00.png"],"Physics":"Furina.physics3.json","DisplayInfo":"Furina.cdi3.json"},"Groups":[{"Target":"Parameter","Name":"EyeBlink","Ids":["ParamEyeLOpen","ParamEyeROpen"]},{"Target":"Parameter","Name":"LipSync","Ids":["ParamMouthForm"]}]}

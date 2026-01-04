@@ -1,0 +1,174 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>mskk 的个人博客 | mskk 的个人博客</title><meta name="author" content="Dora Honor"><meta name="copyright" content="Dora Honor"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Everyone I like">
+<meta property="og:type" content="website">
+<meta property="og:title" content="mskk 的个人博客">
+<meta property="og:url" content="https://dorahonor.me/404.html">
+<meta property="og:site_name" content="mskk 的个人博客">
+<meta property="og:description" content="Everyone I like">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://dorahonor.me/img/background/user.webp">
+<meta property="article:author" content="Dora Honor">
+<meta property="article:tag" content="Butterfly">
+<meta property="article:tag" content="Dora Honor">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="blog">
+<meta property="article:tag" content="mskk">
+<meta property="article:tag" content="博客">
+<meta property="article:tag" content="部落格">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://dorahonor.me/img/background/user.webp"><script type="application/ld+json"></script><link rel="shortcut icon" href="/img/background/logo.png"><link rel="canonical" href="https://dorahonor.me/404.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="2v1UADJqpZJ5KqKWgUqA294HZa_-NdcQIohtosPH2dc"/><meta name="bing-site-auth" content="2FCD3C6000E75D57EDD2C2CED90140DC"/><link rel="manifest" href="/manifest.json"/><link rel="apple-touch-icon" sizes="180x180" href="/img/pwa/apple-touch-icon.png"/><link rel="icon" type="image/png" sizes="32x32" href="/img/pwa/32.png"/><link rel="icon" type="image/png" sizes="16x16" href="/img/pwa/16.png"/><link rel="mask-icon" href="/img/pwa/mask-icon.svg" color="#5bbad5"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          const mediaQueryDark = window.matchMedia('(prefers-color-scheme: dark)')
+          const mediaQueryLight = window.matchMedia('(prefers-color-scheme: light)')
+
+          if (theme === undefined) {
+            if (mediaQueryLight.matches) activateLightMode()
+            else if (mediaQueryDark.matches) activateDarkMode()
+            else {
+              const hour = new Date().getHours()
+              const isNight = hour <= 19 || hour >= 6
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            mediaQueryDark.addEventListener('change', () => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else {
+            theme === 'light' ? activateLightMode() : activateDarkMode()
+          }
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"pagination":{"enable":false,"hitsPerPage":8},"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":320,"highlightFullpage":false,"highlightMacStyle":true},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"已切换为繁体中文","cht_to_chs":"已切换为简体中文","day_to_night":"已切换为深色模式","night_to_day":"已切换为浅色模式","bgLight":"#F8789B","bgDark":"#1f1f1f","position":"bottom-left"},
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: true,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'mskk 的个人博客',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'page'
+}</script><link rel="stylesheet" href="/css/iconfont.css"><link rel="stylesheet" href="/css/obsidian.css"><meta name="generator" content="Hexo 8.1.1"><link rel="alternate" href="/atom.xml" title="mskk 的个人博客" type="application/atom+xml">
+</head><body><div class="bg-animation" id="web_bg" style="background-image: url(/img/background/5040-5.3.webp);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/background/user.webp" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archive/"><div class="headline">文章</div><div class="length-num">25</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">16</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archive/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/shuoshuo/"><i class="fa-fw fas fa-comment-dots"></i><span> 说说</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-comments"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page type-404" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><img class="site-icon" src="/img/background/logo.png" alt="Logo"><span class="site-name">mskk 的个人博客</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archive/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/shuoshuo/"><i class="fa-fw fas fa-comment-dots"></i><span> 说说</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-comments"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><h1 class="title-seo">mskk 的个人博客</h1></header><main class="layout hide-aside" id="content-inner"><div class="nc" id="page"><div class="error-content"><div class="error-img"><img src="/img/error-page.png" alt="Page not found"></div><div class="error-info"><h1 class="error_title">404</h1><div class="error_subtitle">找不到页面了！The page is missing!</div></div></div></div></main><footer id="footer" style="background: transparent;"><div class="footer-flex"><div class="footer-flex-items"><div class="footer-flex-item"><div class="footer-flex-title">导航</div><div class="footer-flex-content"><a href="/" target="_blank" title="首页">首页</a><a href="/archive/" target="_blank" title="归档">归档</a><a href="/tags/" target="_blank" title="标签">标签</a><a href="/categories/" target="_blank" title="分类">分类</a><a href="/link/" target="_blank" title="友链">友链</a><a href="/shuoshuo/" target="_blank" title="说说">说说</a><a href="/comments/" target="_blank" title="留言板">留言板</a><a href="/about/" target="_blank" title="关于">关于</a></div></div></div><div class="footer-flex-items"><div class="footer-flex-item"><div class="footer-flex-title">其他项目</div><div class="footer-flex-content"><a href="https://docsify.dorahonor.me" rel="external nofollow noreferrer" target="_blank" title="docsify 旧站点">docsify 旧站点</a><a href="https://leadership.dorahonor.me" rel="external nofollow noreferrer" target="_blank" title="领导力项目（日语）">领导力项目（日语）</a><a href="https://vpthblog.dorahonor.me" rel="external nofollow noreferrer" target="_blank" title="VPTH 博客站点">VPTH 博客站点</a><a href="https://vpthdocs.dorahonor.me" rel="external nofollow noreferrer" target="_blank" title="VPTH 文档站点">VPTH 文档站点</a><a href="https://hexonext.dorahonor.me" rel="external nofollow noreferrer" target="_blank" title="Hexo NexT 主题站点">Hexo NexT 主题站点</a><a href="https://hugo.dorahonor.me" rel="external nofollow noreferrer" target="_blank" title="Hugo Stack 主题站点">Hugo Stack 主题站点</a><a href="https://hugo2.dorahonor.me" rel="external nofollow noreferrer" target="_blank" title="Hugo Blowfish 主题站点">Hugo Blowfish 主题站点</a></div></div></div><div class="footer-flex-items"><div class="footer-flex-item"><div class="footer-flex-title">联系方式</div><div class="footer-flex-content"><a href="mailto:dorahonor@gmail.com" rel="external nofollow noreferrer" target="_blank" title="Gmail">Gmail</a><a href="mailto:dorahonor903@outlook.com" rel="external nofollow noreferrer" target="_blank" title="Outlook">Outlook</a><a href="mailto:dorahonor903@163.com" rel="external nofollow noreferrer" target="_blank" title="网易邮箱">网易邮箱</a><a href="https://t.me/dora_honor" rel="external nofollow noreferrer" target="_blank" title="Telegram">Telegram</a><a href="https://qm.qq.com/q/uSLf4n32JW" rel="external nofollow noreferrer" target="_blank" title="QQ">QQ</a></div></div></div><div class="footer-flex-items"><div class="footer-flex-item"><div class="footer-flex-title">SNS</div><div class="footer-flex-content"><a href="https://www.zhihu.com/people/dorahonor" rel="external nofollow noreferrer" target="_blank" title="知乎">知乎</a><a href="https://www.xiaohongshu.com/user/profile/63b56120000000002702a843" rel="external nofollow noreferrer" target="_blank" title="小红书">小红书</a><a href="http://www.coolapk.com/u/1744954" rel="external nofollow noreferrer" target="_blank" title="酷安">酷安</a><a href="https://weibo.com/u/5635501226" rel="external nofollow noreferrer" target="_blank" title="微博">微博</a><a href="https://x.com/dora_honor" rel="external nofollow noreferrer" target="_blank" title="X (Twitter)">X (Twitter)</a><a href="https://bsky.app/profile/dora-honor.bsky.social" rel="external nofollow noreferrer" target="_blank" title="Bluesky">Bluesky</a><a href="https://threads.net/@dora_honor" rel="external nofollow noreferrer" target="_blank" title="Threads">Threads</a><a href="https://instagram.com/dora_honor" rel="external nofollow noreferrer" target="_blank" title="Instagram">Instagram</a><a href="https://www.facebook.com/dora.honor.944" rel="external nofollow noreferrer" target="_blank" title="Facebook">Facebook</a></div></div></div><div class="footer-flex-items"><div class="footer-flex-item"><div class="footer-flex-title">娱乐和 RSS</div><div class="footer-flex-content"><a href="https://space.bilibili.com/68026760" rel="external nofollow noreferrer" target="_blank" title="哔哩哔哩">哔哩哔哩</a><a href="https://youtube.com/@dorahonor_mskk" rel="external nofollow noreferrer" target="_blank" title="YouTube">YouTube</a><a href="https://open.spotify.com/user/31tnk5f4als6u4r7kcg2mj2dqq4a" rel="external nofollow noreferrer" target="_blank" title="Spotify">Spotify</a><a href="https://music.163.com/#/user/home?id=436313178" rel="external nofollow noreferrer" target="_blank" title="网易云音乐">网易云音乐</a><a href="https://steamcommunity.com/id/dorahonor" rel="external nofollow noreferrer" target="_blank" title="Steam">Steam</a><a href="https://www.miyoushe.com/ys/accountCenter/postList?id=295708491" rel="external nofollow noreferrer" target="_blank" title="米游社">米游社</a><a href="https://hoyolab.com/accountCenter/postList?id=300847631" rel="external nofollow noreferrer" target="_blank" title="HoYoLAB">HoYoLAB</a><a href="/atom.xml" target="_blank" title="RSS 订阅">RSS 订阅</a></div></div></div><div class="footer-flex-items"><div class="footer-flex-item"><div class="footer-flex-title">模板和源码</div><div class="footer-flex-content"><a href="https://hexo.io/" rel="external nofollow noreferrer" target="_blank" title="Hexo">Hexo</a><a href="https://butterfly.js.org/" rel="external nofollow noreferrer" target="_blank" title="Butterfly 主题">Butterfly 主题</a><a href="https://github.com/Dora-Honor/dora-honor.github.io" rel="external nofollow noreferrer" target="_blank" title="源代码">源代码</a><a href="https://github.com/Dora-Honor" rel="external nofollow noreferrer" target="_blank" title="GitHub">GitHub</a><a href="https://gitee.com/Dora-Honor" rel="external nofollow noreferrer" target="_blank" title="Gitee">Gitee</a></div></div></div></div><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By Dora Honor</span><span class="framework-info"><span class="footer-separator">|</span><span>框架 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.3</a></span></div><div class="footer_custom_text"><p>欢迎来到 mskk 的个人博客！</p><p><a href="https://icp.gov.moe/?keyword=20260024" rel="external nofollow noreferrer" target="_blank"><img src="/img/moe/icon400.png" alt="moe" height="12"> 萌 ICP 备 20260024 号</a></p></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"></div><script src="/live2d-widget/dist/autoload.js"></script><canvas class="fireworks" mobile="true"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章 Search articles" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
