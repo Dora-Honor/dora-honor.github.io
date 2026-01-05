@@ -1,3 +1,14 @@
+# 友情链接数据文件
+
+# 格式说明：
+# - class_name: 分类名称
+  # class_desc: 分类描述
+  # link_list:
+    # - name: 站点名称
+      # link: 站点链接
+      # avatar: 站点头像链接
+      # descr: 站点描述
+
 - class_name: 技术支持
   class_desc: Powered by
   link_list: 
