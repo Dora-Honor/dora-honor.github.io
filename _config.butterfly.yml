@@ -222,7 +222,7 @@ index_post_content:
 
 toc:
   post: true
-  page: false
+  page: true
   number: true
   expand: true
   # Only for post
