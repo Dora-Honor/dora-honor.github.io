@@ -1,7 +1,7 @@
 # 说说数据文件
 # 格式说明：
-# - date: 2024-06-01 12:00:00
-  # key: shuoshuo-key
+# - date: # 日期时间，格式为 YYYY-MM-DD HH:MM:SS
+  # key: # 唯一标识符
   # content: |
     # 内容
   # tags: 
