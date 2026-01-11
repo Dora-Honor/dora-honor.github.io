@@ -1,0 +1,267 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>如何解决华硕天选 5 Pro 屏幕亮度、对比度忽高忽低问题 | mskk 的个人博客</title><meta name="author" content="Dora Honor"><meta name="copyright" content="Dora Honor"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Tip  理论上其他华硕机型也适用本方法。 今天又遇到了在今年 5 月份遇到的 相同问题，只不过上次更新核显驱动的解决方案已不奏效。 进入【ARMOURY CRATE】，在侧边栏选择【设备】找到【你的机型】。   进入系统设置，确保显示模式为非独显模式，并断开电源。 关闭【上佳屏幕亮度】。此时接上电源也不受影响。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="如何解决华硕天选 5 Pro 屏幕亮度、对比度忽高忽低问题">
+<meta property="og:url" content="https://dorahonor.me/posts/2563639847/index.html">
+<meta property="og:site_name" content="mskk 的个人博客">
+<meta property="og:description" content="Tip  理论上其他华硕机型也适用本方法。 今天又遇到了在今年 5 月份遇到的 相同问题，只不过上次更新核显驱动的解决方案已不奏效。 进入【ARMOURY CRATE】，在侧边栏选择【设备】找到【你的机型】。   进入系统设置，确保显示模式为非独显模式，并断开电源。 关闭【上佳屏幕亮度】。此时接上电源也不受影响。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://dorahonor.me/img/background/user.webp">
+<meta property="article:published_time" content="2025-12-16T21:27:05.000Z">
+<meta property="article:modified_time" content="2026-01-11T11:24:09.665Z">
+<meta property="article:author" content="Dora Honor">
+<meta property="article:tag" content="经验">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://dorahonor.me/img/background/user.webp"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "如何解决华硕天选 5 Pro 屏幕亮度、对比度忽高忽低问题",
+  "url": "https://dorahonor.me/posts/2563639847/",
+  "image": "https://dorahonor.me/img/background/user.webp",
+  "datePublished": "2025-12-16T21:27:05.000Z",
+  "dateModified": "2026-01-11T11:24:09.665Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Dora Honor",
+      "url": "https://dorahonor.me"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/background/logo.png"><link rel="canonical" href="https://dorahonor.me/posts/2563639847/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="2v1UADJqpZJ5KqKWgUqA294HZa_-NdcQIohtosPH2dc"/><meta name="bing-site-auth" content="2FCD3C6000E75D57EDD2C2CED90140DC"/><link rel="manifest" href="/manifest.json"/><link rel="apple-touch-icon" sizes="180x180" href="/img/pwa/apple-touch-icon.png"/><link rel="icon" type="image/png" sizes="32x32" href="/img/pwa/32.png"/><link rel="icon" type="image/png" sizes="16x16" href="/img/pwa/16.png"/><link rel="mask-icon" href="/img/pwa/mask-icon.svg" color="#5bbad5"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          const mediaQueryDark = window.matchMedia('(prefers-color-scheme: dark)')
+          const mediaQueryLight = window.matchMedia('(prefers-color-scheme: light)')
+
+          if (theme === undefined) {
+            if (mediaQueryLight.matches) activateLightMode()
+            else if (mediaQueryDark.matches) activateDarkMode()
+            else {
+              const hour = new Date().getHours()
+              const isNight = hour <= 19 || hour >= 6
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            mediaQueryDark.addEventListener('change', () => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else {
+            theme === 'light' ? activateLightMode() : activateDarkMode()
+          }
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"pagination":{"enable":false,"hitsPerPage":8},"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":320,"highlightFullpage":false,"highlightMacStyle":true},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"已切换为繁体中文","cht_to_chs":"已切换为简体中文","day_to_night":"已切换为深色模式","night_to_day":"已切换为浅色模式","bgLight":"#F8789B","bgDark":"#1f1f1f","position":"bottom-left"},
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: true,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '如何解决华硕天选 5 Pro 屏幕亮度、对比度忽高忽低问题',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'post'
+}</script><link rel="stylesheet" href="/css/iconfont.css"><link rel="stylesheet" href="/css/obsidian.css"><meta name="generator" content="Hexo 8.1.1"><link rel="alternate" href="/atom.xml" title="mskk 的个人博客" type="application/atom+xml">
+</head><body><div class="bg-animation" id="web_bg" style="background-image: url(/img/background/5040-5.3.webp);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/background/user.webp" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archive/"><div class="headline">文章</div><div class="length-num">25</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">16</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-compass"></i><span> 页面</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archive/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/shuoshuo/"><i class="fa-fw fas fa-comment-dots"></i><span> 说说</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-comments"></i><span> 留言板</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-ellipsis"></i><span> 更多</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></li><li><a class="site-page child" href="/privacy/"><i class="fa-fw fas fa-user-shield"></i><span> 隐私政策</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(/img/background/125931837_p0.webp);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><img class="site-icon" src="/img/background/logo.png" alt="Logo"><span class="site-name">mskk 的个人博客</span></a><a class="nav-page-title" href="/"><span class="site-name">如何解决华硕天选 5 Pro 屏幕亮度、对比度忽高忽低问题</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-compass"></i><span> 页面</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archive/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/shuoshuo/"><i class="fa-fw fas fa-comment-dots"></i><span> 说说</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-comments"></i><span> 留言板</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-ellipsis"></i><span> 更多</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></li><li><a class="site-page child" href="/privacy/"><i class="fa-fw fas fa-user-shield"></i><span> 隐私政策</span></a></li></ul></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">如何解决华硕天选 5 Pro 屏幕亮度、对比度忽高忽低问题<a class="post-edit-link" href="https://github.com/Dora-Honor/dora-honor.github.io/edit/main/source/_posts/如何解决华硕天选-5-Pro-屏幕亮度、对比度忽高忽低问题.md" rel="external nofollow noreferrer" title="编辑" target="_blank"><i class="fas fa-pencil-alt"></i></a></h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-12-16T21:27:05.000Z" title="发表于 2025-12-17 05:27:05">2025-12-17</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-01-11T11:24:09.665Z" title="更新于 2026-01-11 19:24:09">2026-01-11</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/">经验总结</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">115</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>1分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><div id="post-outdate-notice" data="{&quot;limitDay&quot;:365,&quot;messagePrev&quot;:&quot;该文章距离更新时间已有&quot;,&quot;messageNext&quot;:&quot;天，内容可能已过时。&quot;,&quot;postUpdate&quot;:&quot;2026-01-11 19:24:09&quot;}" hidden></div>
+<div class="callout" data-callout="tip">
+<div class="callout-title">
+<div class="callout-title-icon">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-flame"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+</div>
+<div class="callout-title-inner">Tip</div>
+</div>
+<div class="callout-content"><p>理论上其他华硕机型也适用本方法。</p>
+</div></div><p>今天又遇到了在今年 5 月份遇到的 <a href="/posts/743418456">相同问题</a>，只不过上次更新核显驱动的解决方案已不奏效。</p>
+<p>进入【ARMOURY CRATE】，在侧边栏选择【设备】找到【你的机型】。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251217/01.png" alt="" /><br />
+<img src="https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251217/02.png" alt="" /></p>
+<p>进入系统设置，确保显示模式为非独显模式，并断开电源。</p>
+<p>关闭【上佳屏幕亮度】。此时接上电源也不受影响。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Dora-Honor/image-hosting/images/251217/03.png" alt="" /></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://dorahonor.me">Dora Honor</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://dorahonor.me/posts/2563639847/">https://dorahonor.me/posts/2563639847/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://dorahonor.me" target="_blank">mskk 的个人博客</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E7%BB%8F%E9%AA%8C/">经验</a></div><div class="post-share"><div class="social-share" data-image="/img/background/user.webp" data-sites="facebook,twitter,wechat,weibo,qq,qzone,linkedin"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i>你的支持是我更新的最大动力！</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/background/sponsor/wechat.png" target="_blank"><img class="post-qr-code-img" src="/img/background/sponsor/wechat.png" alt="微信 WeChat"/></a><div class="post-qr-code-desc">微信 WeChat</div></li><li class="reward-item"><a href="/img/background/sponsor/alipay.png" target="_blank"><img class="post-qr-code-img" src="/img/background/sponsor/alipay.png" alt="支付宝 Alipay"/></a><div class="post-qr-code-desc">支付宝 Alipay</div></li></ul></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/posts/1185598977/" title="如何给博客添加自定义 Live2D 看板娘"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">如何给博客添加自定义 Live2D 看板娘</div></div><div class="info-2"><div class="info-item-1"> 前言 平时在浏览许多前辈们的博客时，总能看到有不少前辈们的站点角落有引人注目的看板娘。我就在想，「如果自己的博客也能有自己喜欢的角色来彰显个性就好了」。 相信许多朋友们都和我一样，也想给自己的博客加上喜欢的角色作为看板娘吧？ 众所周知，许多带看板娘的博客，其看板娘基本都用的是 Live2D 模型和引擎。Live2D 引擎使用 2.5D 设计和建模，其最大的特色是只要对角色各部位进行设计和建模，导出模型在查看器或 Live2D 引擎就能让角色动起来，无需花费大量时间画每一帧[1]。 为此，我们需要下载所需的 Live2D 引擎组件，进行添加 Live2D 看板娘，以及添加自定义 Live2D 看板娘角色（可选）。  所需条件  你的博客项目已建立好（修改前建议备份） 熟悉 Node.js、NPM、Yarn、PNPM、Git、VS Code 等运行时、包管理器、软件的使用，且已安装 丰富的认知和思考能力 足够的电脑性能   准备工作       Note  以我的 Hexo 框架和 Butterfly 主题为例。       Caution  其他主题或框架的部分方法可能有不同，具...</div></div></div></a><a class="pagination-related" href="/posts/2376324285/" title="中文文案排版指北"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">中文文案排版指北</div></div><div class="info-2"><div class="info-item-1">统一中文文案、排版的相关用法，降低团队成员之间的沟通成本，增强网站气质。   空格  「有研究显示，打字的时候不喜欢在中文和英文之间加空格的人，感情路都走得很辛苦，有七成的比例会在 34 岁的时候跟自己不爱的人结婚，而其余三成的人最后只能把遗产留给自己的猫。毕竟爱情跟书写都需要适时地留白。 与大家共勉之。」——vinta/paranoid-auto-spacing   中英文之间需要增加空格 正确：  在 LeanCloud 上，数据存储是围绕 AVObject 进行的。  错误：  在LeanCloud上，数据存储是围绕AVObject进行的。 在 LeanCloud上，数据存储是围绕AVObject 进行的。  完整的正确用法：  在 LeanCloud 上，数据存储是围绕 AVObject 进行的。每个 AVObject 都包含了与 JSON 兼容的 key-value 对应的数据。数据是 schema-free 的，你不需要在每个 AVObject 上提前指定存在哪些键，只要直接设定对应的 key-value 即可。  例外：「豆瓣FM」等产品名词，按照官方所定义的格式书...</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/posts/743418456/" title="如何解决英特尔平台本子的屏幕亮度、对比度忽高忽低问题"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-05-09</div><div class="info-item-2">如何解决英特尔平台本子的屏幕亮度、对比度忽高忽低问题</div></div><div class="info-2"><div class="info-item-1">      Caution  该方法可能已不奏效。 我的本子是华硕天选 5 Pro 酷睿版。配置如图所示：  最近，我无意打开了奥创中心 (Armoury Crate)，软件自动更新后，原先的配置均失效，需要重新设置。 而最让我没法忍受的是，屏幕亮度和对比度突然会随内容变化而变化，尤其是在深色界面时会变暗。   该怎么办呢？ 当然是先用 Google、Bing 等搜索引擎，以及 DeepSeek 等 AI 聊天机器人找解决办法啦！   网上用的最多的办法是：  在【设置】—【系统】—【屏幕】—【亮度和颜色】里，单击【亮度】选项最右边的下拉按钮菜单，把【根据内容更改亮度】选项改为【关】。 进入【英特尔® 显卡控制中心】，在【系统】—【功率】里，把【使用电池】和【使用外接电源】的【显示器节电技术】都关闭。 在【设置】—【系统】—【屏幕】—【HDR】里把 HDR 相关选项关闭。 搜索栏搜「services.msc」进入【服务】，停止并禁用【Sensor Monitoring Service】服务。 卸载集显驱动，重新用华硕管家 (MyASUS) 安装驱动。    然而，以上方式对于我这...</div></div></div></a><a class="pagination-related" href="/posts/3192632891/" title="关于如何在 Xiaomi Mi 9T Pro &#x2F; Redmi K20 Pro (raphael) 上重装 Win11 24H2 (26100) 及以上版本系统（用工具箱分配了分区的情况下）"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-04-15</div><div class="info-item-2">关于如何在 Xiaomi Mi 9T Pro &#x2F; Redmi K20 Pro (raphael) 上重装 Win11 24H2 (26100) 及以上版本系统（用工具箱分配了分区的情况下）</div></div><div class="info-2"><div class="info-item-1"> 所需工具  Mindows 工具箱 Dism++ WIM、ESD 或 SWM 镜像 Xiaomi Mi 9T Pro / Redmi K20 Pro (raphael) 一台 稳定的数据线、USB 接口 丰富的计算机知识    正文 最近想在 Xiaomi Mi 9T Pro / Redmi K20 Pro (raphael) 上，通过 Mindows 工具箱安装 Windows 11 IoT 企业版 LTSC 2024，突然发现 Mindows 工具箱还不支持 24H2 及以上版本 WIM，选择之后会报错。如图所示：  那么我是如何解决的？首先按住音量下键和电源键进入 Fastboot 模式连接电脑，然后在工具箱主界面选择【进入大容量模式】，再在工具箱中选择第 1 项，使用 fastboot boot 命令临时进入大容量挂载模式。  一切就绪之后，先进入文件资源管理器查看系统盘是否有盘符，如果有，则使用 Dism++ 释放到该分区。    提示「还原成功」后，回到工具箱，分别进行【修复系统引导】【安装、删除驱动】【跳过开机向导】即可。 </div></div></div></a><a class="pagination-related" href="/posts/3342541928/" title="这段时间在 GitHub Pages 折腾博客的一些感想"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-11-25</div><div class="info-item-2">这段时间在 GitHub Pages 折腾博客的一些感想</div></div><div class="info-2"><div class="info-item-1"> 前言 博客从今年 6 月份建立至今，已经有 5 个多月了。在给博客折腾，优化得更好、更有个性的这段时间，我发现我有了不少收获。 不只是熟悉了注册 GitHub 在上面发布自己的项目，还熟悉了非常好用的 VS Code[1] 代码编辑器，以及如何用 Git 远程管理 GitHub 项目仓库、Markdown 扩展语法、部分 HTML/CSS 语法。  为什么要建立自己的博客？ 平常在用 Google、Bing 搜索引擎查资料、解决问题的方法时，总能发现不少博主有自己的博客网页，他们的网页都做得很华丽，而且在 GitHub 托管项目和在 GitHub Pages 部署静态网页很方便。我就在想「如果我也能有自己的博客就好了」，于是就有了自己折腾博客的想法。 自己有自己的博客感觉很酷。能自己写博文和管理博客，再加上能折腾变得更有个性，想想就很开心！ 在生活和实践中，免不了遇上一些困难，我不仅会利用 Google、Bing 等搜索引擎和 DeepSeek、ChatGPT 等生成 AI 查找，还会结合自己的经验和想法去解决问题。如果能有自己的博客，将我自己的经验记录下来，或许能帮上遇上同问...</div></div></div></a><a class="pagination-related" href="/posts/1908734258/" title="关于小米 MIX 2s 安装双系统后，原 MIUI 软重启问题"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-04-15</div><div class="info-item-2">关于小米 MIX 2s 安装双系统后，原 MIUI 软重启问题</div></div><div class="info-2"><div class="info-item-1">最近发现一件事，就是刷 Win 双系统后，且在原 MIUI 区装 LSPosed 后会软重启一次，同时 LSPosed 通知会消失。 经过排查后，是 LSPosed 的锅，不过还好只软重启一次。 我还以为是用 Win 发热大后 SoC 虚焊造成的问题。然而我用 Win 这么长时间，且发热量不少，反倒没软重启过，一直平稳运行。 </div></div></div></a></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="waline-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/background/user.webp" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Dora Honor</div><div class="author-info-description">大家我都喜欢哦 Everyone I like</div><div class="site-data"><a href="/archive/"><div class="headline">文章</div><div class="length-num">25</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">16</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div><a id="card-info-btn" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/Dora-Honor/dora-honor.github.io"><i class="fab fa-github"></i><span>GitHub 源代码仓库</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/Dora-Honor" rel="external nofollow noreferrer" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="RSS"><i class="fas fa-rss" style="color: #ff6600;"></i></a><a class="social-icon" href="mailto:dorahonor903@163.com" rel="external nofollow noreferrer" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a><a class="social-icon" href="mailto:dorahonor@gmail.com" rel="external nofollow noreferrer" target="_blank" title="Gmail"><i class="fab fa-google" style="color: #4285f4;"></i></a><a class="social-icon" href="mailto:dorahonor903@outlook.com" rel="external nofollow noreferrer" target="_blank" title="Outlook"><i class="fab fa-microsoft" style="color: #0078d4;"></i></a><a class="social-icon" href="https://t.me/dora_honor" rel="external nofollow noreferrer" target="_blank" title="Telegram"><i class="fab fa-telegram" style="color: #0088cc;"></i></a><a class="social-icon" href="https://qm.qq.com/q/uSLf4n32JW" rel="external nofollow noreferrer" target="_blank" title="QQ"><i class="fab fa-qq" style="color: #12b7f5;"></i></a><a class="social-icon" href="https://youtube.com/@dorahonor_mskk" rel="external nofollow noreferrer" target="_blank" title="YouTube"><i class="fab fa-youtube" style="color: #ff3d00;"></i></a><a class="social-icon" href="https://space.bilibili.com/68026760" rel="external nofollow noreferrer" target="_blank" title="哔哩哔哩 bilibili"><i class="fab fa-bilibili" style="color: #e76a8d;"></i></a><a class="social-icon" href="https://www.zhihu.com/people/dorahonor" rel="external nofollow noreferrer" target="_blank" title="知乎 Zhihu"><i class="fab fa-zhihu" style="color: #1772f6;"></i></a><a class="social-icon" href="https://www.xiaohongshu.com/user/profile/63b56120000000002702a843" rel="external nofollow noreferrer" target="_blank" title="小红书 Xiaohongshu/Redbook"><i class="iconfont icon-xiaohongshu" style="color: #ff2424;"></i></a><a class="social-icon" href="http://www.coolapk.com/u/1744954" rel="external nofollow noreferrer" target="_blank" title="酷安 Coolapk"><i class="iconfont icon-coolapk" style="color: #0caa64;"></i></a><a class="social-icon" href="https://weibo.com/u/5635501226" rel="external nofollow noreferrer" target="_blank" title="微博 Weibo"><i class="fab fa-weibo" style="color: #ff9a30;"></i></a><a class="social-icon" href="https://x.com/dora_honor" rel="external nofollow noreferrer" target="_blank" title="X (Twitter)"><i class="fab fa-x-twitter" style="color: 000000;"></i></a><a class="social-icon" href="https://bsky.app/profile/dora-honor.bsky.social" rel="external nofollow noreferrer" target="_blank" title="Bluesky"><i class="fab fa-bluesky" style="color: #0886fe;"></i></a><a class="social-icon" href="https://threads.net/@dora_honor" rel="external nofollow noreferrer" target="_blank" title="Threads"><i class="fab fa-threads" style="color: #000000;"></i></a><a class="social-icon" href="https://instagram.com/dora_honor" rel="external nofollow noreferrer" target="_blank" title="Instagram"><i class="fab fa-instagram" style="color: #ff1d31;"></i></a><a class="social-icon" href="https://www.facebook.com/dora.honor.944" rel="external nofollow noreferrer" target="_blank" title="Facebook"><i class="fab fa-facebook" style="color: #0866ff;"></i></a><a class="social-icon" href="https://open.spotify.com/user/31tnk5f4als6u4r7kcg2mj2dqq4a" rel="external nofollow noreferrer" target="_blank" title="Spotify"><i class="fab fa-spotify" style="color: #1ed760;"></i></a><a class="social-icon" href="https://music.163.com/#/user/home?id=436313178" rel="external nofollow noreferrer" target="_blank" title="网易云音乐 NetEase Cloud Music"><i class="iconfont icon-netease-cloud-music" style="color: #fc3b5b;"></i></a><a class="social-icon" href="https://steamcommunity.com/id/dorahonor" rel="external nofollow noreferrer" target="_blank" title="Steam"><i class="fab fa-steam" style="color: #171a21;"></i></a><a class="social-icon" href="https://www.miyoushe.com/ys/accountCenter/postList?id=295708491" rel="external nofollow noreferrer" target="_blank" title="米游社"><i class="fab fa-chrome" style="color: #66e0ff;"></i></a><a class="social-icon" href="https://hoyolab.com/accountCenter/postList?id=300847631" rel="external nofollow noreferrer" target="_blank" title="HoYoLAB"><i class="iconfont icon-hoyolab" style="color: #6680ff;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content"><p>截止 2026 年 1 月 4 日，我的官服绝区零站点<strong>已满员，不可再申请！</strong></p>
+<hr>
+<div align="center"><h2>关于域名更换的公告</h2></div>
+<p>本站从建立之初，一直在使用 <strong>dora-honor.github.io</strong> 作为主要访问域名。</p>
+<p>考虑到默认 <code>username.github.io</code> 域名对于 SEO 优化不太友好，同时想更有个性，因此已购买并绑定了 <strong>dorahonor.me</strong> 作为新的主要访问域名。</p>
+<p>与此同时，考虑到国内访问 GitHub 和 GitHub Pages 会比较慢，本站也使用了 Cloudflare CDN 加速访问，提升访问速度。</p>
+<p>目前，<strong>dorahonor.me</strong> 已经正式启用，所有访问 <code>dora-honor.github.io</code> 的请求都会自动重定向到 <strong>dorahonor.me</strong>。</p>
+<p>感谢大家一直以来的支持与关注！如果有任何问题或建议，欢迎通过博客的留言功能与我联系。</p>
+<div align="right"><p>- Dora Honor 于 2025 年 12 月 21 日</p></div>
+</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/822048942/" title="欢迎大家加入我的官服绝区零站点！">欢迎大家加入我的官服绝区零站点！</a><time datetime="2025-12-30T06:13:36.000Z" title="发表于 2025-12-30 14:13:36">2025-12-30</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/1185598977/" title="如何给博客添加自定义 Live2D 看板娘">如何给博客添加自定义 Live2D 看板娘</a><time datetime="2025-12-20T18:33:14.000Z" title="发表于 2025-12-21 02:33:14">2025-12-21</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/2563639847/" title="如何解决华硕天选 5 Pro 屏幕亮度、对比度忽高忽低问题">如何解决华硕天选 5 Pro 屏幕亮度、对比度忽高忽低问题</a><time datetime="2025-12-16T21:27:05.000Z" title="发表于 2025-12-17 05:27:05">2025-12-17</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/2376324285/" title="中文文案排版指北">中文文案排版指北</a><time datetime="2025-12-03T02:01:56.000Z" title="发表于 2025-12-03 10:01:56">2025-12-03</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/3342541928/" title="这段时间在 GitHub Pages 折腾博客的一些感想">这段时间在 GitHub Pages 折腾博客的一些感想</a><time datetime="2025-11-25T15:25:39.000Z" title="发表于 2025-11-25 23:25:39">2025-11-25</time></div></div></div></div></div></div></main><footer id="footer" style="background: transparent;"><div class="footer-flex"><div class="footer-flex-items"><div class="footer-flex-item"><div class="footer-flex-title">导航</div><div class="footer-flex-content"><a href="/" target="_blank" title="首页">首页</a><a href="/archive/" target="_blank" title="归档">归档</a><a href="/tags/" target="_blank" title="标签">标签</a><a href="/categories/" target="_blank" title="分类">分类</a><a href="/link/" target="_blank" title="友链">友链</a><a href="/shuoshuo/" target="_blank" title="说说">说说</a><a href="/comments/" target="_blank" title="留言板">留言板</a><a href="/about/" target="_blank" title="关于">关于</a><a href="/privacy/" target="_blank" title="隐私政策">隐私政策</a></div></div></div><div class="footer-flex-items"><div class="footer-flex-item"><div class="footer-flex-title">其他项目</div><div class="footer-flex-content"><a href="https://docsify.dorahonor.me" rel="external nofollow noreferrer" target="_blank" title="docsify 旧站点">docsify 旧站点</a><a href="https://leadership.dorahonor.me" rel="external nofollow noreferrer" target="_blank" title="领导力项目（日语）">领导力项目（日语）</a><a href="https://vpthblog.dorahonor.me" rel="external nofollow noreferrer" target="_blank" title="VPTH 博客站点">VPTH 博客站点</a><a href="https://vpthdocs.dorahonor.me" rel="external nofollow noreferrer" target="_blank" title="VPTH 文档站点">VPTH 文档站点</a><a href="https://hexonext.dorahonor.me" rel="external nofollow noreferrer" target="_blank" title="Hexo NexT 主题站点">Hexo NexT 主题站点</a><a href="https://hugo.dorahonor.me" rel="external nofollow noreferrer" target="_blank" title="Hugo Stack 主题站点">Hugo Stack 主题站点</a><a href="https://hugo2.dorahonor.me" rel="external nofollow noreferrer" target="_blank" title="Hugo Blowfish 主题站点">Hugo Blowfish 主题站点</a></div></div></div><div class="footer-flex-items"><div class="footer-flex-item"><div class="footer-flex-title">联系方式</div><div class="footer-flex-content"><a href="mailto:dorahonor@gmail.com" rel="external nofollow noreferrer" target="_blank" title="Gmail">Gmail</a><a href="mailto:dorahonor903@outlook.com" rel="external nofollow noreferrer" target="_blank" title="Outlook">Outlook</a><a href="mailto:dorahonor903@163.com" rel="external nofollow noreferrer" target="_blank" title="网易邮箱">网易邮箱</a><a href="https://t.me/dora_honor" rel="external nofollow noreferrer" target="_blank" title="Telegram">Telegram</a><a href="https://qm.qq.com/q/uSLf4n32JW" rel="external nofollow noreferrer" target="_blank" title="QQ">QQ</a></div></div></div><div class="footer-flex-items"><div class="footer-flex-item"><div class="footer-flex-title">SNS</div><div class="footer-flex-content"><a href="https://www.zhihu.com/people/dorahonor" rel="external nofollow noreferrer" target="_blank" title="知乎">知乎</a><a href="https://www.xiaohongshu.com/user/profile/63b56120000000002702a843" rel="external nofollow noreferrer" target="_blank" title="小红书">小红书</a><a href="http://www.coolapk.com/u/1744954" rel="external nofollow noreferrer" target="_blank" title="酷安">酷安</a><a href="https://weibo.com/u/5635501226" rel="external nofollow noreferrer" target="_blank" title="微博">微博</a><a href="https://x.com/dora_honor" rel="external nofollow noreferrer" target="_blank" title="X (Twitter)">X (Twitter)</a><a href="https://bsky.app/profile/dora-honor.bsky.social" rel="external nofollow noreferrer" target="_blank" title="Bluesky">Bluesky</a><a href="https://threads.net/@dora_honor" rel="external nofollow noreferrer" target="_blank" title="Threads">Threads</a><a href="https://instagram.com/dora_honor" rel="external nofollow noreferrer" target="_blank" title="Instagram">Instagram</a><a href="https://www.facebook.com/dora.honor.944" rel="external nofollow noreferrer" target="_blank" title="Facebook">Facebook</a></div></div></div><div class="footer-flex-items"><div class="footer-flex-item"><div class="footer-flex-title">娱乐和 RSS</div><div class="footer-flex-content"><a href="https://space.bilibili.com/68026760" rel="external nofollow noreferrer" target="_blank" title="哔哩哔哩">哔哩哔哩</a><a href="https://youtube.com/@dorahonor_mskk" rel="external nofollow noreferrer" target="_blank" title="YouTube">YouTube</a><a href="https://open.spotify.com/user/31tnk5f4als6u4r7kcg2mj2dqq4a" rel="external nofollow noreferrer" target="_blank" title="Spotify">Spotify</a><a href="https://music.163.com/#/user/home?id=436313178" rel="external nofollow noreferrer" target="_blank" title="网易云音乐">网易云音乐</a><a href="https://steamcommunity.com/id/dorahonor" rel="external nofollow noreferrer" target="_blank" title="Steam">Steam</a><a href="https://www.miyoushe.com/ys/accountCenter/postList?id=295708491" rel="external nofollow noreferrer" target="_blank" title="米游社">米游社</a><a href="https://hoyolab.com/accountCenter/postList?id=300847631" rel="external nofollow noreferrer" target="_blank" title="HoYoLAB">HoYoLAB</a><a href="/atom.xml" target="_blank" title="RSS 订阅">RSS 订阅</a></div></div></div><div class="footer-flex-items"><div class="footer-flex-item"><div class="footer-flex-title">模板和源码</div><div class="footer-flex-content"><a href="https://hexo.io/" rel="external nofollow noreferrer" target="_blank" title="Hexo">Hexo</a><a href="https://butterfly.js.org/" rel="external nofollow noreferrer" target="_blank" title="Butterfly 主题">Butterfly 主题</a><a href="https://github.com/Dora-Honor/dora-honor.github.io" rel="external nofollow noreferrer" target="_blank" title="源代码">源代码</a><a href="https://github.com/Dora-Honor" rel="external nofollow noreferrer" target="_blank" title="GitHub">GitHub</a><a href="https://gitee.com/Dora-Honor" rel="external nofollow noreferrer" target="_blank" title="Gitee">Gitee</a></div></div></div></div><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By Dora Honor</span><span class="framework-info"><span class="footer-separator">|</span><span>框架 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.3</a></span></div><div class="footer_custom_text"><p>欢迎来到 mskk 的个人博客！</p>
+<p><a href="https://icp.gov.moe/?keyword=20260024" rel="external nofollow noreferrer" target="_blank"><img src="/img/moe/icon400.png" alt="moe" height="12"> 萌 ICP 备 20260024 号</a></p>
+</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"><script>(() => {
+  let initFn = window.walineFn || null
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = {"requiredMeta":["nick","mail"],"reaction":true,"emoji":["https://unpkg.com/@waline/emojis@1.2.0/bmoji","https://unpkg.com/@waline/emojis@1.1.0/weibo","https://unpkg.com/@waline/emojis@1.2.0/alus","https://unpkg.com/@waline/emojis@1.1.0/bilibili","https://unpkg.com/@waline/emojis@1.2.0/qq","https://unpkg.com/@waline/emojis@1.2.0/tieba","https://unpkg.com/@waline/emojis@1.1.0/tw-emoji","https://unpkg.com/@waline/emojis@1.4.0/hoyoverse-hi3","https://emoji.shojo.cn/bili/webp/乖巧宝宝","https://emoji.shojo.cn/bili/webp/乖巧宝宝%20清凉一夏","https://emoji.shojo.cn/bili/webp/原神","https://emoji.shojo.cn/bili/webp/原神-须弥","https://emoji.shojo.cn/bili/webp/原神·巡林奇遇","https://emoji.shojo.cn/bili/webp/崩坏：星穹铁道","https://emoji.shojo.cn/bili/webp/崩坏3","https://emoji.shojo.cn/bili/webp/崩坏3·光辉矢愿","https://emoji.shojo.cn/bili/webp/崩坏3·天穹流星","https://emoji.shojo.cn/bili/webp/崩坏3·终焉归始","https://emoji.shojo.cn/bili/webp/崩坏3·雷鸣彻空","https://emoji.shojo.cn/bili/webp/崩坏学园2","https://emoji.shojo.cn/bili/webp/明日方舟","https://emoji.shojo.cn/bili/webp/明日方舟音律联觉","https://emoji.shojo.cn/bili/webp/明日方舟·音律联觉-灯下定影","https://emoji.shojo.cn/bili/webp/我的世界","https://emoji.shojo.cn/bili/webp/tv_小电视_动图","https://emoji.shojo.cn/bili/webp/罗小黑战记","https://emoji.shojo.cn/bili/webp/2233娘"],"locale":{"lang":"zh-CN","placeholder":"说点什么吧（昵称和邮箱为必填项。为了你能及时收到相关回复的邮件通知，请确保邮箱的正确性！）"}}
+
+  const destroyWaline = ele => ele.destroy()
+
+  const initWaline = (Fn, el = document, path = window.location.pathname) => {
+    const waline = Fn({
+      el: el.querySelector('#waline-wrap'),
+      serverURL: 'https://vercel-waline.dorahonor.me/',
+      pageview: false,
+      dark: 'html[data-theme="dark"]',
+      comment: false,
+      ...option,
+      path: isShuoshuo ? path : (option && option.path) || path
+    })
+
+    if (isShuoshuo) {
+      window.shuoshuoComment.destroyWaline = () => {
+        destroyWaline(waline)
+        if (el.children.length) {
+          el.innerHTML = ''
+          el.classList.add('no-comment')
+        }
+      }
+    }
+  }
+
+  const loadWaline = (el, path) => {
+    if (initFn) initWaline(initFn, el, path)
+    else {
+      btf.getCSS('https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.min.css')
+        .then(() => import('https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.min.js'))
+        .then(({ init }) => {
+          initFn = init || Waline.init
+          initWaline(initFn, el, path)
+          window.walineFn = initFn
+        })
+    }
+  }
+
+  if (isShuoshuo) {
+    'Waline' === 'Waline'
+      ? window.shuoshuoComment = { loadComment: loadWaline } 
+      : window.loadOtherComment = loadWaline
+    return
+  }
+
+  if ('Waline' === 'Waline' || !true) {
+    if (true) btf.loadComment(document.getElementById('waline-wrap'),loadWaline)
+    else setTimeout(loadWaline, 0)
+  } else {
+    window.loadOtherComment = loadWaline
+  }
+})()</script></div><script src="/live2d-widget/dist/autoload.js"></script><canvas class="fireworks" mobile="true"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章 Search articles" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
