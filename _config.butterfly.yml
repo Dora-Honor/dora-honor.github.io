@@ -19,14 +19,14 @@ nav:
 
 menu:
   首页: / || fas fa-home
-  页面||fas fa-compass:
+  页面 || fas fa-compass:
     归档: /archive/ || fas fa-archive
     标签: /tags/ || fas fa-tags
     分类: /categories/ || fas fa-folder-open
     说说: /shuoshuo/ || fas fa-comment-dots
   友链: /link/ || fas fa-link
   留言板: /comments/ || fas fa-comments
-  更多||fas fa-ellipsis:
+  更多 || fas fa-ellipsis:
     关于: /about/ || fas fa-heart
     隐私政策: /privacy/ || fas fa-user-shield
 

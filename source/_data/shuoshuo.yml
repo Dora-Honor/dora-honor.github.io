@@ -42,3 +42,8 @@
     这个月 12 号就停止了新用户注册和应用创建，在明年 1 月 12 号之内仍可使用。
     而 Waline 评论系统的数据均托管在 LeanCloud 上，目前正研究如何顺利迁移至 TiDB Cloud 中。
   tags:
+    - LeanCloud
+    - Waline
+    - 停服
+    - 数据迁移
+    - 日常
