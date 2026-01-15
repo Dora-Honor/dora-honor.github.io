@@ -34,3 +34,11 @@
     - 新年
     - 祝福
     - 日常
+
+- date: 2026-01-15 16:05:30
+  key: leancloud-eos
+  content: |
+    悲报：今天在 LeanCloud 控制台收到了有关明年停服的通知。
+    这个月 12 号就停止了新用户注册和应用创建，在明年 1 月 12 号之内仍可使用。
+    而 Waline 评论系统的数据均托管在 LeanCloud 上，目前正研究如何顺利迁移至 TiDB Cloud 中。
+  tags:
