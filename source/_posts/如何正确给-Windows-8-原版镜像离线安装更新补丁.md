@@ -32,7 +32,7 @@ date: 2025-07-30 09:44:55
 - [.NET Framework 4 安装工具](https://gitlab.com/stdout12/adns/uploads/f4f25dddf99ae700e0ae0007473171f3/dotNetFx48-W8.zip)
 - 由 WSUS Offline Update 下载的更新补丁
 - [用于 NT 6.2 的 IE 11 更新补丁和语言包](https://www.catalog.update.microsoft.com/Search.aspx?q=kb4492872)
-- [用于 NT 6.2 的 .NET Framework 4.8 更新补丁](https://www.catalog.update.microsoft.com/Search.aspx?q=kb4486081)和[语言包](https://www.catalog.update.microsoft.com/Search.aspx?q=kb4087513)
+- [用于 NT 6.2 的 .NET Framework 4.8 更新补丁](https://www.catalog.update.microsoft.com/Search.aspx?q=kb4486081) 和 [语言包](https://www.catalog.update.microsoft.com/Search.aspx?q=kb4087513)
 - [VMware Workstation Pro 虚拟机](https://www.ghxi.com/vmware17.html)
 - **丰富的计算机知识**
 - **充分的理解能力**
