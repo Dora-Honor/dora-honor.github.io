@@ -47,3 +47,9 @@
     - 停服
     - 数据迁移
     - 日常
+
+- date: 2026-01-19 15:45:00
+  key: db-transfer
+  content: |
+    今天已成功将 Waline 评论系统的数据从 LeanCloud 迁移至 TiDB Cloud，评论系统现已恢复正常运行。数据也完好无损。
+    与此同时，数据库端 TiDB Cloud 和服务端 Vercel 所在国家／地区均选择了新加坡，访问速度比以前用 LeanCloud 时更快了！
