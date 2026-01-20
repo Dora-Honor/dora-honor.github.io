@@ -67,8 +67,10 @@ date: 2025-11-25 23:25:39
 - **[Waline] 评论系统**：支持不登录评论、Markdown 语法，以及在不同平台部署服务端和数据库端，支持各种通知方式。目前在用这个评论系统。
 - **[Gitalk]**：基于 GitHub Issues，界面美观，**但要求权限比较高，且博主未打开文章界面创建 Issues 时，其他人均无法评论**。
 - **[Giscus]**：基于 GitHub Discussions，不需要博主打开文章创建话题，但**界面没那么美观**。
-- **[LeanCloud]**：用于存放 Waline 各种信息的数据库。
-- **[Netlify]**：部署静态网页的服务，可从 GitHub 导入。其最大特点是**可以不自定义域名直连**，因此服务端就在这上面部署。
+- ~~**[LeanCloud]**：用于存放 Waline 各种信息的数据库。但将于明年 1 月 12 日停服。~~
+- **[TiDB Cloud]**：用于存放 Waline 各种信息的数据库。
+- **[Vercel]**：部署静态网页的服务，可从 GitHub 导入。目前有自定义域名而使用该服务部署 Waline。
+- **[Netlify]**：部署静态网页的服务，可从 GitHub 导入。其最大特点是**可以不自定义域名直连**。
 
 [font-awesome v6]: https://fontawesome.com/icons
 [iconfont]: https://www.iconfont.cn/
@@ -77,6 +79,8 @@ date: 2025-11-25 23:25:39
 [Giscus]: https://giscus.app/zh-CN
 [LeanCloud]: https://leancloud.app/
 [Netlify]: https://netlify.com/
+[TiDB Cloud]: https://tidbcloud.com/
+[Vercel]: https://vercel.com/
 
 ## 感想
 
