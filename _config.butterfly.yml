@@ -729,8 +729,13 @@ valine:
 # Waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: https://vercel-waline.dorahonor.me/
-  # serverURL: https://waline.dorahonor.me/.netlify/functions/comment
+  serverURL: https://comment.dorahonor.me/
+  # serverURL1: https://comment.dorahonor.me/
+    # UI: https://comment.dorahonor.me/ui
+  # serverURL2: https://vercel-waline.dorahonor.me/ (CloudFlare proxy enabled)
+    # UI: https://vercel-waline.dorahonor.me/ui
+  # serverURL3: https://waline.dorahonor.me/.netlify/functions/comment
+    # UI: https://waline.dorahonor.me/.netlify/functions/comment/ui
   bg: /img/background/citlali.webp
   # Use Waline pageview count as the page view count
   pageview: false
