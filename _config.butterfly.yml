@@ -55,7 +55,7 @@ code_blocks:
 social:
   fab fa-github: https://github.com/Dora-Honor || Github # || '#24292e'
   fas fa-rss: /atom.xml || Feed # || '#ff6600'
-  # fab fa-git-alt: https://github.com/Dora-Honor/dora-honor.github.io || 源代码 Source Code || '#f05030'
+  # fab fa-git-alt: https://github.com/Dora-Honor/blog.dorahonor.me || 源代码 Source Code || '#f05030'
   fas fa-envelope: mailto:dorahonor903@163.com || Email # || '#4a7dbe'
   fab fa-google: mailto:dorahonor@gmail.com || Gmail # || '#4285f4'
   fab fa-microsoft: mailto:dorahonor903@outlook.com || Outlook # || '#0078d4'
@@ -254,7 +254,7 @@ post_edit:
   enable: true
   # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
-  url: https://github.com/Dora-Honor/dora-honor.github.io/edit/main/source/
+  url: https://github.com/Dora-Honor/blog.dorahonor.me/edit/main/source/
 
 # Related Articles
 related_post:
@@ -387,7 +387,7 @@ footer:
             - title: Butterfly 主题
               url: https://butterfly.js.org/
             - title: 源代码
-              url: https://github.com/Dora-Honor/dora-honor.github.io
+              url: https://github.com/Dora-Honor/blog.dorahonor.me
             - title: GitHub
               url: https://github.com/Dora-Honor
             - title: Gitee
@@ -426,19 +426,19 @@ aside:
       enable: true
       icon: fab fa-github
       text: GitHub 源代码仓库
-      link: https://github.com/Dora-Honor/dora-honor.github.io
+      link: https://github.com/Dora-Honor/blog.dorahonor.me
   card_announcement:
     enable: true
     content: |
       <p>截止 2026 年 1 月 4 日，我的官服绝区零站点<strong>已满员，不可再申请！</strong></p>
       <hr>
       <div align="center"><h2>关于域名更换的公告</h2></div>
-      <p>本站从建立之初，一直在使用 <strong>dora-honor.github.io</strong> 作为主要访问域名。</p>
-      <p>考虑到默认 <code>username.github.io</code> 域名对于 SEO 优化不太友好，同时想更有个性，因此已购买并绑定了 <strong>dorahonor.me</strong> 作为新的主要访问域名。</p>
-      <p>与此同时，考虑到国内访问 GitHub 和 GitHub Pages 会比较慢，本站也使用了 Cloudflare CDN 加速访问，提升访问速度。</p>
-      <p>目前，<strong>dorahonor.me</strong> 已经正式启用，所有访问 <code>dora-honor.github.io</code> 的请求都会自动重定向到 <strong>dorahonor.me</strong>。</p>
-      <p>感谢大家一直以来的支持与关注！如果有任何问题或建议，欢迎通过博客的留言功能与我联系。</p>
-      <div align="right"><p>- Dora Honor 于 2025 年 12 月 21 日</p></div>
+      <p>2026 年 1 月 24 日更新</p>
+      <p>经实测，使用 Cloudflare CDN 加速 GitHub Pages 站点效果在国内貌似不太好，并且也要将主域名改为个人引导页面。</p>
+      <p>目前已从 GitHub Pages 转移到 Vercel 新加坡区部署，域名也改为了 <code>blog.dorahonor.me</code>，实测访问速度有显著提升。</p>
+      <p>原有的根域名 <code>dorahonor.me</code> 在 2 月初之前仍为博客页，但建议及时更新收藏夹中的链接。</p>
+      <p>根域名 <code>dorahonor.me</code> 将在 2 月初左右换成个人引导页。欢迎访问！</p>
+      <p>感谢大家一直以来的支持与关注！</p>
   card_recent_post:
     enable: true
     # If set 0 will show all
@@ -706,11 +706,11 @@ livere:
 # Gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
-  client_id: Ov23liYpmdJlt3q851aq
-  client_secret: 15bae88bcabbc88347cd0cf36d4f3f03d0013d82
-  repo: dora-honor.github.io
-  owner: Dora-Honor
-  admin: Dora-Honor
+  client_id:
+  client_secret:
+  repo:
+  owner:
+  admin:
   option:
 
 # Valine
@@ -732,10 +732,6 @@ waline:
   serverURL: https://comment.dorahonor.me/
   # serverURL1: https://comment.dorahonor.me/
     # UI: https://comment.dorahonor.me/ui
-  # serverURL2: https://vercel-waline.dorahonor.me/ (CloudFlare proxy enabled)
-    # UI: https://vercel-waline.dorahonor.me/ui
-  # serverURL3: https://waline.dorahonor.me/.netlify/functions/comment
-    # UI: https://waline.dorahonor.me/.netlify/functions/comment/ui
   bg: /img/background/citlali.webp
   # Use Waline pageview count as the page view count
   pageview: false
@@ -809,11 +805,11 @@ twikoo:
 # Giscus
 # https://giscus.app/
 giscus:
-  repo: Dora-Honor/dora-honor.github.io
-  repo_id: R_kgDOPFqS2A
-  category_id: DIC_kwDOPFqS2M4CsiZj
-  light_theme: light
-  dark_theme: dark
+  repo:
+  repo_id:
+  category_id:
+  light_theme:
+  dark_theme:
   js:
   option:
 

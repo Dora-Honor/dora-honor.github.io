@@ -20,7 +20,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-# url: https://dora-honor.github.io/
+url: https://blog.dorahonor.me
 permalink: posts/:abbrlink/
 permalink_defaults:
 pretty_urls:
