@@ -3,8 +3,8 @@ name: Deploy Hexo to GitHub Pages
 on:
   push:
     branches: [ main ] # 当向 main 分支推送时触发，你可根据实际情况改为 master 等
-  schedule:
-    - cron: '0 * * * *' # 每小时触发一次部署
+  # schedule:
+    # - cron: '0 * * * *' # 每小时触发一次部署
 
 jobs:
   build-and-deploy:
