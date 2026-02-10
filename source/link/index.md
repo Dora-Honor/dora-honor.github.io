@@ -29,9 +29,9 @@ type: "link"
 ### 本站信息
 
 - **博客名称**：mskk 的个人博客[^1]
-- **博客地址**：https://dorahonor.me
+- **博客地址**：https://blog.dorahonor.me
 - **简介**：大家我都喜欢哦
-- **Logo**: https://dorahonor.me/img/background/logo.png
+- **Logo**: https://blog.dorahonor.me/img/background/logo.png
 
 [^1]: 中英文之间无论是否留空格均可。推荐你留空格。
 
