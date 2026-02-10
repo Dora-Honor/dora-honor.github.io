@@ -53,6 +53,8 @@ code_blocks:
 # Formal:
 #   icon: link || the description || color
 social:
+  fas fa-house: https://dorahonor.me || Home # || '#ff6f61'
+  fas fa-link: https://home.dorahonor.me || 引导页 # || '#6f42c1'
   fab fa-github: https://github.com/Dora-Honor || Github # || '#24292e'
   fas fa-rss: /atom.xml || Feed # || '#ff6600'
   # fab fa-git-alt: https://github.com/Dora-Honor/blog.dorahonor.me || 源代码 Source Code || '#f05030'
